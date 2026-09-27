@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "content_root": "/Game/Platformer",
+  "plane": "XZ",
+  "movement": {
+    "max_speed": 600,
+    "acceleration": 4200,
+    "braking_deceleration": 5000,
+    "ground_friction": 8,
+    "air_control": 0.8,
+    "gravity": 1800,
+    "fall_gravity_multiplier": 1.5,
+    "jump_velocity": 780,
+    "jump_release_velocity_multiplier": 0.45,
+    "coyote_seconds": 0.12,
+    "jump_buffer_seconds": 0.12,
+    "capsule_radius": 24,
+    "capsule_half_height": 44
+  },
+  "combat": {"max_health": 3, "invulnerability_seconds": 1.0, "attack_cooldown_seconds": 0.3, "attack_active_seconds": 0.1, "attack_reach": 85, "respawn_delay_seconds": 0.8},
+  "camera": {"orthographic_width": 1600, "horizontal_smoothing": 8, "vertical_smoothing": 4, "look_ahead": 180},
+  "input": {
+    "Move": {"type": "Axis1D", "negative": ["A", "Left", "Gamepad_LeftX negative"], "positive": ["D", "Right", "Gamepad_LeftX positive"]},
+    "Jump": {"type": "Boolean", "keys": ["SpaceBar", "Gamepad_FaceButton_Bottom"]},
+    "Attack": {"type": "Boolean", "keys": ["J", "Gamepad_FaceButton_Left"]},
+    "Interact": {"type": "Boolean", "keys": ["E", "Gamepad_FaceButton_Top"]},
+    "Pause": {"type": "Boolean", "keys": ["Escape", "Gamepad_Special_Right"]}
+  },
+  "level": {
+    "name": "L_Platformer_Prototype",
+    "spawn": [100, 0, 100],
+    "platforms": [
+      {"id": "start", "x": 0, "width": 1000, "top": 0},
+      {"id": "tutorial_step", "x": 1160, "width": 450, "top": 60},
+      {"id": "tutorial_high", "x": 1760, "width": 450, "top": 130},
+      {"id": "combat", "x": 2380, "width": 1100, "top": 0},
+      {"id": "checkpoint", "x": 3660, "width": 600, "top": 60},
+      {"id": "moving_exit", "x": 4920, "width": 600, "top": 60},
+      {"id": "final_step", "x": 5710, "width": 360, "top": 130},
+      {"id": "final_drop", "x": 6280, "width": 360, "top": 40},
+      {"id": "goal", "x": 6820, "width": 900, "top": 100}
+    ],
+    "moving_platform": {"id": "bridge", "start": [4390, 0, 60], "end": [4790, 0, 60], "width": 220, "speed": 150, "wait_seconds": 0.5, "loop": "ping_pong"},
+    "checkpoints": [[3900, 0, 110]],
+    "hazards": [{"id": "spikes", "position": [3250, 0, 15], "width": 100}],
+    "enemies": [{"id": "patroller", "position": [2760, 0, 44], "patrol_min_x": 2530, "patrol_max_x": 3050}],
+    "collectibles": [[500, 0, 80], [1250, 0, 140], [1900, 0, 210], [2500, 0, 80], [3400, 0, 80], [4050, 0, 140], [5100, 0, 140], [5850, 0, 210], [6400, 0, 120], [7100, 0, 180]],
+    "goal": [7440, 0, 150],
+    "kill_zone": {"center": [3860, 0, -450], "extent": [4260, 300, 50]}
+  }
+}

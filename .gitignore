@@ -1,0 +1,28 @@
+# Unreal Engine generated files (Build may contain source-controlled resources)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Offline generated preparation report
+/Build/Preparation/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets and OS files
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
