@@ -55,3 +55,6 @@ for cfg in json.loads((ROOT/'Config/campaign.json').read_text())['levels']:
 levels.load_level('/Game/Platformer/Levels/L_Platformer_Prototype')
 (ROOT/'Assets/Models/Difficulty/map_report.json').write_text(json.dumps(report,indent=2))
 print('DIFFICULTY_MAPS_SAVED',report)
+
+# Keep obstacle/sign placement consistent with the current seeded campaign plan.
+exec((ROOT/'Scripts/apply_scattered_difficulty.py').read_text(), globals())

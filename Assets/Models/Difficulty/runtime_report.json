@@ -88,15 +88,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -104,15 +112,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -124,7 +140,19 @@
         "passed": true
       },
       {
+        "name": "spikes_extend_quickly_without_mesh_pop",
+        "passed": true
+      },
+      {
+        "name": "obstacles_spread_before_extension",
+        "passed": true
+      },
+      {
         "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_slows_player_running_against_it",
         "passed": true
       },
       {
@@ -282,15 +310,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -298,15 +334,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -318,7 +362,19 @@
         "passed": true
       },
       {
+        "name": "spikes_extend_quickly_without_mesh_pop",
+        "passed": true
+      },
+      {
+        "name": "obstacles_spread_before_extension",
+        "passed": true
+      },
+      {
         "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_slows_player_running_against_it",
         "passed": true
       },
       {
@@ -476,15 +532,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -492,15 +556,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -512,7 +584,19 @@
         "passed": true
       },
       {
+        "name": "spikes_extend_quickly_without_mesh_pop",
+        "passed": true
+      },
+      {
+        "name": "obstacles_spread_before_extension",
+        "passed": true
+      },
+      {
         "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_slows_player_running_against_it",
         "passed": true
       },
       {
@@ -670,15 +754,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -686,15 +778,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -706,7 +806,19 @@
         "passed": true
       },
       {
+        "name": "spikes_extend_quickly_without_mesh_pop",
+        "passed": true
+      },
+      {
+        "name": "obstacles_spread_before_extension",
+        "passed": true
+      },
+      {
         "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_slows_player_running_against_it",
         "passed": true
       },
       {
@@ -864,15 +976,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -880,15 +1000,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -900,7 +1028,19 @@
         "passed": true
       },
       {
+        "name": "spikes_extend_quickly_without_mesh_pop",
+        "passed": true
+      },
+      {
+        "name": "obstacles_spread_before_extension",
+        "passed": true
+      },
+      {
         "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_slows_player_running_against_it",
         "passed": true
       },
       {
@@ -1058,15 +1198,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -1074,15 +1222,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -1094,7 +1250,19 @@
         "passed": true
       },
       {
+        "name": "spikes_extend_quickly_without_mesh_pop",
+        "passed": true
+      },
+      {
+        "name": "obstacles_spread_before_extension",
+        "passed": true
+      },
+      {
         "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_slows_player_running_against_it",
         "passed": true
       },
       {
@@ -1252,15 +1420,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -1268,15 +1444,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -1288,7 +1472,19 @@
         "passed": true
       },
       {
+        "name": "spikes_extend_quickly_without_mesh_pop",
+        "passed": true
+      },
+      {
+        "name": "obstacles_spread_before_extension",
+        "passed": true
+      },
+      {
         "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_slows_player_running_against_it",
         "passed": true
       },
       {
@@ -1446,15 +1642,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -1462,15 +1666,23 @@
         "passed": true
       },
       {
-        "name": "hazard_warns_before_activation",
+        "name": "tool_rotates_continuously",
         "passed": true
       },
       {
-        "name": "hazard_activates_after_warning",
+        "name": "tool_cycle_has_no_angle_snap",
         "passed": true
       },
       {
-        "name": "hazard_has_safe_recovery_window",
+        "name": "rotated_tool_contact_matches_visible_head",
+        "passed": true
+      },
+      {
+        "name": "empty_side_of_rotated_tool_does_not_hit",
+        "passed": true
+      },
+      {
+        "name": "capsule_corner_is_not_a_box_hit",
         "passed": true
       },
       {
@@ -1482,7 +1694,19 @@
         "passed": true
       },
       {
+        "name": "spikes_extend_quickly_without_mesh_pop",
+        "passed": true
+      },
+      {
+        "name": "obstacles_spread_before_extension",
+        "passed": true
+      },
+      {
         "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_slows_player_running_against_it",
         "passed": true
       },
       {

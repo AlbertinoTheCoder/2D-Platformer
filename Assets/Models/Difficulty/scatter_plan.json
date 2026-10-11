@@ -1,0 +1,698 @@
+[
+  {
+    "level": 1,
+    "seed": 7101,
+    "original_route_obstacles": 4,
+    "positions": [
+      {
+        "kind": "Wind",
+        "position": [
+          3570.0,
+          0,
+          100
+        ],
+        "phase_offset": 1.541,
+        "half_width": 150.0,
+        "direction": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "kind": "Wind",
+        "position": [
+          8535.0,
+          0,
+          250
+        ],
+        "phase_offset": 4.671,
+        "direction": [
+          0,
+          0,
+          -1
+        ],
+        "half_width": 105.0
+      },
+      {
+        "kind": "FallingSpikes",
+        "position": [
+          2030.0,
+          0,
+          130
+        ],
+        "phase_offset": 1.159,
+        "half_width": 140
+      },
+      {
+        "kind": "Ice",
+        "position": [
+          9622.0,
+          0,
+          100
+        ],
+        "phase_offset": 0.054,
+        "half_width": 140
+      },
+      {
+        "kind": "RisingSpikes",
+        "position": [
+          1385.0,
+          0,
+          60
+        ],
+        "phase_offset": 1.713,
+        "half_width": 140
+      },
+      {
+        "kind": "Hammer",
+        "position": [
+          5280.0,
+          0,
+          60
+        ],
+        "phase_offset": 1.352,
+        "half_width": 140
+      },
+      {
+        "kind": "Axe",
+        "position": [
+          11298.0,
+          0,
+          120
+        ],
+        "phase_offset": 0.58,
+        "half_width": 140
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "seed": 7102,
+    "original_route_obstacles": 3,
+    "positions": [
+      {
+        "kind": "Wind",
+        "position": [
+          2240.0,
+          0,
+          110
+        ],
+        "phase_offset": 2.499,
+        "half_width": 140.0,
+        "direction": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "kind": "Wind",
+        "position": [
+          8550.0,
+          0,
+          260
+        ],
+        "phase_offset": 4.477,
+        "direction": [
+          0,
+          0,
+          -1
+        ],
+        "half_width": 110.0
+      },
+      {
+        "kind": "FallingSpikes",
+        "position": [
+          5190.0,
+          0,
+          70
+        ],
+        "phase_offset": 1.618,
+        "half_width": 140
+      },
+      {
+        "kind": "Ice",
+        "position": [
+          8160.0,
+          0,
+          110
+        ],
+        "phase_offset": 0.82,
+        "half_width": 140
+      },
+      {
+        "kind": "RisingSpikes",
+        "position": [
+          9652.0,
+          0,
+          110
+        ],
+        "phase_offset": 1.39,
+        "half_width": 140
+      },
+      {
+        "kind": "Hammer",
+        "position": [
+          2000.0,
+          0,
+          145
+        ],
+        "phase_offset": 0.542,
+        "half_width": 130.0
+      },
+      {
+        "kind": "Axe",
+        "position": [
+          11280.0,
+          0,
+          130
+        ],
+        "phase_offset": 1.023,
+        "half_width": 140
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "seed": 7103,
+    "original_route_obstacles": 3,
+    "positions": [
+      {
+        "kind": "Wind",
+        "position": [
+          3450.0,
+          0,
+          120
+        ],
+        "phase_offset": 5.036,
+        "half_width": 170.0,
+        "direction": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "kind": "Wind",
+        "position": [
+          8765.0,
+          0,
+          250
+        ],
+        "phase_offset": 2.137,
+        "direction": [
+          0,
+          0,
+          -1
+        ],
+        "half_width": 115.0
+      },
+      {
+        "kind": "FallingSpikes",
+        "position": [
+          2012.0,
+          0,
+          125
+        ],
+        "phase_offset": 1.088,
+        "half_width": 140
+      },
+      {
+        "kind": "Ice",
+        "position": [
+          8370.0,
+          0,
+          100
+        ],
+        "phase_offset": 1.342,
+        "half_width": 140
+      },
+      {
+        "kind": "RisingSpikes",
+        "position": [
+          1372.0,
+          0,
+          60
+        ],
+        "phase_offset": 1.985,
+        "half_width": 140
+      },
+      {
+        "kind": "Hammer",
+        "position": [
+          11598.0,
+          0,
+          120
+        ],
+        "phase_offset": 1.119,
+        "half_width": 140
+      },
+      {
+        "kind": "Axe",
+        "position": [
+          9882.0,
+          0,
+          100
+        ],
+        "phase_offset": 1.545,
+        "half_width": 140
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "seed": 7104,
+    "original_route_obstacles": 3,
+    "positions": [
+      {
+        "kind": "Wind",
+        "position": [
+          3590.0,
+          0,
+          120
+        ],
+        "phase_offset": 2.535,
+        "half_width": 180.0,
+        "direction": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "kind": "Wind",
+        "position": [
+          8920.0,
+          0,
+          275
+        ],
+        "phase_offset": 5.477,
+        "direction": [
+          0,
+          0,
+          -1
+        ],
+        "half_width": 120.0
+      },
+      {
+        "kind": "FallingSpikes",
+        "position": [
+          10052.0,
+          0,
+          125
+        ],
+        "phase_offset": 0.611,
+        "half_width": 140
+      },
+      {
+        "kind": "Ice",
+        "position": [
+          8520.0,
+          0,
+          125
+        ],
+        "phase_offset": 1.849,
+        "half_width": 140
+      },
+      {
+        "kind": "RisingSpikes",
+        "position": [
+          6020.0,
+          0,
+          145
+        ],
+        "phase_offset": 2.019,
+        "half_width": 130.0
+      },
+      {
+        "kind": "Hammer",
+        "position": [
+          11788.0,
+          0,
+          145
+        ],
+        "phase_offset": 2.021,
+        "half_width": 140
+      },
+      {
+        "kind": "Axe",
+        "position": [
+          1380.0,
+          0,
+          70
+        ],
+        "phase_offset": 0.406,
+        "half_width": 130.0
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "seed": 7105,
+    "original_route_obstacles": 4,
+    "positions": [
+      {
+        "kind": "Wind",
+        "position": [
+          3170.0,
+          0,
+          140
+        ],
+        "phase_offset": 1.938,
+        "half_width": 170.0,
+        "direction": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "kind": "Wind",
+        "position": [
+          9665.0,
+          0,
+          250
+        ],
+        "phase_offset": 2.526,
+        "direction": [
+          0,
+          0,
+          -1
+        ],
+        "half_width": 125.0
+      },
+      {
+        "kind": "FallingSpikes",
+        "position": [
+          7436.0,
+          0,
+          155
+        ],
+        "phase_offset": 2.377,
+        "half_width": 140
+      },
+      {
+        "kind": "Ice",
+        "position": [
+          12500.0,
+          0,
+          120
+        ],
+        "phase_offset": 1.665,
+        "half_width": 140
+      },
+      {
+        "kind": "RisingSpikes",
+        "position": [
+          10812.0,
+          0,
+          100
+        ],
+        "phase_offset": 1.842,
+        "half_width": 140
+      },
+      {
+        "kind": "Hammer",
+        "position": [
+          5916.0,
+          0,
+          150
+        ],
+        "phase_offset": 2.231,
+        "half_width": 140
+      },
+      {
+        "kind": "Axe",
+        "position": [
+          1384.0,
+          0,
+          55
+        ],
+        "phase_offset": 1.005,
+        "half_width": 140
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "seed": 7106,
+    "original_route_obstacles": 4,
+    "positions": [
+      {
+        "kind": "Wind",
+        "position": [
+          3465.0,
+          0,
+          160
+        ],
+        "phase_offset": 3.804,
+        "half_width": 175.0,
+        "direction": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "kind": "Wind",
+        "position": [
+          9820.0,
+          0,
+          290
+        ],
+        "phase_offset": 0.955,
+        "direction": [
+          0,
+          0,
+          -1
+        ],
+        "half_width": 130.0
+      },
+      {
+        "kind": "FallingSpikes",
+        "position": [
+          6776.0,
+          0,
+          100
+        ],
+        "phase_offset": 0.251,
+        "half_width": 140
+      },
+      {
+        "kind": "Ice",
+        "position": [
+          10230.0,
+          0,
+          140
+        ],
+        "phase_offset": 1.977,
+        "half_width": 140
+      },
+      {
+        "kind": "RisingSpikes",
+        "position": [
+          11118.0,
+          0,
+          180
+        ],
+        "phase_offset": 0.142,
+        "half_width": 140
+      },
+      {
+        "kind": "Hammer",
+        "position": [
+          2236.0,
+          0,
+          125
+        ],
+        "phase_offset": 1.11,
+        "half_width": 140
+      },
+      {
+        "kind": "Axe",
+        "position": [
+          13510.0,
+          0,
+          160
+        ],
+        "phase_offset": 0.906,
+        "half_width": 140
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "seed": 7107,
+    "original_route_obstacles": 4,
+    "positions": [
+      {
+        "kind": "Wind",
+        "position": [
+          3260.0,
+          0,
+          180
+        ],
+        "phase_offset": 2.903,
+        "half_width": 180.0,
+        "direction": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "kind": "Wind",
+        "position": [
+          10340.0,
+          0,
+          300
+        ],
+        "phase_offset": 2.323,
+        "direction": [
+          0,
+          0,
+          -1
+        ],
+        "half_width": 130.0
+      },
+      {
+        "kind": "FallingSpikes",
+        "position": [
+          1516.0,
+          0,
+          75
+        ],
+        "phase_offset": 2.179,
+        "half_width": 140
+      },
+      {
+        "kind": "Ice",
+        "position": [
+          10750.0,
+          0,
+          150
+        ],
+        "phase_offset": 0.364,
+        "half_width": 140
+      },
+      {
+        "kind": "RisingSpikes",
+        "position": [
+          6016.0,
+          0,
+          70
+        ],
+        "phase_offset": 1.797,
+        "half_width": 140
+      },
+      {
+        "kind": "Hammer",
+        "position": [
+          11570.0,
+          0,
+          190
+        ],
+        "phase_offset": 2.342,
+        "half_width": 140
+      },
+      {
+        "kind": "Axe",
+        "position": [
+          13962.0,
+          0,
+          170
+        ],
+        "phase_offset": 1.006,
+        "half_width": 140
+      }
+    ]
+  },
+  {
+    "level": 8,
+    "seed": 7108,
+    "original_route_obstacles": 5,
+    "positions": [
+      {
+        "kind": "Wind",
+        "position": [
+          3465.0,
+          0,
+          170
+        ],
+        "phase_offset": 0.383,
+        "half_width": 185.0,
+        "direction": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "kind": "Wind",
+        "position": [
+          11660.0,
+          0,
+          265
+        ],
+        "phase_offset": 2.001,
+        "direction": [
+          0,
+          0,
+          -1
+        ],
+        "half_width": 130.0
+      },
+      {
+        "kind": "FallingSpikes",
+        "position": [
+          6346.0,
+          0,
+          80
+        ],
+        "phase_offset": 0.648,
+        "half_width": 140
+      },
+      {
+        "kind": "Ice",
+        "position": [
+          15282.0,
+          0,
+          135
+        ],
+        "phase_offset": 1.718,
+        "half_width": 140
+      },
+      {
+        "kind": "RisingSpikes",
+        "position": [
+          12822.0,
+          0,
+          155
+        ],
+        "phase_offset": 1.318,
+        "half_width": 140
+      },
+      {
+        "kind": "Hammer",
+        "position": [
+          7846.0,
+          0,
+          90
+        ],
+        "phase_offset": 1.21,
+        "half_width": 140
+      },
+      {
+        "kind": "Axe",
+        "position": [
+          2280.0,
+          0,
+          130
+        ],
+        "phase_offset": 1.771,
+        "half_width": 140
+      }
+    ]
+  }
+]

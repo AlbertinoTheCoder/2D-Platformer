@@ -59,12 +59,12 @@
           {
             "kind": "Wind",
             "position": [
-              7765,
+              3570.0,
               0,
-              200
+              100
             ],
-            "phase_offset": 0.0,
-            "half_width": 150,
+            "phase_offset": 1.541,
+            "half_width": 150.0,
             "direction": [
               -1,
               0,
@@ -76,76 +76,76 @@
             "position": [
               8535.0,
               0,
-              280
+              250
             ],
-            "phase_offset": 2.4,
+            "phase_offset": 4.671,
             "direction": [
               0,
               0,
               -1
             ],
-            "half_width": 90.0
+            "half_width": 105.0
           },
           {
             "kind": "FallingSpikes",
             "position": [
-              8920,
+              2030.0,
               0,
-              140
+              130
             ],
-            "phase_offset": 0.73,
-            "half_width": 150
+            "phase_offset": 1.159,
+            "half_width": 140
           },
           {
             "kind": "Ice",
             "position": [
-              9690,
+              9690.0,
               0,
               100
             ],
-            "phase_offset": 1.46,
-            "half_width": 150
+            "phase_offset": 0.054,
+            "half_width": 340.0
           },
           {
             "kind": "RisingSpikes",
             "position": [
-              11230,
+              1385.0,
               0,
-              120
+              60
             ],
-            "phase_offset": 2.92,
-            "half_width": 150
+            "phase_offset": 1.713,
+            "half_width": 140
           },
           {
             "kind": "Hammer",
             "position": [
-              12000,
+              5280.0,
               0,
-              150
+              60
             ],
-            "phase_offset": 3.65,
-            "half_width": 150
+            "phase_offset": 1.352,
+            "half_width": 140
           },
           {
             "kind": "Axe",
             "position": [
-              12770,
+              11298.0,
               0,
-              100
+              120
             ],
-            "phase_offset": 4.38,
-            "half_width": 150
+            "phase_offset": 0.58,
+            "half_width": 140
           }
         ],
         "flyers": [
           {
             "position": [
-              10390,
+              8150.0,
               0,
-              185
+              250
             ],
-            "patrol_min_x": 10300,
-            "patrol_max_x": 10630,
+            "patrol_min_x": 7910,
+            "patrol_max_x": 8390,
             "speed": 72,
             "kind": "Flyer"
           }
@@ -201,7 +201,8 @@
           8,
           5,
           3
-        ]
+        ],
+        "scatter_seed": 7101
       },
       "goal": [
         13000,
@@ -482,12 +483,12 @@
           {
             "kind": "Wind",
             "position": [
-              7775,
+              2240.0,
               0,
-              210
+              110
             ],
-            "phase_offset": 0.0,
-            "half_width": 150,
+            "phase_offset": 2.499,
+            "half_width": 140.0,
             "direction": [
               -1,
               0,
@@ -499,76 +500,76 @@
             "position": [
               8550.0,
               0,
-              290
+              260
             ],
-            "phase_offset": 2.4,
+            "phase_offset": 4.477,
             "direction": [
               0,
               0,
               -1
             ],
-            "half_width": 95.0
+            "half_width": 110.0
           },
           {
             "kind": "FallingSpikes",
             "position": [
-              8940,
+              5190.0,
               0,
-              150
+              70
             ],
-            "phase_offset": 0.73,
-            "half_width": 150
+            "phase_offset": 1.618,
+            "half_width": 140
           },
           {
             "kind": "Ice",
             "position": [
-              9720,
+              8160.0,
               0,
               110
             ],
-            "phase_offset": 1.46,
-            "half_width": 150
+            "phase_offset": 0.82,
+            "half_width": 340.0
           },
           {
             "kind": "RisingSpikes",
             "position": [
-              11280,
+              9652.0,
               0,
-              130
+              110
             ],
-            "phase_offset": 2.92,
-            "half_width": 150
+            "phase_offset": 1.39,
+            "half_width": 140
           },
           {
             "kind": "Hammer",
             "position": [
-              12060,
+              2000.0,
               0,
-              160
+              145
             ],
-            "phase_offset": 3.65,
-            "half_width": 150
+            "phase_offset": 0.542,
+            "half_width": 130.0
           },
           {
             "kind": "Axe",
             "position": [
-              12840,
+              11280.0,
               0,
-              110
+              130
             ],
-            "phase_offset": 4.38,
-            "half_width": 150
+            "phase_offset": 1.023,
+            "half_width": 140
           }
         ],
         "flyers": [
           {
             "position": [
-              10430,
+              10500.0,
               0,
-              195
+              230
             ],
-            "patrol_min_x": 10340,
-            "patrol_max_x": 10670,
+            "patrol_min_x": 10260,
+            "patrol_max_x": 10740,
             "speed": 79,
             "kind": "Flyer"
           }
@@ -624,7 +625,8 @@
           8,
           5,
           3
-        ]
+        ],
+        "scatter_seed": 7102
       }
     },
     {
@@ -937,12 +939,12 @@
           {
             "kind": "Wind",
             "position": [
-              7985,
+              3450.0,
               0,
-              200
+              120
             ],
-            "phase_offset": 0.0,
-            "half_width": 150,
+            "phase_offset": 5.036,
+            "half_width": 170.0,
             "direction": [
               -1,
               0,
@@ -954,76 +956,76 @@
             "position": [
               8765.0,
               0,
-              280
+              250
             ],
-            "phase_offset": 2.4,
+            "phase_offset": 2.137,
             "direction": [
               0,
               0,
               -1
             ],
-            "half_width": 100.0
+            "half_width": 115.0
           },
           {
             "kind": "FallingSpikes",
             "position": [
-              9160,
+              2012.0,
               0,
-              140
+              125
             ],
-            "phase_offset": 0.73,
-            "half_width": 150
+            "phase_offset": 1.088,
+            "half_width": 140
           },
           {
             "kind": "Ice",
             "position": [
-              9950,
+              8370.0,
               0,
               100
             ],
-            "phase_offset": 1.46,
-            "half_width": 150
+            "phase_offset": 1.342,
+            "half_width": 340.0
           },
           {
             "kind": "RisingSpikes",
             "position": [
-              11530,
+              1372.0,
               0,
-              120
+              60
             ],
-            "phase_offset": 2.92,
-            "half_width": 150
+            "phase_offset": 1.985,
+            "half_width": 140
           },
           {
             "kind": "Hammer",
             "position": [
-              12320,
+              11598.0,
               0,
-              150
+              120
             ],
-            "phase_offset": 3.65,
-            "half_width": 150
+            "phase_offset": 1.119,
+            "half_width": 140
           },
           {
             "kind": "Axe",
             "position": [
-              13110,
+              9882.0,
               0,
               100
             ],
-            "phase_offset": 4.38,
-            "half_width": 150
+            "phase_offset": 1.545,
+            "half_width": 140
           }
         ],
         "flyers": [
           {
             "position": [
-              10670,
+              9160.0,
               0,
-              185
+              290
             ],
-            "patrol_min_x": 10580,
-            "patrol_max_x": 10910,
+            "patrol_min_x": 8920,
+            "patrol_max_x": 9400,
             "speed": 86,
             "kind": "Flyer"
           }
@@ -1079,7 +1081,8 @@
           8,
           5,
           3
-        ]
+        ],
+        "scatter_seed": 7103
       }
     },
     {
@@ -1429,12 +1432,12 @@
           {
             "kind": "Wind",
             "position": [
-              8135,
+              3590.0,
               0,
-              225
+              120
             ],
-            "phase_offset": 0.0,
-            "half_width": 150,
+            "phase_offset": 2.535,
+            "half_width": 180.0,
             "direction": [
               -1,
               0,
@@ -1446,87 +1449,87 @@
             "position": [
               8920.0,
               0,
-              305
+              275
             ],
-            "phase_offset": 2.4,
+            "phase_offset": 5.477,
             "direction": [
               0,
               0,
               -1
             ],
-            "half_width": 105.0
+            "half_width": 120.0
           },
           {
             "kind": "FallingSpikes",
             "position": [
-              9320,
+              10052.0,
               0,
-              165
+              125
             ],
-            "phase_offset": 0.73,
-            "half_width": 150
+            "phase_offset": 0.611,
+            "half_width": 140
           },
           {
             "kind": "Ice",
             "position": [
-              10120,
+              8520.0,
               0,
               125
             ],
-            "phase_offset": 1.46,
-            "half_width": 150
+            "phase_offset": 1.849,
+            "half_width": 340.0
           },
           {
             "kind": "RisingSpikes",
             "position": [
-              11720,
+              6020.0,
               0,
               145
             ],
-            "phase_offset": 2.92,
-            "half_width": 150
+            "phase_offset": 2.019,
+            "half_width": 130.0
           },
           {
             "kind": "Hammer",
             "position": [
-              12520,
+              11788.0,
               0,
-              175
+              145
             ],
-            "phase_offset": 3.65,
-            "half_width": 150
+            "phase_offset": 2.021,
+            "half_width": 140
           },
           {
             "kind": "Axe",
             "position": [
-              13320,
+              1380.0,
               0,
-              125
+              70
             ],
-            "phase_offset": 4.38,
-            "half_width": 150
+            "phase_offset": 0.406,
+            "half_width": 130.0
           }
         ],
         "flyers": [
           {
             "position": [
-              10850,
+              9320.0,
               0,
-              210
+              315
             ],
-            "patrol_min_x": 10760,
-            "patrol_max_x": 11090,
+            "patrol_min_x": 9080,
+            "patrol_max_x": 9560,
             "speed": 93,
             "kind": "Flyer"
           },
           {
             "position": [
-              11030,
+              10920.0,
               0,
-              210
+              245
             ],
-            "patrol_min_x": 10760,
-            "patrol_max_x": 11090,
+            "patrol_min_x": 10680,
+            "patrol_max_x": 11160,
             "speed": 93,
             "kind": "SurveyFlyer"
           }
@@ -1582,7 +1585,8 @@
           8,
           5,
           3
-        ]
+        ],
+        "scatter_seed": 7104
       }
     },
     {
@@ -1919,12 +1923,12 @@
           {
             "kind": "Wind",
             "position": [
-              8875,
+              3170.0,
               0,
-              200
+              140
             ],
-            "phase_offset": 0.0,
-            "half_width": 150,
+            "phase_offset": 1.938,
+            "half_width": 170.0,
             "direction": [
               -1,
               0,
@@ -1936,87 +1940,87 @@
             "position": [
               9665.0,
               0,
-              280
+              250
             ],
-            "phase_offset": 2.4,
+            "phase_offset": 2.526,
             "direction": [
               0,
               0,
               -1
             ],
-            "half_width": 110.0
+            "half_width": 125.0
           },
           {
             "kind": "FallingSpikes",
             "position": [
-              10070,
+              7436.0,
               0,
-              140
+              155
             ],
-            "phase_offset": 0.73,
-            "half_width": 150
+            "phase_offset": 2.377,
+            "half_width": 140
           },
           {
             "kind": "Ice",
             "position": [
-              10880,
+              12500.0,
               0,
-              100
+              120
             ],
-            "phase_offset": 1.46,
-            "half_width": 150
+            "phase_offset": 1.665,
+            "half_width": 340.0
           },
           {
             "kind": "RisingSpikes",
             "position": [
-              12500,
+              10812.0,
               0,
-              120
+              100
             ],
-            "phase_offset": 2.92,
-            "half_width": 150
+            "phase_offset": 1.842,
+            "half_width": 140
           },
           {
             "kind": "Hammer",
             "position": [
-              13310,
+              5916.0,
               0,
               150
             ],
-            "phase_offset": 3.65,
-            "half_width": 150
+            "phase_offset": 2.231,
+            "half_width": 140
           },
           {
             "kind": "Axe",
             "position": [
-              14120,
+              1384.0,
               0,
-              100
+              55
             ],
-            "phase_offset": 4.38,
-            "half_width": 150
+            "phase_offset": 1.005,
+            "half_width": 140
           }
         ],
         "flyers": [
           {
             "position": [
-              11620,
+              10070.0,
               0,
-              185
+              290
             ],
-            "patrol_min_x": 11530,
-            "patrol_max_x": 11860,
+            "patrol_min_x": 9830,
+            "patrol_max_x": 10310,
             "speed": 100,
             "kind": "Flyer"
           },
           {
             "position": [
-              11800,
+              9260.0,
               0,
-              185
+              250
             ],
-            "patrol_min_x": 11530,
-            "patrol_max_x": 11860,
+            "patrol_min_x": 9020,
+            "patrol_max_x": 9500,
             "speed": 100,
             "kind": "SurveyFlyer"
           }
@@ -2072,7 +2076,8 @@
           8,
           5,
           3
-        ]
+        ],
+        "scatter_seed": 7105
       }
     },
     {
@@ -2420,12 +2425,12 @@
           {
             "kind": "Wind",
             "position": [
-              9845,
+              3465.0,
               0,
-              240
+              160
             ],
-            "phase_offset": 0.0,
-            "half_width": 150,
+            "phase_offset": 3.804,
+            "half_width": 175.0,
             "direction": [
               -1,
               0,
@@ -2435,89 +2440,89 @@
           {
             "kind": "Wind",
             "position": [
-              10640.0,
+              9820.0,
               0,
-              320
+              290
             ],
-            "phase_offset": 2.4,
+            "phase_offset": 0.955,
             "direction": [
               0,
               0,
               -1
             ],
-            "half_width": 115.0
+            "half_width": 130.0
           },
           {
             "kind": "FallingSpikes",
             "position": [
-              11050,
+              6776.0,
               0,
-              180
+              100
             ],
-            "phase_offset": 0.73,
-            "half_width": 150
+            "phase_offset": 0.251,
+            "half_width": 140
           },
           {
             "kind": "Ice",
             "position": [
-              11870,
+              10230.0,
               0,
               140
             ],
-            "phase_offset": 1.46,
-            "half_width": 150
+            "phase_offset": 1.977,
+            "half_width": 340.0
           },
           {
             "kind": "RisingSpikes",
             "position": [
-              13510,
+              11118.0,
               0,
-              160
+              180
             ],
-            "phase_offset": 2.92,
-            "half_width": 150
+            "phase_offset": 0.142,
+            "half_width": 140
           },
           {
             "kind": "Hammer",
             "position": [
-              14330,
+              2236.0,
               0,
-              190
+              125
             ],
-            "phase_offset": 3.65,
-            "half_width": 150
+            "phase_offset": 1.11,
+            "half_width": 140
           },
           {
             "kind": "Axe",
             "position": [
-              15150,
+              13510.0,
               0,
-              140
+              160
             ],
-            "phase_offset": 4.38,
-            "half_width": 150
+            "phase_offset": 0.906,
+            "half_width": 140
           }
         ],
         "flyers": [
           {
             "position": [
-              12620,
+              12690.0,
               0,
-              225
+              260
             ],
-            "patrol_min_x": 12530,
-            "patrol_max_x": 12860,
+            "patrol_min_x": 12450,
+            "patrol_max_x": 12930,
             "speed": 107,
             "kind": "Flyer"
           },
           {
             "position": [
-              12800,
+              14330.0,
               0,
-              225
+              340
             ],
-            "patrol_min_x": 12530,
-            "patrol_max_x": 12860,
+            "patrol_min_x": 14090,
+            "patrol_max_x": 14570,
             "speed": 107,
             "kind": "SurveyFlyer"
           }
@@ -2573,7 +2578,8 @@
           8,
           5,
           3
-        ]
+        ],
+        "scatter_seed": 7106
       }
     },
     {
@@ -2945,12 +2951,12 @@
           {
             "kind": "Wind",
             "position": [
-              10365,
+              3260.0,
               0,
-              250
+              180
             ],
-            "phase_offset": 0.0,
-            "half_width": 150,
+            "phase_offset": 2.903,
+            "half_width": 180.0,
             "direction": [
               -1,
               0,
@@ -2960,89 +2966,89 @@
           {
             "kind": "Wind",
             "position": [
-              11160.0,
+              10340.0,
               0,
-              330
+              300
             ],
-            "phase_offset": 2.4,
+            "phase_offset": 2.323,
             "direction": [
               0,
               0,
               -1
             ],
-            "half_width": 115.0
+            "half_width": 130.0
           },
           {
             "kind": "FallingSpikes",
             "position": [
-              11570,
+              1516.0,
               0,
-              190
+              75
             ],
-            "phase_offset": 0.73,
-            "half_width": 150
+            "phase_offset": 2.179,
+            "half_width": 140
           },
           {
             "kind": "Ice",
             "position": [
-              12390,
+              10750.0,
               0,
               150
             ],
-            "phase_offset": 1.46,
-            "half_width": 150
+            "phase_offset": 0.364,
+            "half_width": 340.0
           },
           {
             "kind": "RisingSpikes",
             "position": [
-              14030,
+              6016.0,
               0,
-              170
+              70
             ],
-            "phase_offset": 2.92,
-            "half_width": 150
+            "phase_offset": 1.797,
+            "half_width": 140
           },
           {
             "kind": "Hammer",
             "position": [
-              14850,
+              11570.0,
               0,
-              200
+              190
             ],
-            "phase_offset": 3.65,
-            "half_width": 150
+            "phase_offset": 2.342,
+            "half_width": 140
           },
           {
             "kind": "Axe",
             "position": [
-              15670,
+              13962.0,
               0,
-              150
+              170
             ],
-            "phase_offset": 4.38,
-            "half_width": 150
+            "phase_offset": 1.006,
+            "half_width": 140
           }
         ],
         "flyers": [
           {
             "position": [
-              13140,
+              12390.0,
               0,
-              235
+              300
             ],
-            "patrol_min_x": 13050,
-            "patrol_max_x": 13380,
+            "patrol_min_x": 12150,
+            "patrol_max_x": 12630,
             "speed": 114,
             "kind": "Flyer"
           },
           {
             "position": [
-              13320,
+              13210.0,
               0,
-              235
+              270
             ],
-            "patrol_min_x": 13050,
-            "patrol_max_x": 13380,
+            "patrol_min_x": 12970,
+            "patrol_max_x": 13450,
             "speed": 114,
             "kind": "SurveyFlyer"
           }
@@ -3098,7 +3104,8 @@
           8,
           5,
           3
-        ]
+        ],
+        "scatter_seed": 7107
       }
     },
     {
@@ -3494,12 +3501,12 @@
           {
             "kind": "Wind",
             "position": [
-              11685,
+              3465.0,
               0,
-              215
+              170
             ],
-            "phase_offset": 0.0,
-            "half_width": 150,
+            "phase_offset": 0.383,
+            "half_width": 185.0,
             "direction": [
               -1,
               0,
@@ -3509,89 +3516,89 @@
           {
             "kind": "Wind",
             "position": [
-              12480.0,
+              11660.0,
               0,
-              295
+              265
             ],
-            "phase_offset": 2.4,
+            "phase_offset": 2.001,
             "direction": [
               0,
               0,
               -1
             ],
-            "half_width": 115.0
+            "half_width": 130.0
           },
           {
             "kind": "FallingSpikes",
             "position": [
-              12890,
+              6346.0,
               0,
-              155
+              80
             ],
-            "phase_offset": 0.73,
-            "half_width": 150
+            "phase_offset": 0.648,
+            "half_width": 140
           },
           {
             "kind": "Ice",
             "position": [
-              13710,
+              15350.0,
               0,
-              115
+              135
             ],
-            "phase_offset": 1.46,
-            "half_width": 150
+            "phase_offset": 1.718,
+            "half_width": 340.0
           },
           {
             "kind": "RisingSpikes",
             "position": [
-              15350,
+              12822.0,
               0,
-              135
+              155
             ],
-            "phase_offset": 2.92,
-            "half_width": 150
+            "phase_offset": 1.318,
+            "half_width": 140
           },
           {
             "kind": "Hammer",
             "position": [
-              16170,
+              7846.0,
               0,
-              165
+              90
             ],
-            "phase_offset": 3.65,
-            "half_width": 150
+            "phase_offset": 1.21,
+            "half_width": 140
           },
           {
             "kind": "Axe",
             "position": [
-              16990,
+              2280.0,
               0,
-              115
+              130
             ],
-            "phase_offset": 4.38,
-            "half_width": 150
+            "phase_offset": 1.771,
+            "half_width": 140
           }
         ],
         "flyers": [
           {
             "position": [
-              14460,
+              14530.0,
               0,
-              200
+              235
             ],
-            "patrol_min_x": 14370,
-            "patrol_max_x": 14700,
+            "patrol_min_x": 14290,
+            "patrol_max_x": 14770,
             "speed": 121,
             "kind": "Flyer"
           },
           {
             "position": [
-              14640,
+              12070.0,
               0,
-              200
+              265
             ],
-            "patrol_min_x": 14370,
-            "patrol_max_x": 14700,
+            "patrol_min_x": 11830,
+            "patrol_max_x": 12310,
             "speed": 121,
             "kind": "SurveyFlyer"
           }
@@ -3647,7 +3654,8 @@
           8,
           5,
           3
-        ]
+        ],
+        "scatter_seed": 7108
       }
     }
   ]

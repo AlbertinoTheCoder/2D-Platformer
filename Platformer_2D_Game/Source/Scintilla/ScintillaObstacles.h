@@ -26,9 +26,14 @@ public:
     UPROPERTY(BlueprintReadOnly) float Clock=0;
     UFUNCTION(BlueprintCallable,CallInEditor) void ConfigureObstacle();
     UFUNCTION(BlueprintPure) bool IsSlipperyAt(FVector Position) const;
+    UFUNCTION(BlueprintPure) bool IsCrossingSafe(float LookAheadSeconds=0) const;
+    UFUNCTION(BlueprintPure) bool TouchesToolAt(FVector CapsuleCenter,float Radius,float HalfHeight) const;
     UFUNCTION(BlueprintCallable) void Evaluate(float Time);
 protected:
     virtual void BeginPlay() override;
 private:
+    UPROPERTY() TArray<TObjectPtr<UStaticMeshComponent>> WindStreaks;
+    float RotorAngle=0;
+    bool PlayerInGust=false;
     void HitPlayerAt(FVector Center,FVector HalfSize);
 };

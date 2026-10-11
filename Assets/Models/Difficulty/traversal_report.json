@@ -4,7 +4,11 @@
     "failures": 0,
     "checks": [
       {
-        "name": "full_level_without_teleport_or_death",
+        "name": "full_level_within_attempt_budget",
+        "passed": true
+      },
+      {
+        "name": "checkpoint_respawns_2",
         "passed": true
       },
       {
@@ -22,7 +26,11 @@
     "failures": 0,
     "checks": [
       {
-        "name": "full_level_without_teleport_or_death",
+        "name": "full_level_within_attempt_budget",
+        "passed": true
+      },
+      {
+        "name": "checkpoint_respawns_2",
         "passed": true
       },
       {
@@ -66,7 +74,7 @@
         "passed": true
       },
       {
-        "name": "checkpoint_respawns_2",
+        "name": "checkpoint_respawns_4",
         "passed": true
       },
       {
@@ -88,7 +96,7 @@
         "passed": true
       },
       {
-        "name": "checkpoint_respawns_0",
+        "name": "checkpoint_respawns_3",
         "passed": true
       },
       {
@@ -132,7 +140,7 @@
         "passed": true
       },
       {
-        "name": "checkpoint_respawns_2",
+        "name": "checkpoint_respawns_0",
         "passed": true
       },
       {
@@ -154,7 +162,7 @@
         "passed": true
       },
       {
-        "name": "checkpoint_respawns_0",
+        "name": "checkpoint_respawns_2",
         "passed": true
       },
       {

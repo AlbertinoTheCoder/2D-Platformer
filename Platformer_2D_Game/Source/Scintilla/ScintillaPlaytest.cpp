@@ -89,30 +89,75 @@ void AScintillaPlaytest::Tick(float Dt)
             {
                 ++Count; Types.Add(It->ObstacleType); It->SetActorTickEnabled(false);
                 Check(TEXT("obstacle_has_blender_mesh"),It->BaseMesh->GetStaticMesh()!=nullptr);
+                if(It->ObstacleType==EScintillaObstacleType::Ice)
+                {
+                    const FVector Origin=It->GetActorLocation(); const float Edge=It->RegionHalfWidth;
+                    Check(TEXT("ice_covers_both_platform_edges"),It->IsSlipperyAt(Origin+FVector(Edge-1,0,44)) && It->IsSlipperyAt(Origin+FVector(-Edge+1,0,44)));
+                    Check(TEXT("ice_keeps_sliding_while_capsule_overhangs_edge"),It->IsSlipperyAt(Origin+FVector(Edge+12,0,44)));
+                    Check(TEXT("ice_ends_after_leaving_platform"),!It->IsSlipperyAt(Origin+FVector(Edge+26,0,44)));
+                    Check(TEXT("ice_visual_matches_platform_width"),FMath::Abs(It->BaseMesh->Bounds.BoxExtent.X-Edge)<2);
+                }
                 if(It->ObstacleType==EScintillaObstacleType::Wind)
                 { DownWind|=It->WindDirection.Z<-.5f; BackWind|=It->WindDirection.X<-.5f; }
-                if(It->ObstacleType!=EScintillaObstacleType::Ice)
+                if(It->ObstacleType==EScintillaObstacleType::Hammer || It->ObstacleType==EScintillaObstacleType::Axe)
                 {
-                    It->Evaluate(It->ObstacleType==EScintillaObstacleType::FallingSpikes ? .5f : 1.5f);
+                    It->Evaluate(.2f); const FRotator First=It->MovingMesh->GetRelativeRotation();
+                    It->Evaluate(.4f); Check(TEXT("tool_rotates_continuously"),It->Active && !First.Equals(It->MovingMesh->GetRelativeRotation(),1.f));
+                    It->Evaluate(2.79f); const FRotator End=It->MovingMesh->GetRelativeRotation();
+                    It->Evaluate(2.81f); Check(TEXT("tool_cycle_has_no_angle_snap"),FMath::Abs(End.Pitch-It->MovingMesh->GetRelativeRotation().Pitch)<5);
+                    bool Contact=true,Clearance=true;
+                    for(float Time:{0.f,.35f,.7f,1.4f,2.1f})
+                    {
+                        It->Evaluate(Time); const auto T=It->MovingMesh->GetComponentTransform();
+                        const bool Axe=It->ObstacleType==EScintillaObstacleType::Axe;
+                        Contact &= It->TouchesToolAt(T.TransformPosition(FVector(Axe ? -55 : 0,0,-170)),24,44);
+                        Clearance &= !It->TouchesToolAt(T.TransformPosition(FVector(Axe ? 65 : 110,0,-170)),24,44);
+                    }
+                    Check(TEXT("rotated_tool_contact_matches_visible_head"),Contact);
+                    Check(TEXT("empty_side_of_rotated_tool_does_not_hit"),Clearance);
+                    It->Evaluate(0);
+                    Check(TEXT("capsule_corner_is_not_a_box_hit"),!It->TouchesToolAt(It->MovingMesh->GetComponentTransform().TransformPosition(FVector(It->ObstacleType==EScintillaObstacleType::Axe ? 50 : 76,0,-213)),24,24));
+                }
+                else if(It->ObstacleType!=EScintillaObstacleType::Ice)
+                {
+                    It->Evaluate(It->ObstacleType==EScintillaObstacleType::FallingSpikes ? .5f : It->ObstacleType==EScintillaObstacleType::RisingSpikes ? 1.f : 1.5f);
                     Check(TEXT("hazard_warns_before_activation"),It->Warning && !It->Active);
-                    It->Evaluate(It->ObstacleType==EScintillaObstacleType::FallingSpikes ? 1.6f : 3.f);
+                    It->Evaluate(It->ObstacleType==EScintillaObstacleType::FallingSpikes || It->ObstacleType==EScintillaObstacleType::RisingSpikes ? 1.6f : 3.f);
                     Check(TEXT("hazard_activates_after_warning"),It->Active);
-                    It->Evaluate(4.5f); Check(TEXT("hazard_has_safe_recovery_window"),!It->Active && !It->Warning);
+                    It->Evaluate(It->ObstacleType==EScintillaObstacleType::RisingSpikes ? 2.3f : 4.5f); Check(TEXT("hazard_has_safe_recovery_window"),!It->Active && !It->Warning);
                 }
             }
             Check(TEXT("all_six_obstacle_types_are_in_level"),Count==7 && Types.Num()==6);
             Check(TEXT("both_downward_and_backward_gusts_exist"),DownWind && BackWind);
+            float ExtensionStart=FLT_MAX; int32 EarlierTraps=0;
+            for(TActorIterator<AScintillaPlatform> It(GetWorld());It;++It)
+                if(It->ActorHasTag(TEXT("ScintillaChallenge"))) ExtensionStart=FMath::Min(ExtensionStart,float(It->GetActorLocation().X-340));
+            for(TActorIterator<AScintillaObstacle> It(GetWorld());It;++It)
+            {
+                EarlierTraps+=It->GetActorLocation().X<ExtensionStart;
+                if(It->ObstacleType==EScintillaObstacleType::RisingSpikes)
+                {
+                    It->Evaluate(1.14f); const float Low=It->MovingMesh->GetRelativeLocation().Z;
+                    It->Evaluate(1.29f); Check(TEXT("spikes_extend_quickly_without_mesh_pop"),It->MovingMesh->GetRelativeLocation().Z-Low>50 && It->MovingMesh->IsVisible());
+                }
+            }
+            Check(TEXT("obstacles_spread_before_extension"),EarlierTraps>=3);
             for(TActorIterator<AScintillaEnemy> It(GetWorld());It;++It)
                 if(It->EnemyType==EScintillaEnemyType::Flyer) { EnemyProbe=*It; StartX=It->GetActorLocation().X; FullJumpPeak=It->GetActorLocation().Z; break; }
             Check(TEXT("aerial_enemy_exists"),EnemyProbe!=nullptr);
             for(TActorIterator<AScintillaObstacle> It(GetWorld());It;++It)
                 if(It->ObstacleType==EScintillaObstacleType::Wind && It->WindDirection.X<-.5f)
-                { Place(It->GetActorLocation()+FVector(0,0,100)); It->Clock=2.3f; It->Tick(.1f); break; }
+                {
+                    Place(It->GetActorLocation()+FVector(0,0,100)); Player->GetCharacterMovement()->Velocity.X=600;
+                    It->Clock=2.3f; It->Tick(.1f);
+                    Check(TEXT("gust_slows_player_running_against_it"),Player->GetVelocity().X<=360.1f);
+                    Place(It->GetActorLocation()+FVector(0,0,100)); It->Tick(.1f); break;
+                }
             Advance(); return;
         }
         if(Stage==1 && Elapsed>.15f)
         {
-            Check(TEXT("gust_physically_pushes_player_backward"),Player->GetVelocity().X<-.1f);
+            Check(TEXT("gust_physically_pushes_player_backward"),Player->GetVelocity().X<-80.f);
             Check(TEXT("flyer_patrols_without_ground_and_bobs"),EnemyProbe && FMath::Abs(EnemyProbe->GetActorLocation().X-StartX)>5 && FMath::Abs(EnemyProbe->GetActorLocation().Z-FullJumpPeak)>1);
             for(TActorIterator<AScintillaObstacle> It(GetWorld());It;++It) if(It->ObstacleType==EScintillaObstacleType::Ice)
             { Place(It->GetActorLocation()+FVector(0,0,46)); Player->GetCharacterMovement()->Velocity.X=400; break; }
@@ -129,19 +174,19 @@ void AScintillaPlaytest::Tick(float Dt)
         {
             Check(TEXT("leaving_ice_restores_normal_braking"),Player->GetCharacterMovement()->GroundFriction==8 && Player->GetCharacterMovement()->BrakingDecelerationWalking==5000);
             for(TActorIterator<AScintillaObstacle> It(GetWorld());It;++It) if(It->ObstacleType==EScintillaObstacleType::RisingSpikes)
-            { Place(It->GetActorLocation()+FVector(0,0,45)); const int32 H=Player->Health->CurrentHealth; It->Evaluate(2.8f); Check(TEXT("rising_spike_causes_damage"),Player->Health->CurrentHealth==H-1); break; }
+            { Place(It->GetActorLocation()+FVector(0,0,45)); const int32 H=Player->Health->CurrentHealth; It->Evaluate(1.6f); Check(TEXT("rising_spike_causes_damage"),Player->Health->CurrentHealth==H-1); break; }
             Player->Health->ResetHealth(); Place(FVector(100,0,100)); Advance(); return;
         }
         if(Stage==4 && Elapsed>1.1f)
         {
             for(TActorIterator<AScintillaObstacle> It(GetWorld());It;++It) if(It->ObstacleType==EScintillaObstacleType::Hammer)
-            { Place(It->GetActorLocation()+FVector(0,0,45)); const int32 H=Player->Health->CurrentHealth; It->Evaluate(3.f); Check(TEXT("rotating_hammer_causes_damage"),Player->Health->CurrentHealth==H-1); break; }
+            { Place(It->GetActorLocation()+FVector(0,0,45)); const int32 H=Player->Health->CurrentHealth; It->Evaluate(0.f); Check(TEXT("rotating_hammer_causes_damage"),Player->Health->CurrentHealth==H-1); break; }
             Player->Health->ResetHealth(); Place(FVector(100,0,100)); Advance(); return;
         }
         if(Stage==5 && Elapsed>.7f)
         {
             for(TActorIterator<AScintillaObstacle> It(GetWorld());It;++It) if(It->ObstacleType==EScintillaObstacleType::Axe)
-            { Place(It->GetActorLocation()+FVector(-40,0,45)); const int32 H=Player->Health->CurrentHealth; It->Evaluate(3.f); Check(TEXT("rotating_axe_causes_damage"),Player->Health->CurrentHealth==H-1); break; }
+            { Place(It->GetActorLocation()+FVector(-40,0,45)); const int32 H=Player->Health->CurrentHealth; It->Evaluate(0.f); Check(TEXT("rotating_axe_causes_damage"),Player->Health->CurrentHealth==H-1); break; }
             Player->Health->ResetHealth();
             if(EnemyProbe) { Place(EnemyProbe->GetActorLocation()-FVector(30,0,0)); Player->MoveAxis(1); Player->Attack(); Check(TEXT("aerial_enemy_can_be_defeated_by_discharge"),EnemyProbe->Defeated); }
             Place(FVector(100,0,100));
@@ -721,7 +766,7 @@ void AScintillaPlaytest::TickRoute(float Dt)
         UE_LOG(LogTemp,Display,TEXT("Route failed at step %d, position %s"),RouteStep,*Player->GetActorLocation().ToString());
         Finish(RouteReport); RouteDuration=-10000; return;
     }
-    if(Player->Health->IsDead()) { Player->MoveAxis(0); return; }
+    if(Player->Health->IsDead()) { CrossUntilX=-FLT_MAX; UE_LOG(LogTemp,Display,TEXT("ROUTE_DEATH position=%s step=%d"),*Player->GetActorLocation().ToString(),RouteStep); Player->MoveAxis(0); return; }
     const float X=Player->GetActorLocation().X;
     const double Now=GetWorld()->GetTimeSeconds();
     if (JumpReleaseAt>0 && Now>=JumpReleaseAt) { Player->ReleaseJump(); JumpReleaseAt=-1; }
@@ -732,6 +777,17 @@ void AScintillaPlaytest::TickRoute(float Dt)
             Player->Attack();
             if(!It->Defeated && It->EnemyType==EScintillaEnemyType::Sentinel && Grounded) { Player->MoveAxis(0); return; }
         }
+    // React to scattered traps on the original route too, rather than only the extension.
+    for(TActorIterator<AScintillaObstacle> It(GetWorld());It;++It)
+    {
+        const float Ahead=It->GetActorLocation().X-X;
+        if(Grounded && X>=CrossUntilX && Ahead>270 && Ahead<390 && It->ObstacleType!=EScintillaObstacleType::Ice)
+        {
+            if(!It->IsCrossingSafe(.15f)) { Player->MoveAxis(0); return; }
+            // Once the crossing begins, do not stop underneath the swinging head.
+            CrossUntilX=It->GetActorLocation().X+270;
+        }
+    }
     float ChallengeStart=FLT_MAX;
     TArray<AScintillaPlatform*> RoutePlatforms;
     for(TActorIterator<AScintillaPlatform> It(GetWorld());It;++It)
@@ -747,8 +803,7 @@ void AScintillaPlaytest::TickRoute(float Dt)
             const float Ahead=It->GetActorLocation().X-X;
             if(It->ObstacleType!=EScintillaObstacleType::Ice && It->ObstacleType!=EScintillaObstacleType::Wind && Ahead>130 && Ahead<290 && Grounded)
             {
-                const float C=FMath::Fmod(It->Clock,6.f);
-                if(C<4.2f || C>5.7f) { Player->MoveAxis(0); return; }
+                if(X>=CrossUntilX && !It->IsCrossingSafe(.15f)) { Player->MoveAxis(0); return; }
             }
         }
         Player->MoveAxis(1);
@@ -766,9 +821,9 @@ void AScintillaPlaytest::TickRoute(float Dt)
                     const float Right=Next->Surface->Bounds.Origin.X+Next->Surface->Bounds.BoxExtent.X;
                     for(TActorIterator<AScintillaObstacle> It(GetWorld());It;++It)
                         if(It->ObstacleType!=EScintillaObstacleType::Ice && It->ObstacleType!=EScintillaObstacleType::Wind && It->GetActorLocation().X>Left && It->GetActorLocation().X<Right)
-                        { const float C=FMath::Fmod(It->Clock,6.f); if(C<4.2f || C>5.f) { Player->MoveAxis(0); return; } }
+                        { if(X>=CrossUntilX && !It->IsCrossingSafe(.45f)) { Player->MoveAxis(0); return; } }
                 }
-                if(Platform!=RoutePlatforms.Last() && X>=Edge-60) { Player->PressJump(); return; }
+                if(Platform!=RoutePlatforms.Last() && X>=Edge-60) { Player->PressJump(); JumpReleaseAt=Now+.12f; return; }
             }
             for(TActorIterator<AScintillaEnemy> It(GetWorld());It;++It)
                 if(!It->Defeated && (It->EnemyType==EScintillaEnemyType::Flyer || It->EnemyType==EScintillaEnemyType::SurveyFlyer) && It->GetActorLocation().X-X>100 && It->GetActorLocation().X-X<200) { Player->PressJump(); return; }

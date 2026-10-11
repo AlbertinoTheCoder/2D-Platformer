@@ -138,3 +138,25 @@ Normal/Hard/Hardcore are selected from pause. Selecting one restarts the level a
 All eight complete Normal routes passed within available attempts using native input and checkpoint respawns. Some routes required respawns; this is not a zero-death claim. Hard and Hardcore passed settings, persistence, and reset checks; complete routes were tested only in Normal. Final reports had no failures.
 
 The kit, six trap types, and difficulty menu were visually inspected. Drone wings and axe contact match FBX conversion. Reports and images: `Assets/Models/Difficulty`; details: [difficulty](difficulty.md). Previews preserve the player's save. Unreal reopened after every build and remained in visible normal gameplay; the resolved map-save error log window was closed.
+
+## Scattered obstacles and continuous motion
+
+Existing obstacle actors, signs, supports, and flying patrols were moved in all eight saved maps after creating `_BeforeObstacleScatter` recovery copies. Seeded placements put three to five of the seven obstacles on each original route, with the rest spread through the extension. Ice and aerial encounters use wide stations; existing platforms, terrain, checkpoints, and generators are preserved.
+
+Backward wind now combines an entry impulse, continuous force, and a ramped opposing speed limit, so running input no longer erases its effect. Cyan airflow arrows show the force direction. Rotor angle is integrated without snapping at activation. Hammer and axe motion is a continuous 2.8-second pendulum cycle; the spike carrier stays inside its housing with a 0.14-second rise and 0.18-second retraction on a 2.4-second cycle.
+
+The Development Editor build passed. All 384 final mechanics, contact, difficulty, persistence, and reset checks passed across eight maps. These include noticeable backward push, reduced opposing running velocity, continuous tool motion without wraparound snaps, fast spike extension without visibility popping, damage contacts, and obstacle distribution before the extension. Report: `Assets/Models/Difficulty/runtime_report.json`. All six obstacle types were inspected in PIE; captures are in the same folder.
+
+Earlier complete-route probes timed out on Pipeworks because the bot made full-length jumps into suspended heads and stopped partway through a timed crossing. The route controller now uses short jumps onto the challenge waiting pads, waits outside the tool's reach, and commits to a crossing rather than stopping beneath the moving head. Wind checks look ahead through the jump window. This changes the test controller, not player controls or collision. Full-route results are recorded in `Assets/Models/Difficulty/traversal_report.json`; only completed passing entries count as verified routes. Human input, full Hard/Hardcore traversals, and frame-rate variations remain outside this validation pass.
+
+The completed traversal reports contain 32 successful checks: all eight Normal routes completed within the eight-attempt budget, using native movement, combat, and checkpoint respawns without scripted teleporting. Together with the 384 mechanics checks, this revision records 416 successful checks. Unreal was reopened after compilation and left in a fresh playable PIE session.
+
+## Full rotation and tool-shaped hitboxes
+
+Hammer and axe damage previously used a world-aligned box around an approximate moving center, treating the player's capsule as a rectangle. At rotated angles this could count empty corners as hits. Tool damage now uses the authored hammer-head outline or asymmetric FBX axe-blade outline extruded through its thickness, transformed with the visible component, against the actual scaled, rounded player capsule. Solid interior contacts are included. The shaft is not the damaging surface. Scintilla's movement capsule remains unchanged.
+
+Both tools now make continuous full 360-degree revolutions every 2.8 seconds in Normal, accelerated by difficulty. Runtime motion is sampled at intervals of at most four degrees during ordinary frame times to catch fast contacts. The route helper uses the full rotation rather than the old pendulum safe window.
+
+The Development Editor build passed. New runtime checks cover head/blade contact at five orientations, misses on the empty side, rounded-capsule corner misses, continuous motion, wraparound continuity, and actual health loss. Visual PIE captures show the head/blade above the pivot at half a revolution, which the old pendulum could not reach. Reports are in `Assets/Models/Difficulty/runtime_report.json`; the older traversal report predates this rotation change and is not a new complete-route validation. Unreal was reopened and the previews preserve the player's campaign save.
+
+Final result: 432 checks passed across all eight maps, with zero failures. The editor is open with a fresh PIE game running.

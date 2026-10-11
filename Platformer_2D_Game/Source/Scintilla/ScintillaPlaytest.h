@@ -31,6 +31,7 @@ private:
     int32 RouteStep=0;
     double JumpReleaseAt=-1;
     float RouteDuration=0;
+    float CrossUntilX=-FLT_MAX;
     FVector LeftFootPhase=FVector::ZeroVector;
     float EnemyTravelDistance=0;
     float LastEnemyX=0;

@@ -1,0 +1,5 @@
+--  remove the text that helps you on obstacles. you should learn by dying!
+
+--  when everything grows back and zooms out you can see the ground and then the background. the ground should go down much more so you don't see the background at the bottom
+
+--  COMMIT and PUSH

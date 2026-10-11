@@ -7,7 +7,7 @@ world=unreal.EditorLevelLibrary.get_game_world(); pawn=unreal.GameplayStatics.ge
 obstacles=unreal.GameplayStatics.get_all_actors_of_class(world,unreal.ScintillaObstacle)
 for a in obstacles: a.set_actor_tick_enabled(False); a.evaluate(4.5)
 target=next(a for a in obstacles if a.get_editor_property('obstacle_type')==getattr(unreal.ScintillaObstacleType,kind))
-target.evaluate(1.6 if kind=='FALLING_SPIKES' else 3.0)
+target.evaluate(1.6 if kind in ('FALLING_SPIKES','RISING_SPIKES') else 1.4 if kind in ('HAMMER','AXE') else 3.0)
 pos=target.get_actor_location(); pawn.set_actor_location(unreal.Vector(pos.x-180,0,pos.z+45 if kind!='WIND' else pos.z-55),False,False)
 for a in unreal.GameplayStatics.get_all_actors_of_class(world,unreal.ScintillaCamera): a.set_actor_location(unreal.Vector(pos.x,1500,pos.z+160),False,False)
 for a in unreal.GameplayStatics.get_all_actors_of_class(world,unreal.Actor): a.set_editor_property('custom_time_dilation',0.0)
