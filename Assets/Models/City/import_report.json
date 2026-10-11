@@ -1,0 +1,14 @@
+{
+  "imported": [
+    "SM_CityDeadTree",
+    "SM_CityDecay",
+    "SM_CityFacade1",
+    "SM_CityFacade2",
+    "SM_CityFacade3",
+    "SM_CityFoliage",
+    "SM_CityRoof",
+    "SM_CityRubble",
+    "SM_CityTerrain"
+  ],
+  "saved": true
+}

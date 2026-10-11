@@ -1,0 +1,18 @@
+{
+  "restoration": {
+    "maps": 8,
+    "checks": 120,
+    "failures": 0
+  },
+  "progression": {
+    "sessions": 14,
+    "checks": 266,
+    "failures": 0
+  },
+  "gameplay": {
+    "checks": 35,
+    "failures": 0
+  },
+  "checks": 421,
+  "failures": 0
+}

@@ -1,0 +1,17 @@
+{
+  "imported": [
+    "SM_Checkpoint",
+    "SM_Crate",
+    "SM_Deck",
+    "SM_Drone",
+    "SM_Electrodes",
+    "SM_Energy",
+    "SM_Facade",
+    "SM_Generator",
+    "SM_Lamp",
+    "SM_Pipe",
+    "SM_Scintilla"
+  ],
+  "decorations": 58,
+  "saved": true
+}

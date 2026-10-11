@@ -1,0 +1,30 @@
+[
+  {
+    "map": "/Game/Platformer/Levels/L_05_Cryo",
+    "theme": "SM_CryoPod",
+    "platforms": 10,
+    "landmarks": 14,
+    "saved": true
+  },
+  {
+    "map": "/Game/Platformer/Levels/L_06_Scrap",
+    "theme": "SM_SalvageGantry",
+    "platforms": 11,
+    "landmarks": 14,
+    "saved": true
+  },
+  {
+    "map": "/Game/Platformer/Levels/L_07_Solar",
+    "theme": "SM_SolarDish",
+    "platforms": 12,
+    "landmarks": 16,
+    "saved": true
+  },
+  {
+    "map": "/Game/Platformer/Levels/L_08_Bio",
+    "theme": "SM_BloomTree",
+    "platforms": 13,
+    "landmarks": 17,
+    "saved": true
+  }
+]

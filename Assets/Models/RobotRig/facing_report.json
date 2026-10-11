@@ -1,0 +1,73 @@
+{
+  "failures": 0,
+  "checks": [
+    {
+      "name": "S_faces_camera",
+      "passed": true
+    },
+    {
+      "name": "W_faces_city",
+      "passed": true
+    },
+    {
+      "name": "W_keeps_movement_plane",
+      "passed": true
+    },
+    {
+      "name": "S_returns_from_city_to_camera",
+      "passed": true
+    },
+    {
+      "name": "A_walks_left",
+      "passed": true
+    },
+    {
+      "name": "A_faces_left_profile",
+      "passed": true
+    },
+    {
+      "name": "A_plays_walk_animation",
+      "passed": true
+    },
+    {
+      "name": "releasing_A_retains_left_pose",
+      "passed": true
+    },
+    {
+      "name": "S_returns_from_left_to_camera",
+      "passed": true
+    },
+    {
+      "name": "D_walks_right",
+      "passed": true
+    },
+    {
+      "name": "D_faces_right_profile",
+      "passed": true
+    },
+    {
+      "name": "D_uses_same_walk_clip",
+      "passed": true
+    },
+    {
+      "name": "left_and_right_gaits_are_mirrored",
+      "passed": true
+    },
+    {
+      "name": "W_returns_from_right_to_city",
+      "passed": true
+    },
+    {
+      "name": "turning_keeps_idle_grounded",
+      "passed": true
+    },
+    {
+      "name": "paused_game_ignores_turn_commands",
+      "passed": true
+    },
+    {
+      "name": "attack_faces_last_walk_direction",
+      "passed": true
+    }
+  ]
+}

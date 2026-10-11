@@ -1,0 +1,50 @@
+[
+  {
+    "level": 1,
+    "pieces": 123,
+    "repairable_props": 25,
+    "saved": true
+  },
+  {
+    "level": 2,
+    "pieces": 123,
+    "repairable_props": 10,
+    "saved": true
+  },
+  {
+    "level": 3,
+    "pieces": 123,
+    "repairable_props": 20,
+    "saved": true
+  },
+  {
+    "level": 4,
+    "pieces": 123,
+    "repairable_props": 9,
+    "saved": true
+  },
+  {
+    "level": 5,
+    "pieces": 123,
+    "repairable_props": 14,
+    "saved": true
+  },
+  {
+    "level": 6,
+    "pieces": 123,
+    "repairable_props": 14,
+    "saved": true
+  },
+  {
+    "level": 7,
+    "pieces": 123,
+    "repairable_props": 16,
+    "saved": true
+  },
+  {
+    "level": 8,
+    "pieces": 123,
+    "repairable_props": 17,
+    "saved": true
+  }
+]

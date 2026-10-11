@@ -1,0 +1,1554 @@
+[
+  {
+    "level": 1,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "normal_has_eight_attempts",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_opens_from_pause",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_back_returns_to_pause",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "all_six_obstacle_types_are_in_level",
+        "passed": true
+      },
+      {
+        "name": "both_downward_and_backward_gusts_exist",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_physically_pushes_player_backward",
+        "passed": true
+      },
+      {
+        "name": "flyer_patrols_without_ground_and_bobs",
+        "passed": true
+      },
+      {
+        "name": "ice_reduces_friction_and_preserves_momentum",
+        "passed": true
+      },
+      {
+        "name": "falling_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "leaving_ice_restores_normal_braking",
+        "passed": true
+      },
+      {
+        "name": "rising_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_hammer_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_axe_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_can_be_defeated_by_discharge",
+        "passed": true
+      },
+      {
+        "name": "generator_moved_beyond_old_route",
+        "passed": true
+      },
+      {
+        "name": "hard_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "hardcore_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "fatal_hit_consumes_last_attempt",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_clears_checkpoint_energy_and_deaths",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_keeps_difficulty_and_unlocks",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_returns_to_start",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "normal_has_eight_attempts",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_opens_from_pause",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_back_returns_to_pause",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "all_six_obstacle_types_are_in_level",
+        "passed": true
+      },
+      {
+        "name": "both_downward_and_backward_gusts_exist",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_physically_pushes_player_backward",
+        "passed": true
+      },
+      {
+        "name": "flyer_patrols_without_ground_and_bobs",
+        "passed": true
+      },
+      {
+        "name": "ice_reduces_friction_and_preserves_momentum",
+        "passed": true
+      },
+      {
+        "name": "falling_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "leaving_ice_restores_normal_braking",
+        "passed": true
+      },
+      {
+        "name": "rising_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_hammer_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_axe_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_can_be_defeated_by_discharge",
+        "passed": true
+      },
+      {
+        "name": "generator_moved_beyond_old_route",
+        "passed": true
+      },
+      {
+        "name": "hard_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "hardcore_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "fatal_hit_consumes_last_attempt",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_clears_checkpoint_energy_and_deaths",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_keeps_difficulty_and_unlocks",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_returns_to_start",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "normal_has_eight_attempts",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_opens_from_pause",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_back_returns_to_pause",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "all_six_obstacle_types_are_in_level",
+        "passed": true
+      },
+      {
+        "name": "both_downward_and_backward_gusts_exist",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_physically_pushes_player_backward",
+        "passed": true
+      },
+      {
+        "name": "flyer_patrols_without_ground_and_bobs",
+        "passed": true
+      },
+      {
+        "name": "ice_reduces_friction_and_preserves_momentum",
+        "passed": true
+      },
+      {
+        "name": "falling_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "leaving_ice_restores_normal_braking",
+        "passed": true
+      },
+      {
+        "name": "rising_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_hammer_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_axe_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_can_be_defeated_by_discharge",
+        "passed": true
+      },
+      {
+        "name": "generator_moved_beyond_old_route",
+        "passed": true
+      },
+      {
+        "name": "hard_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "hardcore_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "fatal_hit_consumes_last_attempt",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_clears_checkpoint_energy_and_deaths",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_keeps_difficulty_and_unlocks",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_returns_to_start",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "normal_has_eight_attempts",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_opens_from_pause",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_back_returns_to_pause",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "all_six_obstacle_types_are_in_level",
+        "passed": true
+      },
+      {
+        "name": "both_downward_and_backward_gusts_exist",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_physically_pushes_player_backward",
+        "passed": true
+      },
+      {
+        "name": "flyer_patrols_without_ground_and_bobs",
+        "passed": true
+      },
+      {
+        "name": "ice_reduces_friction_and_preserves_momentum",
+        "passed": true
+      },
+      {
+        "name": "falling_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "leaving_ice_restores_normal_braking",
+        "passed": true
+      },
+      {
+        "name": "rising_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_hammer_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_axe_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_can_be_defeated_by_discharge",
+        "passed": true
+      },
+      {
+        "name": "generator_moved_beyond_old_route",
+        "passed": true
+      },
+      {
+        "name": "hard_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "hardcore_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "fatal_hit_consumes_last_attempt",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_clears_checkpoint_energy_and_deaths",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_keeps_difficulty_and_unlocks",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_returns_to_start",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "normal_has_eight_attempts",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_opens_from_pause",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_back_returns_to_pause",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "all_six_obstacle_types_are_in_level",
+        "passed": true
+      },
+      {
+        "name": "both_downward_and_backward_gusts_exist",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_physically_pushes_player_backward",
+        "passed": true
+      },
+      {
+        "name": "flyer_patrols_without_ground_and_bobs",
+        "passed": true
+      },
+      {
+        "name": "ice_reduces_friction_and_preserves_momentum",
+        "passed": true
+      },
+      {
+        "name": "falling_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "leaving_ice_restores_normal_braking",
+        "passed": true
+      },
+      {
+        "name": "rising_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_hammer_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_axe_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_can_be_defeated_by_discharge",
+        "passed": true
+      },
+      {
+        "name": "generator_moved_beyond_old_route",
+        "passed": true
+      },
+      {
+        "name": "hard_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "hardcore_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "fatal_hit_consumes_last_attempt",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_clears_checkpoint_energy_and_deaths",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_keeps_difficulty_and_unlocks",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_returns_to_start",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "normal_has_eight_attempts",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_opens_from_pause",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_back_returns_to_pause",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "all_six_obstacle_types_are_in_level",
+        "passed": true
+      },
+      {
+        "name": "both_downward_and_backward_gusts_exist",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_physically_pushes_player_backward",
+        "passed": true
+      },
+      {
+        "name": "flyer_patrols_without_ground_and_bobs",
+        "passed": true
+      },
+      {
+        "name": "ice_reduces_friction_and_preserves_momentum",
+        "passed": true
+      },
+      {
+        "name": "falling_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "leaving_ice_restores_normal_braking",
+        "passed": true
+      },
+      {
+        "name": "rising_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_hammer_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_axe_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_can_be_defeated_by_discharge",
+        "passed": true
+      },
+      {
+        "name": "generator_moved_beyond_old_route",
+        "passed": true
+      },
+      {
+        "name": "hard_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "hardcore_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "fatal_hit_consumes_last_attempt",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_clears_checkpoint_energy_and_deaths",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_keeps_difficulty_and_unlocks",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_returns_to_start",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "normal_has_eight_attempts",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_opens_from_pause",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_back_returns_to_pause",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "all_six_obstacle_types_are_in_level",
+        "passed": true
+      },
+      {
+        "name": "both_downward_and_backward_gusts_exist",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_physically_pushes_player_backward",
+        "passed": true
+      },
+      {
+        "name": "flyer_patrols_without_ground_and_bobs",
+        "passed": true
+      },
+      {
+        "name": "ice_reduces_friction_and_preserves_momentum",
+        "passed": true
+      },
+      {
+        "name": "falling_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "leaving_ice_restores_normal_braking",
+        "passed": true
+      },
+      {
+        "name": "rising_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_hammer_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_axe_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_can_be_defeated_by_discharge",
+        "passed": true
+      },
+      {
+        "name": "generator_moved_beyond_old_route",
+        "passed": true
+      },
+      {
+        "name": "hard_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "hardcore_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "fatal_hit_consumes_last_attempt",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_clears_checkpoint_energy_and_deaths",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_keeps_difficulty_and_unlocks",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_returns_to_start",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 8,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "normal_has_eight_attempts",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_opens_from_pause",
+        "passed": true
+      },
+      {
+        "name": "difficulty_chooser_back_returns_to_pause",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "obstacle_has_blender_mesh",
+        "passed": true
+      },
+      {
+        "name": "hazard_warns_before_activation",
+        "passed": true
+      },
+      {
+        "name": "hazard_activates_after_warning",
+        "passed": true
+      },
+      {
+        "name": "hazard_has_safe_recovery_window",
+        "passed": true
+      },
+      {
+        "name": "all_six_obstacle_types_are_in_level",
+        "passed": true
+      },
+      {
+        "name": "both_downward_and_backward_gusts_exist",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_exists",
+        "passed": true
+      },
+      {
+        "name": "gust_physically_pushes_player_backward",
+        "passed": true
+      },
+      {
+        "name": "flyer_patrols_without_ground_and_bobs",
+        "passed": true
+      },
+      {
+        "name": "ice_reduces_friction_and_preserves_momentum",
+        "passed": true
+      },
+      {
+        "name": "falling_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "leaving_ice_restores_normal_braking",
+        "passed": true
+      },
+      {
+        "name": "rising_spike_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_hammer_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "rotating_axe_causes_damage",
+        "passed": true
+      },
+      {
+        "name": "aerial_enemy_can_be_defeated_by_discharge",
+        "passed": true
+      },
+      {
+        "name": "generator_moved_beyond_old_route",
+        "passed": true
+      },
+      {
+        "name": "hard_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "hardcore_setting_persists_across_travel",
+        "passed": true
+      },
+      {
+        "name": "fatal_hit_consumes_last_attempt",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_clears_checkpoint_energy_and_deaths",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_keeps_difficulty_and_unlocks",
+        "passed": true
+      },
+      {
+        "name": "attempt_reset_returns_to_start",
+        "passed": true
+      }
+    ]
+  }
+]

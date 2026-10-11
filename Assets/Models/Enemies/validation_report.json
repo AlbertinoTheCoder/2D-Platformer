@@ -1,0 +1,31 @@
+{
+  "checks": 133,
+  "failures": 0,
+  "reports": [
+    {
+      "report": "Assets/Models/Enemies/runtime_report.json",
+      "checks": 20,
+      "failures": 0
+    },
+    {
+      "report": "Assets/UI/integration_report.json",
+      "checks": 35,
+      "failures": 0
+    },
+    {
+      "report": "Assets/Models/Expansion/runtime_report.json",
+      "checks": 72,
+      "failures": 0
+    },
+    {
+      "report": "Assets/Models/condotte_traversal.json",
+      "checks": 3,
+      "failures": 0
+    },
+    {
+      "report": "Assets/Models/torre_traversal.json",
+      "checks": 3,
+      "failures": 0
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "source": "Scintilla_DifficultyKit.blend",
+  "palette": {
+    "Steel": [
+      0.12,
+      0.22,
+      0.28,
+      1
+    ],
+    "SteelLight": [
+      0.45,
+      0.6,
+      0.65,
+      1
+    ],
+    "Dark": [
+      0.022,
+      0.038,
+      0.055,
+      1
+    ],
+    "Gold": [
+      0.9,
+      0.51,
+      0.09,
+      1
+    ],
+    "Cyan": [
+      0.1,
+      0.85,
+      0.95,
+      1
+    ],
+    "Amber": [
+      1,
+      0.48,
+      0.08,
+      1
+    ],
+    "Red": [
+      0.95,
+      0.14,
+      0.2,
+      1
+    ],
+    "Ice": [
+      0.3,
+      0.65,
+      0.79,
+      1
+    ],
+    "Violet": [
+      0.42,
+      0.18,
+      0.68,
+      1
+    ]
+  },
+  "models": [
+    {
+      "name": "SM_WindHousing",
+      "vertices": 1080,
+      "polygons": 982,
+      "dimensions_m": [
+        1.4800000190734863,
+        0.9300001859664917,
+        1.3550000190734863
+      ],
+      "pivot": "placement origin"
+    },
+    {
+      "name": "SM_WindRotor",
+      "vertices": 624,
+      "polygons": 612,
+      "dimensions_m": [
+        0.9533221125602722,
+        0.15000006556510925,
+        0.947701096534729
+      ],
+      "pivot": "mechanical axis"
+    },
+    {
+      "name": "SM_FlyerWasp",
+      "vertices": 1032,
+      "polygons": 894,
+      "dimensions_m": [
+        1.2400000095367432,
+        0.817500114440918,
+        0.7700510025024414
+      ],
+      "pivot": "placement origin"
+    },
+    {
+      "name": "SM_FlyerSurvey",
+      "vertices": 1032,
+      "polygons": 894,
+      "dimensions_m": [
+        1.2400000095367432,
+        0.817500114440918,
+        0.7700510025024414
+      ],
+      "pivot": "placement origin"
+    },
+    {
+      "name": "SM_FlyerWing",
+      "vertices": 164,
+      "polygons": 162,
+      "dimensions_m": [
+        0.9100183844566345,
+        0.12250011414289474,
+        0.39244258403778076
+      ],
+      "pivot": "mechanical axis"
+    },
+    {
+      "name": "SM_SpikeRail",
+      "vertices": 1176,
+      "polygons": 1148,
+      "dimensions_m": [
+        1.649999976158142,
+        0.6525002717971802,
+        0.8849999904632568
+      ],
+      "pivot": "placement origin"
+    },
+    {
+      "name": "SM_SpikeRack",
+      "vertices": 816,
+      "polygons": 678,
+      "dimensions_m": [
+        1.4199999570846558,
+        0.45000022649765015,
+        0.6200000047683716
+      ],
+      "pivot": "placement origin"
+    },
+    {
+      "name": "SM_RetractBase",
+      "vertices": 1008,
+      "polygons": 988,
+      "dimensions_m": [
+        1.6500002145767212,
+        0.7775002121925354,
+        0.2844388782978058
+      ],
+      "pivot": "placement origin"
+    },
+    {
+      "name": "SM_IceDeck",
+      "vertices": 1056,
+      "polygons": 1078,
+      "dimensions_m": [
+        3.0,
+        1.1000005006790161,
+        0.22999998927116394
+      ],
+      "pivot": "placement origin"
+    },
+    {
+      "name": "SM_TrapMotor",
+      "vertices": 888,
+      "polygons": 822,
+      "dimensions_m": [
+        0.5199999809265137,
+        0.5400000810623169,
+        0.9199999570846558
+      ],
+      "pivot": "placement origin"
+    },
+    {
+      "name": "SM_RotatingHammer",
+      "vertices": 744,
+      "polygons": 748,
+      "dimensions_m": [
+        1.0799999237060547,
+        0.6675001978874207,
+        1.9500000476837158
+      ],
+      "pivot": "mechanical axis"
+    },
+    {
+      "name": "SM_RotatingAxe",
+      "vertices": 442,
+      "polygons": 441,
+      "dimensions_m": [
+        1.128568410873413,
+        0.30000007152557373,
+        2.0963125228881836
+      ],
+      "pivot": "mechanical axis"
+    },
+    {
+      "name": "SM_LivesTerminal",
+      "vertices": 840,
+      "polygons": 846,
+      "dimensions_m": [
+        0.880000114440918,
+        0.6500000953674316,
+        1.494999885559082
+      ],
+      "pivot": "placement origin"
+    },
+    {
+      "name": "SM_LifeCell",
+      "vertices": 312,
+      "polygons": 282,
+      "dimensions_m": [
+        0.20000000298023224,
+        0.20500001311302185,
+        0.4000000059604645
+      ],
+      "pivot": "placement origin"
+    },
+    {
+      "name": "SM_LongDeck",
+      "vertices": 1728,
+      "polygons": 1764,
+      "dimensions_m": [
+        3.000000476837158,
+        1.6000005006790161,
+        0.4449999928474426
+      ],
+      "pivot": "placement origin"
+    },
+    {
+      "name": "SM_LongColumn",
+      "vertices": 384,
+      "polygons": 392,
+      "dimensions_m": [
+        0.720000147819519,
+        0.720000147819519,
+        2.7250001430511475
+      ],
+      "pivot": "placement origin"
+    },
+    {
+      "name": "SM_LongArch",
+      "vertices": 576,
+      "polygons": 588,
+      "dimensions_m": [
+        2.799999713897705,
+        0.35000044107437134,
+        2.5199999809265137
+      ],
+      "pivot": "placement origin"
+    }
+  ],
+  "units": "meters; FBX exported with unit scale to Unreal centimeters",
+  "animation": "moving components have independent pivots; gameplay controls their motion"
+}

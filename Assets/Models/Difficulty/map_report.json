@@ -1,0 +1,74 @@
+[
+  {
+    "level": 1,
+    "new_platforms": 7,
+    "hazards": 7,
+    "flyers": 1,
+    "length_before_cm": 7440,
+    "length_after_cm": 13000,
+    "saved": true
+  },
+  {
+    "level": 2,
+    "new_platforms": 7,
+    "hazards": 7,
+    "flyers": 1,
+    "length_before_cm": 7440,
+    "length_after_cm": 13070,
+    "saved": true
+  },
+  {
+    "level": 3,
+    "new_platforms": 7,
+    "hazards": 7,
+    "flyers": 1,
+    "length_before_cm": 7440,
+    "length_after_cm": 13340,
+    "saved": true
+  },
+  {
+    "level": 4,
+    "new_platforms": 7,
+    "hazards": 7,
+    "flyers": 2,
+    "length_before_cm": 7840,
+    "length_after_cm": 13550,
+    "saved": true
+  },
+  {
+    "level": 5,
+    "new_platforms": 7,
+    "hazards": 7,
+    "flyers": 2,
+    "length_before_cm": 8690,
+    "length_after_cm": 14350,
+    "saved": true
+  },
+  {
+    "level": 6,
+    "new_platforms": 7,
+    "hazards": 7,
+    "flyers": 2,
+    "length_before_cm": 9650,
+    "length_after_cm": 15380,
+    "saved": true
+  },
+  {
+    "level": 7,
+    "new_platforms": 7,
+    "hazards": 7,
+    "flyers": 2,
+    "length_before_cm": 10170,
+    "length_after_cm": 15900,
+    "saved": true
+  },
+  {
+    "level": 8,
+    "new_platforms": 7,
+    "hazards": 7,
+    "flyers": 2,
+    "length_before_cm": 11490,
+    "length_after_cm": 17220,
+    "saved": true
+  }
+]

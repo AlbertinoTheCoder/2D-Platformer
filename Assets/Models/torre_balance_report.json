@@ -1,0 +1,273 @@
+{
+  "index": 4,
+  "name": "L_04_Torre",
+  "title": "Torre",
+  "spawn": [
+    100,
+    0,
+    100
+  ],
+  "platforms": [
+    {
+      "id": "start",
+      "x": 0,
+      "width": 900,
+      "top": 0
+    },
+    {
+      "id": "tutorial_step",
+      "x": 1140,
+      "width": 400,
+      "top": 70
+    },
+    {
+      "id": "tutorial_high",
+      "x": 1780,
+      "width": 400,
+      "top": 130
+    },
+    {
+      "id": "combat",
+      "x": 2420,
+      "width": 1050,
+      "top": 20
+    },
+    {
+      "id": "checkpoint",
+      "x": 3710,
+      "width": 650,
+      "top": 90
+    },
+    {
+      "id": "moving_exit",
+      "x": 4980,
+      "width": 640,
+      "top": 90
+    },
+    {
+      "id": "final_step",
+      "x": 5860,
+      "width": 400,
+      "top": 145
+    },
+    {
+      "id": "final_drop",
+      "x": 6500,
+      "width": 420,
+      "top": 75
+    },
+    {
+      "id": "goal",
+      "x": 7160,
+      "width": 900,
+      "top": 125
+    }
+  ],
+  "moving_platform": {
+    "id": "bridge",
+    "start": [
+      4390,
+      0,
+      90
+    ],
+    "end": [
+      4790,
+      0,
+      90
+    ],
+    "width": 300,
+    "speed": 145,
+    "wait_seconds": 1.0,
+    "loop": "ping_pong"
+  },
+  "enemies": [
+    {
+      "id": "drone_0",
+      "position": [
+        2760,
+        0,
+        47
+      ],
+      "patrol_min_x": 2710,
+      "patrol_max_x": 2900,
+      "speed": 150
+    },
+    {
+      "id": "drone_1",
+      "position": [
+        4110,
+        0,
+        117
+      ],
+      "patrol_min_x": 4050,
+      "patrol_max_x": 4180,
+      "speed": 150
+    },
+    {
+      "id": "drone_2",
+      "position": [
+        5370,
+        0,
+        117
+      ],
+      "patrol_min_x": 5270,
+      "patrol_max_x": 5460,
+      "speed": 150
+    },
+    {
+      "id": "drone_3",
+      "position": [
+        7410,
+        0,
+        152
+      ],
+      "patrol_min_x": 7320,
+      "patrol_max_x": 7480,
+      "speed": 150
+    }
+  ],
+  "hazards": [
+    {
+      "id": "cable_0",
+      "position": [
+        500,
+        0,
+        15
+      ],
+      "width": 80
+    },
+    {
+      "id": "cable_1",
+      "position": [
+        3200,
+        0,
+        35
+      ],
+      "width": 80
+    },
+    {
+      "id": "cable_2",
+      "position": [
+        3970,
+        0,
+        105
+      ],
+      "width": 80
+    },
+    {
+      "id": "cable_3",
+      "position": [
+        7650,
+        0,
+        140
+      ],
+      "width": 80
+    }
+  ],
+  "checkpoints": [
+    [
+      4250,
+      0,
+      140
+    ],
+    [
+      5090,
+      0,
+      140
+    ],
+    [
+      7260,
+      0,
+      175
+    ]
+  ],
+  "collectibles": [
+    [
+      495.00000000000006,
+      0,
+      80
+    ],
+    [
+      1360.0,
+      0,
+      150
+    ],
+    [
+      2000.0,
+      0,
+      210
+    ],
+    [
+      2997.5,
+      0,
+      100
+    ],
+    [
+      4067.5,
+      0,
+      170
+    ],
+    [
+      5332.0,
+      0,
+      170
+    ],
+    [
+      6080.0,
+      0,
+      225
+    ],
+    [
+      6731.0,
+      0,
+      155
+    ],
+    [
+      7655.0,
+      0,
+      205
+    ],
+    [
+      4390,
+      0,
+      195
+    ],
+    [
+      2570,
+      0,
+      140
+    ],
+    [
+      7310,
+      0,
+      245
+    ],
+    [
+      2770,
+      0,
+      140
+    ],
+    [
+      7510,
+      0,
+      245
+    ]
+  ],
+  "goal": [
+    7840,
+    0,
+    175
+  ],
+  "kill_zone": {
+    "center": [
+      3860,
+      0,
+      -450
+    ],
+    "extent": [
+      4260,
+      300,
+      50
+    ]
+  }
+}

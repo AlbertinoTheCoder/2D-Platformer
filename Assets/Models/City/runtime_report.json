@@ -1,0 +1,626 @@
+[
+  {
+    "level": 1,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "city_has_blender_facades_and_decay",
+        "passed": true
+      },
+      {
+        "name": "roofs_start_collapsed",
+        "passed": true
+      },
+      {
+        "name": "city_starts_unpowered",
+        "passed": true
+      },
+      {
+        "name": "ruined_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "completion_locks_player_during_repair",
+        "passed": true
+      },
+      {
+        "name": "menu_and_travel_wait_for_reveal",
+        "passed": true
+      },
+      {
+        "name": "city_repair_progresses_over_time",
+        "passed": true
+      },
+      {
+        "name": "camera_pulls_back_smoothly",
+        "passed": true
+      },
+      {
+        "name": "menu_remains_hidden_mid_animation",
+        "passed": true
+      },
+      {
+        "name": "repair_finishes_before_chooser",
+        "passed": true
+      },
+      {
+        "name": "roof_restored_upright",
+        "passed": true
+      },
+      {
+        "name": "rot_and_rubble_clear",
+        "passed": true
+      },
+      {
+        "name": "trees_bloom",
+        "passed": true
+      },
+      {
+        "name": "restored_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "camera_frames_the_whole_district",
+        "passed": true
+      },
+      {
+        "name": "rating_opens_after_reveal",
+        "passed": true
+      },
+      {
+        "name": "continue_opens_map_chooser",
+        "passed": true
+      },
+      {
+        "name": "only_next_district_unlocked",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "city_has_blender_facades_and_decay",
+        "passed": true
+      },
+      {
+        "name": "roofs_start_collapsed",
+        "passed": true
+      },
+      {
+        "name": "city_starts_unpowered",
+        "passed": true
+      },
+      {
+        "name": "ruined_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "completion_locks_player_during_repair",
+        "passed": true
+      },
+      {
+        "name": "menu_and_travel_wait_for_reveal",
+        "passed": true
+      },
+      {
+        "name": "city_repair_progresses_over_time",
+        "passed": true
+      },
+      {
+        "name": "camera_pulls_back_smoothly",
+        "passed": true
+      },
+      {
+        "name": "menu_remains_hidden_mid_animation",
+        "passed": true
+      },
+      {
+        "name": "repair_finishes_before_chooser",
+        "passed": true
+      },
+      {
+        "name": "roof_restored_upright",
+        "passed": true
+      },
+      {
+        "name": "rot_and_rubble_clear",
+        "passed": true
+      },
+      {
+        "name": "trees_bloom",
+        "passed": true
+      },
+      {
+        "name": "restored_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "camera_frames_the_whole_district",
+        "passed": true
+      },
+      {
+        "name": "rating_opens_after_reveal",
+        "passed": true
+      },
+      {
+        "name": "continue_opens_map_chooser",
+        "passed": true
+      },
+      {
+        "name": "only_next_district_unlocked",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "city_has_blender_facades_and_decay",
+        "passed": true
+      },
+      {
+        "name": "roofs_start_collapsed",
+        "passed": true
+      },
+      {
+        "name": "city_starts_unpowered",
+        "passed": true
+      },
+      {
+        "name": "ruined_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "completion_locks_player_during_repair",
+        "passed": true
+      },
+      {
+        "name": "menu_and_travel_wait_for_reveal",
+        "passed": true
+      },
+      {
+        "name": "city_repair_progresses_over_time",
+        "passed": true
+      },
+      {
+        "name": "camera_pulls_back_smoothly",
+        "passed": true
+      },
+      {
+        "name": "menu_remains_hidden_mid_animation",
+        "passed": true
+      },
+      {
+        "name": "repair_finishes_before_chooser",
+        "passed": true
+      },
+      {
+        "name": "roof_restored_upright",
+        "passed": true
+      },
+      {
+        "name": "rot_and_rubble_clear",
+        "passed": true
+      },
+      {
+        "name": "trees_bloom",
+        "passed": true
+      },
+      {
+        "name": "restored_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "camera_frames_the_whole_district",
+        "passed": true
+      },
+      {
+        "name": "rating_opens_after_reveal",
+        "passed": true
+      },
+      {
+        "name": "continue_opens_map_chooser",
+        "passed": true
+      },
+      {
+        "name": "only_next_district_unlocked",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "city_has_blender_facades_and_decay",
+        "passed": true
+      },
+      {
+        "name": "roofs_start_collapsed",
+        "passed": true
+      },
+      {
+        "name": "city_starts_unpowered",
+        "passed": true
+      },
+      {
+        "name": "ruined_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "completion_locks_player_during_repair",
+        "passed": true
+      },
+      {
+        "name": "menu_and_travel_wait_for_reveal",
+        "passed": true
+      },
+      {
+        "name": "city_repair_progresses_over_time",
+        "passed": true
+      },
+      {
+        "name": "camera_pulls_back_smoothly",
+        "passed": true
+      },
+      {
+        "name": "menu_remains_hidden_mid_animation",
+        "passed": true
+      },
+      {
+        "name": "repair_finishes_before_chooser",
+        "passed": true
+      },
+      {
+        "name": "roof_restored_upright",
+        "passed": true
+      },
+      {
+        "name": "rot_and_rubble_clear",
+        "passed": true
+      },
+      {
+        "name": "trees_bloom",
+        "passed": true
+      },
+      {
+        "name": "restored_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "camera_frames_the_whole_district",
+        "passed": true
+      },
+      {
+        "name": "rating_opens_after_reveal",
+        "passed": true
+      },
+      {
+        "name": "continue_opens_map_chooser",
+        "passed": true
+      },
+      {
+        "name": "only_next_district_unlocked",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "city_has_blender_facades_and_decay",
+        "passed": true
+      },
+      {
+        "name": "roofs_start_collapsed",
+        "passed": true
+      },
+      {
+        "name": "city_starts_unpowered",
+        "passed": true
+      },
+      {
+        "name": "ruined_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "completion_locks_player_during_repair",
+        "passed": true
+      },
+      {
+        "name": "menu_and_travel_wait_for_reveal",
+        "passed": true
+      },
+      {
+        "name": "city_repair_progresses_over_time",
+        "passed": true
+      },
+      {
+        "name": "camera_pulls_back_smoothly",
+        "passed": true
+      },
+      {
+        "name": "menu_remains_hidden_mid_animation",
+        "passed": true
+      },
+      {
+        "name": "repair_finishes_before_chooser",
+        "passed": true
+      },
+      {
+        "name": "roof_restored_upright",
+        "passed": true
+      },
+      {
+        "name": "rot_and_rubble_clear",
+        "passed": true
+      },
+      {
+        "name": "trees_bloom",
+        "passed": true
+      },
+      {
+        "name": "restored_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "camera_frames_the_whole_district",
+        "passed": true
+      },
+      {
+        "name": "rating_opens_after_reveal",
+        "passed": true
+      },
+      {
+        "name": "continue_opens_map_chooser",
+        "passed": true
+      },
+      {
+        "name": "only_next_district_unlocked",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "city_has_blender_facades_and_decay",
+        "passed": true
+      },
+      {
+        "name": "roofs_start_collapsed",
+        "passed": true
+      },
+      {
+        "name": "city_starts_unpowered",
+        "passed": true
+      },
+      {
+        "name": "ruined_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "completion_locks_player_during_repair",
+        "passed": true
+      },
+      {
+        "name": "menu_and_travel_wait_for_reveal",
+        "passed": true
+      },
+      {
+        "name": "city_repair_progresses_over_time",
+        "passed": true
+      },
+      {
+        "name": "camera_pulls_back_smoothly",
+        "passed": true
+      },
+      {
+        "name": "menu_remains_hidden_mid_animation",
+        "passed": true
+      },
+      {
+        "name": "repair_finishes_before_chooser",
+        "passed": true
+      },
+      {
+        "name": "roof_restored_upright",
+        "passed": true
+      },
+      {
+        "name": "rot_and_rubble_clear",
+        "passed": true
+      },
+      {
+        "name": "trees_bloom",
+        "passed": true
+      },
+      {
+        "name": "restored_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "camera_frames_the_whole_district",
+        "passed": true
+      },
+      {
+        "name": "rating_opens_after_reveal",
+        "passed": true
+      },
+      {
+        "name": "continue_opens_map_chooser",
+        "passed": true
+      },
+      {
+        "name": "only_next_district_unlocked",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "city_has_blender_facades_and_decay",
+        "passed": true
+      },
+      {
+        "name": "roofs_start_collapsed",
+        "passed": true
+      },
+      {
+        "name": "city_starts_unpowered",
+        "passed": true
+      },
+      {
+        "name": "ruined_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "completion_locks_player_during_repair",
+        "passed": true
+      },
+      {
+        "name": "menu_and_travel_wait_for_reveal",
+        "passed": true
+      },
+      {
+        "name": "city_repair_progresses_over_time",
+        "passed": true
+      },
+      {
+        "name": "camera_pulls_back_smoothly",
+        "passed": true
+      },
+      {
+        "name": "menu_remains_hidden_mid_animation",
+        "passed": true
+      },
+      {
+        "name": "repair_finishes_before_chooser",
+        "passed": true
+      },
+      {
+        "name": "roof_restored_upright",
+        "passed": true
+      },
+      {
+        "name": "rot_and_rubble_clear",
+        "passed": true
+      },
+      {
+        "name": "trees_bloom",
+        "passed": true
+      },
+      {
+        "name": "restored_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "camera_frames_the_whole_district",
+        "passed": true
+      },
+      {
+        "name": "rating_opens_after_reveal",
+        "passed": true
+      },
+      {
+        "name": "continue_opens_map_chooser",
+        "passed": true
+      },
+      {
+        "name": "only_next_district_unlocked",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 8,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "city_has_blender_facades_and_decay",
+        "passed": true
+      },
+      {
+        "name": "roofs_start_collapsed",
+        "passed": true
+      },
+      {
+        "name": "city_starts_unpowered",
+        "passed": true
+      },
+      {
+        "name": "ruined_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "completion_locks_player_during_repair",
+        "passed": true
+      },
+      {
+        "name": "menu_and_travel_wait_for_reveal",
+        "passed": true
+      },
+      {
+        "name": "city_repair_progresses_over_time",
+        "passed": true
+      },
+      {
+        "name": "camera_pulls_back_smoothly",
+        "passed": true
+      },
+      {
+        "name": "menu_remains_hidden_mid_animation",
+        "passed": true
+      },
+      {
+        "name": "repair_finishes_before_chooser",
+        "passed": true
+      },
+      {
+        "name": "roof_restored_upright",
+        "passed": true
+      },
+      {
+        "name": "rot_and_rubble_clear",
+        "passed": true
+      },
+      {
+        "name": "trees_bloom",
+        "passed": true
+      },
+      {
+        "name": "restored_buildings_and_trees_follow_existing_ground",
+        "passed": true
+      },
+      {
+        "name": "camera_frames_the_whole_district",
+        "passed": true
+      },
+      {
+        "name": "rating_opens_after_reveal",
+        "passed": true
+      },
+      {
+        "name": "continue_opens_map_chooser",
+        "passed": true
+      },
+      {
+        "name": "only_next_district_unlocked",
+        "passed": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,3654 @@
+{
+  "levels": [
+    {
+      "index": 1,
+      "name": "L_Platformer_Prototype",
+      "title": "Workshop 07",
+      "source": "platformer.json",
+      "difficulty_extension": {
+        "original_goal": [
+          7440,
+          0,
+          150
+        ],
+        "platforms": [
+          {
+            "id": "challenge_0",
+            "x": 7810,
+            "width": 680,
+            "top": 100
+          },
+          {
+            "id": "challenge_1",
+            "x": 8580,
+            "width": 680,
+            "top": 140
+          },
+          {
+            "id": "challenge_2",
+            "x": 9350,
+            "width": 680,
+            "top": 100
+          },
+          {
+            "id": "challenge_3",
+            "x": 10120,
+            "width": 680,
+            "top": 70
+          },
+          {
+            "id": "challenge_4",
+            "x": 10890,
+            "width": 680,
+            "top": 120
+          },
+          {
+            "id": "challenge_5",
+            "x": 11660,
+            "width": 680,
+            "top": 150
+          },
+          {
+            "id": "challenge_6",
+            "x": 12430,
+            "width": 680,
+            "top": 100
+          }
+        ],
+        "obstacles": [
+          {
+            "kind": "Wind",
+            "position": [
+              7765,
+              0,
+              200
+            ],
+            "phase_offset": 0.0,
+            "half_width": 150,
+            "direction": [
+              -1,
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "Wind",
+            "position": [
+              8535.0,
+              0,
+              280
+            ],
+            "phase_offset": 2.4,
+            "direction": [
+              0,
+              0,
+              -1
+            ],
+            "half_width": 90.0
+          },
+          {
+            "kind": "FallingSpikes",
+            "position": [
+              8920,
+              0,
+              140
+            ],
+            "phase_offset": 0.73,
+            "half_width": 150
+          },
+          {
+            "kind": "Ice",
+            "position": [
+              9690,
+              0,
+              100
+            ],
+            "phase_offset": 1.46,
+            "half_width": 150
+          },
+          {
+            "kind": "RisingSpikes",
+            "position": [
+              11230,
+              0,
+              120
+            ],
+            "phase_offset": 2.92,
+            "half_width": 150
+          },
+          {
+            "kind": "Hammer",
+            "position": [
+              12000,
+              0,
+              150
+            ],
+            "phase_offset": 3.65,
+            "half_width": 150
+          },
+          {
+            "kind": "Axe",
+            "position": [
+              12770,
+              0,
+              100
+            ],
+            "phase_offset": 4.38,
+            "half_width": 150
+          }
+        ],
+        "flyers": [
+          {
+            "position": [
+              10390,
+              0,
+              185
+            ],
+            "patrol_min_x": 10300,
+            "patrol_max_x": 10630,
+            "speed": 72,
+            "kind": "Flyer"
+          }
+        ],
+        "collectibles": [
+          [
+            8370,
+            0,
+            190
+          ],
+          [
+            9140,
+            0,
+            230
+          ],
+          [
+            9910,
+            0,
+            190
+          ],
+          [
+            10680,
+            0,
+            160
+          ],
+          [
+            11450,
+            0,
+            210
+          ],
+          [
+            12220,
+            0,
+            240
+          ],
+          [
+            12990,
+            0,
+            190
+          ]
+        ],
+        "checkpoint": [
+          10190,
+          0,
+          120
+        ],
+        "goal": [
+          13000,
+          0,
+          150
+        ],
+        "attempt_limits": [
+          8,
+          5,
+          3
+        ]
+      },
+      "goal": [
+        13000,
+        0,
+        150
+      ]
+    },
+    {
+      "index": 2,
+      "name": "L_02_Fonderia",
+      "title": "Foundry",
+      "spawn": [
+        100,
+        0,
+        100
+      ],
+      "platforms": [
+        {
+          "id": "start",
+          "x": 0,
+          "width": 900,
+          "top": 0
+        },
+        {
+          "id": "tutorial_step",
+          "x": 1120,
+          "width": 420,
+          "top": 70
+        },
+        {
+          "id": "tutorial_high",
+          "x": 1760,
+          "width": 400,
+          "top": 145
+        },
+        {
+          "id": "combat",
+          "x": 2320,
+          "width": 1020,
+          "top": 10
+        },
+        {
+          "id": "checkpoint",
+          "x": 3600,
+          "width": 620,
+          "top": 70
+        },
+        {
+          "id": "moving_exit",
+          "x": 4930,
+          "width": 520,
+          "top": 70
+        },
+        {
+          "id": "final_step",
+          "x": 5670,
+          "width": 330,
+          "top": 150
+        },
+        {
+          "id": "final_drop",
+          "x": 6260,
+          "width": 320,
+          "top": 50
+        },
+        {
+          "id": "goal",
+          "x": 6820,
+          "width": 900,
+          "top": 110
+        }
+      ],
+      "moving_platform": {
+        "id": "bridge",
+        "start": [
+          4390,
+          0,
+          90
+        ],
+        "end": [
+          4790,
+          0,
+          90
+        ],
+        "width": 200,
+        "speed": 150,
+        "wait_seconds": 0.4,
+        "loop": "ping_pong"
+      },
+      "enemies": [
+        {
+          "id": "enemy2_0",
+          "kind": "Scout",
+          "platform": 3,
+          "position": [
+            2760,
+            0,
+            37
+          ],
+          "patrol_min_x": 2705,
+          "patrol_max_x": 2815,
+          "speed": 106
+        },
+        {
+          "id": "enemy2_1",
+          "kind": "Charger",
+          "platform": 0,
+          "position": [
+            620,
+            0,
+            27
+          ],
+          "patrol_min_x": 565,
+          "patrol_max_x": 675,
+          "speed": 73
+        },
+        {
+          "id": "enemy2_2",
+          "kind": "Scout",
+          "platform": 8,
+          "position": [
+            7260,
+            0,
+            137
+          ],
+          "patrol_min_x": 7205,
+          "patrol_max_x": 7315,
+          "speed": 106
+        }
+      ],
+      "hazards": [
+        {
+          "id": "cable_0",
+          "position": [
+            2960,
+            0,
+            25
+          ],
+          "width": 100
+        },
+        {
+          "id": "cable_1",
+          "position": [
+            7030,
+            0,
+            125
+          ],
+          "width": 100
+        }
+      ],
+      "checkpoints": [
+        [
+          3900,
+          0,
+          120
+        ]
+      ],
+      "collectibles": [
+        [
+          495.00000000000006,
+          0,
+          80
+        ],
+        [
+          1351.0,
+          0,
+          150
+        ],
+        [
+          1980.0,
+          0,
+          225
+        ],
+        [
+          2881.0,
+          0,
+          90
+        ],
+        [
+          3941.0,
+          0,
+          150
+        ],
+        [
+          5216.0,
+          0,
+          150
+        ],
+        [
+          5851.5,
+          0,
+          230
+        ],
+        [
+          6436.0,
+          0,
+          130
+        ],
+        [
+          7315.0,
+          0,
+          190
+        ],
+        [
+          4390,
+          0,
+          195
+        ]
+      ],
+      "goal": [
+        13070,
+        0,
+        160
+      ],
+      "kill_zone": {
+        "center": [
+          3860,
+          0,
+          -450
+        ],
+        "extent": [
+          4260,
+          300,
+          50
+        ]
+      },
+      "difficulty_extension": {
+        "original_goal": [
+          7440,
+          0,
+          160
+        ],
+        "platforms": [
+          {
+            "id": "challenge_0",
+            "x": 7820,
+            "width": 680,
+            "top": 110
+          },
+          {
+            "id": "challenge_1",
+            "x": 8600,
+            "width": 680,
+            "top": 150
+          },
+          {
+            "id": "challenge_2",
+            "x": 9380,
+            "width": 680,
+            "top": 110
+          },
+          {
+            "id": "challenge_3",
+            "x": 10160,
+            "width": 680,
+            "top": 80
+          },
+          {
+            "id": "challenge_4",
+            "x": 10940,
+            "width": 680,
+            "top": 130
+          },
+          {
+            "id": "challenge_5",
+            "x": 11720,
+            "width": 680,
+            "top": 160
+          },
+          {
+            "id": "challenge_6",
+            "x": 12500,
+            "width": 680,
+            "top": 110
+          }
+        ],
+        "obstacles": [
+          {
+            "kind": "Wind",
+            "position": [
+              7775,
+              0,
+              210
+            ],
+            "phase_offset": 0.0,
+            "half_width": 150,
+            "direction": [
+              -1,
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "Wind",
+            "position": [
+              8550.0,
+              0,
+              290
+            ],
+            "phase_offset": 2.4,
+            "direction": [
+              0,
+              0,
+              -1
+            ],
+            "half_width": 95.0
+          },
+          {
+            "kind": "FallingSpikes",
+            "position": [
+              8940,
+              0,
+              150
+            ],
+            "phase_offset": 0.73,
+            "half_width": 150
+          },
+          {
+            "kind": "Ice",
+            "position": [
+              9720,
+              0,
+              110
+            ],
+            "phase_offset": 1.46,
+            "half_width": 150
+          },
+          {
+            "kind": "RisingSpikes",
+            "position": [
+              11280,
+              0,
+              130
+            ],
+            "phase_offset": 2.92,
+            "half_width": 150
+          },
+          {
+            "kind": "Hammer",
+            "position": [
+              12060,
+              0,
+              160
+            ],
+            "phase_offset": 3.65,
+            "half_width": 150
+          },
+          {
+            "kind": "Axe",
+            "position": [
+              12840,
+              0,
+              110
+            ],
+            "phase_offset": 4.38,
+            "half_width": 150
+          }
+        ],
+        "flyers": [
+          {
+            "position": [
+              10430,
+              0,
+              195
+            ],
+            "patrol_min_x": 10340,
+            "patrol_max_x": 10670,
+            "speed": 79,
+            "kind": "Flyer"
+          }
+        ],
+        "collectibles": [
+          [
+            8380,
+            0,
+            200
+          ],
+          [
+            9160,
+            0,
+            240
+          ],
+          [
+            9940,
+            0,
+            200
+          ],
+          [
+            10720,
+            0,
+            170
+          ],
+          [
+            11500,
+            0,
+            220
+          ],
+          [
+            12280,
+            0,
+            250
+          ],
+          [
+            13060,
+            0,
+            200
+          ]
+        ],
+        "checkpoint": [
+          10230,
+          0,
+          130
+        ],
+        "goal": [
+          13070,
+          0,
+          160
+        ],
+        "attempt_limits": [
+          8,
+          5,
+          3
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "name": "L_03_Condotte",
+      "title": "Pipeworks",
+      "spawn": [
+        100,
+        0,
+        100
+      ],
+      "platforms": [
+        {
+          "id": "start",
+          "x": 0,
+          "width": 900,
+          "top": 0
+        },
+        {
+          "id": "tutorial_step",
+          "x": 1120,
+          "width": 420,
+          "top": 60
+        },
+        {
+          "id": "tutorial_high",
+          "x": 1760,
+          "width": 420,
+          "top": 125
+        },
+        {
+          "id": "combat",
+          "x": 2400,
+          "width": 940,
+          "top": 20
+        },
+        {
+          "id": "checkpoint",
+          "x": 3560,
+          "width": 660,
+          "top": 80
+        },
+        {
+          "id": "moving_exit",
+          "x": 4920,
+          "width": 600,
+          "top": 80
+        },
+        {
+          "id": "final_step",
+          "x": 5740,
+          "width": 420,
+          "top": 125
+        },
+        {
+          "id": "final_drop",
+          "x": 6380,
+          "width": 420,
+          "top": 55
+        },
+        {
+          "id": "goal",
+          "x": 7020,
+          "width": 900,
+          "top": 100
+        }
+      ],
+      "moving_platform": {
+        "id": "bridge",
+        "start": [
+          4390,
+          0,
+          80
+        ],
+        "end": [
+          4790,
+          0,
+          80
+        ],
+        "width": 280,
+        "speed": 125,
+        "wait_seconds": 1.0,
+        "loop": "ping_pong"
+      },
+      "enemies": [
+        {
+          "id": "enemy3_0",
+          "kind": "Scout",
+          "platform": 3,
+          "position": [
+            3020,
+            0,
+            47
+          ],
+          "patrol_min_x": 2965,
+          "patrol_max_x": 3075,
+          "speed": 114
+        },
+        {
+          "id": "enemy3_1",
+          "kind": "Charger",
+          "platform": 0,
+          "position": [
+            620,
+            0,
+            27
+          ],
+          "patrol_min_x": 565,
+          "patrol_max_x": 675,
+          "speed": 77
+        },
+        {
+          "id": "enemy3_2",
+          "kind": "Sentinel",
+          "platform": 8,
+          "position": [
+            7610,
+            0,
+            127
+          ],
+          "patrol_min_x": 7555,
+          "patrol_max_x": 7665,
+          "speed": 45
+        },
+        {
+          "id": "enemy3_3",
+          "kind": "Scout",
+          "platform": 5,
+          "position": [
+            5255,
+            0,
+            107
+          ],
+          "patrol_min_x": 5200,
+          "patrol_max_x": 5310,
+          "speed": 114
+        }
+      ],
+      "hazards": [
+        {
+          "id": "cable_0",
+          "position": [
+            2820,
+            0,
+            35
+          ],
+          "width": 100
+        },
+        {
+          "id": "cable_1",
+          "position": [
+            3800,
+            0,
+            95
+          ],
+          "width": 100
+        },
+        {
+          "id": "cable_2",
+          "position": [
+            7270,
+            0,
+            115
+          ],
+          "width": 100
+        }
+      ],
+      "checkpoints": [
+        [
+          3900,
+          0,
+          130
+        ],
+        [
+          5100,
+          0,
+          130
+        ]
+      ],
+      "collectibles": [
+        [
+          495.00000000000006,
+          0,
+          80
+        ],
+        [
+          1351.0,
+          0,
+          140
+        ],
+        [
+          1991.0,
+          0,
+          205
+        ],
+        [
+          2917.0,
+          0,
+          100
+        ],
+        [
+          3923.0,
+          0,
+          160
+        ],
+        [
+          5250.0,
+          0,
+          160
+        ],
+        [
+          5971.0,
+          0,
+          205
+        ],
+        [
+          6611.0,
+          0,
+          135
+        ],
+        [
+          7515.0,
+          0,
+          180
+        ],
+        [
+          4390,
+          0,
+          195
+        ],
+        [
+          2550,
+          0,
+          140
+        ],
+        [
+          7170,
+          0,
+          220
+        ]
+      ],
+      "goal": [
+        13340,
+        0,
+        150
+      ],
+      "kill_zone": {
+        "center": [
+          3860,
+          0,
+          -450
+        ],
+        "extent": [
+          4260,
+          300,
+          50
+        ]
+      },
+      "difficulty_extension": {
+        "original_goal": [
+          7440,
+          0,
+          150
+        ],
+        "platforms": [
+          {
+            "id": "challenge_0",
+            "x": 8030,
+            "width": 680,
+            "top": 100
+          },
+          {
+            "id": "challenge_1",
+            "x": 8820,
+            "width": 680,
+            "top": 140
+          },
+          {
+            "id": "challenge_2",
+            "x": 9610,
+            "width": 680,
+            "top": 100
+          },
+          {
+            "id": "challenge_3",
+            "x": 10400,
+            "width": 680,
+            "top": 70
+          },
+          {
+            "id": "challenge_4",
+            "x": 11190,
+            "width": 680,
+            "top": 120
+          },
+          {
+            "id": "challenge_5",
+            "x": 11980,
+            "width": 680,
+            "top": 150
+          },
+          {
+            "id": "challenge_6",
+            "x": 12770,
+            "width": 680,
+            "top": 100
+          }
+        ],
+        "obstacles": [
+          {
+            "kind": "Wind",
+            "position": [
+              7985,
+              0,
+              200
+            ],
+            "phase_offset": 0.0,
+            "half_width": 150,
+            "direction": [
+              -1,
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "Wind",
+            "position": [
+              8765.0,
+              0,
+              280
+            ],
+            "phase_offset": 2.4,
+            "direction": [
+              0,
+              0,
+              -1
+            ],
+            "half_width": 100.0
+          },
+          {
+            "kind": "FallingSpikes",
+            "position": [
+              9160,
+              0,
+              140
+            ],
+            "phase_offset": 0.73,
+            "half_width": 150
+          },
+          {
+            "kind": "Ice",
+            "position": [
+              9950,
+              0,
+              100
+            ],
+            "phase_offset": 1.46,
+            "half_width": 150
+          },
+          {
+            "kind": "RisingSpikes",
+            "position": [
+              11530,
+              0,
+              120
+            ],
+            "phase_offset": 2.92,
+            "half_width": 150
+          },
+          {
+            "kind": "Hammer",
+            "position": [
+              12320,
+              0,
+              150
+            ],
+            "phase_offset": 3.65,
+            "half_width": 150
+          },
+          {
+            "kind": "Axe",
+            "position": [
+              13110,
+              0,
+              100
+            ],
+            "phase_offset": 4.38,
+            "half_width": 150
+          }
+        ],
+        "flyers": [
+          {
+            "position": [
+              10670,
+              0,
+              185
+            ],
+            "patrol_min_x": 10580,
+            "patrol_max_x": 10910,
+            "speed": 86,
+            "kind": "Flyer"
+          }
+        ],
+        "collectibles": [
+          [
+            8590,
+            0,
+            190
+          ],
+          [
+            9380,
+            0,
+            230
+          ],
+          [
+            10170,
+            0,
+            190
+          ],
+          [
+            10960,
+            0,
+            160
+          ],
+          [
+            11750,
+            0,
+            210
+          ],
+          [
+            12540,
+            0,
+            240
+          ],
+          [
+            13330,
+            0,
+            190
+          ]
+        ],
+        "checkpoint": [
+          10470,
+          0,
+          120
+        ],
+        "goal": [
+          13340,
+          0,
+          150
+        ],
+        "attempt_limits": [
+          8,
+          5,
+          3
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "name": "L_04_Torre",
+      "title": "Central Tower",
+      "spawn": [
+        100,
+        0,
+        100
+      ],
+      "platforms": [
+        {
+          "id": "start",
+          "x": 0,
+          "width": 900,
+          "top": 0
+        },
+        {
+          "id": "tutorial_step",
+          "x": 1140,
+          "width": 400,
+          "top": 70
+        },
+        {
+          "id": "tutorial_high",
+          "x": 1780,
+          "width": 400,
+          "top": 130
+        },
+        {
+          "id": "combat",
+          "x": 2420,
+          "width": 1050,
+          "top": 20
+        },
+        {
+          "id": "checkpoint",
+          "x": 3710,
+          "width": 650,
+          "top": 90
+        },
+        {
+          "id": "moving_exit",
+          "x": 4980,
+          "width": 640,
+          "top": 90
+        },
+        {
+          "id": "final_step",
+          "x": 5860,
+          "width": 400,
+          "top": 145
+        },
+        {
+          "id": "final_drop",
+          "x": 6500,
+          "width": 420,
+          "top": 75
+        },
+        {
+          "id": "goal",
+          "x": 7160,
+          "width": 900,
+          "top": 125
+        }
+      ],
+      "moving_platform": {
+        "id": "bridge",
+        "start": [
+          4390,
+          0,
+          90
+        ],
+        "end": [
+          4790,
+          0,
+          90
+        ],
+        "width": 300,
+        "speed": 145,
+        "wait_seconds": 1.0,
+        "loop": "ping_pong"
+      },
+      "enemies": [
+        {
+          "id": "enemy4_0",
+          "kind": "Scout",
+          "platform": 3,
+          "position": [
+            2995,
+            0,
+            47
+          ],
+          "patrol_min_x": 2940,
+          "patrol_max_x": 3050,
+          "speed": 122
+        },
+        {
+          "id": "enemy4_1",
+          "kind": "Charger",
+          "platform": 0,
+          "position": [
+            710,
+            0,
+            27
+          ],
+          "patrol_min_x": 655,
+          "patrol_max_x": 765,
+          "speed": 81
+        },
+        {
+          "id": "enemy4_2",
+          "kind": "Sentinel",
+          "platform": 8,
+          "position": [
+            7450,
+            0,
+            152
+          ],
+          "patrol_min_x": 7395,
+          "patrol_max_x": 7505,
+          "speed": 45
+        },
+        {
+          "id": "enemy4_3",
+          "kind": "Scout",
+          "platform": 5,
+          "position": [
+            5330,
+            0,
+            117
+          ],
+          "patrol_min_x": 5275,
+          "patrol_max_x": 5385,
+          "speed": 122
+        },
+        {
+          "id": "enemy4_4",
+          "kind": "Scout",
+          "platform": 7,
+          "position": [
+            6730,
+            0,
+            102
+          ],
+          "patrol_min_x": 6675,
+          "patrol_max_x": 6785,
+          "speed": 122
+        }
+      ],
+      "hazards": [
+        {
+          "id": "cable_0",
+          "position": [
+            500,
+            0,
+            15
+          ],
+          "width": 80
+        },
+        {
+          "id": "cable_1",
+          "position": [
+            3200,
+            0,
+            35
+          ],
+          "width": 80
+        },
+        {
+          "id": "cable_2",
+          "position": [
+            3970,
+            0,
+            105
+          ],
+          "width": 80
+        },
+        {
+          "id": "cable_3",
+          "position": [
+            7650,
+            0,
+            140
+          ],
+          "width": 80
+        }
+      ],
+      "checkpoints": [
+        [
+          4250,
+          0,
+          140
+        ],
+        [
+          5090,
+          0,
+          140
+        ],
+        [
+          7260,
+          0,
+          175
+        ]
+      ],
+      "collectibles": [
+        [
+          495.00000000000006,
+          0,
+          80
+        ],
+        [
+          1360.0,
+          0,
+          150
+        ],
+        [
+          2000.0,
+          0,
+          210
+        ],
+        [
+          2997.5,
+          0,
+          100
+        ],
+        [
+          4067.5,
+          0,
+          170
+        ],
+        [
+          5332.0,
+          0,
+          170
+        ],
+        [
+          6080.0,
+          0,
+          225
+        ],
+        [
+          6731.0,
+          0,
+          155
+        ],
+        [
+          7655.0,
+          0,
+          205
+        ],
+        [
+          4390,
+          0,
+          195
+        ],
+        [
+          2570,
+          0,
+          140
+        ],
+        [
+          7310,
+          0,
+          245
+        ],
+        [
+          2770,
+          0,
+          140
+        ],
+        [
+          7510,
+          0,
+          245
+        ]
+      ],
+      "goal": [
+        13550,
+        0,
+        175
+      ],
+      "kill_zone": {
+        "center": [
+          3860,
+          0,
+          -450
+        ],
+        "extent": [
+          4260,
+          300,
+          50
+        ]
+      },
+      "difficulty_extension": {
+        "original_goal": [
+          7840,
+          0,
+          175
+        ],
+        "platforms": [
+          {
+            "id": "challenge_0",
+            "x": 8180,
+            "width": 680,
+            "top": 125
+          },
+          {
+            "id": "challenge_1",
+            "x": 8980,
+            "width": 680,
+            "top": 165
+          },
+          {
+            "id": "challenge_2",
+            "x": 9780,
+            "width": 680,
+            "top": 125
+          },
+          {
+            "id": "challenge_3",
+            "x": 10580,
+            "width": 680,
+            "top": 95
+          },
+          {
+            "id": "challenge_4",
+            "x": 11380,
+            "width": 680,
+            "top": 145
+          },
+          {
+            "id": "challenge_5",
+            "x": 12180,
+            "width": 680,
+            "top": 175
+          },
+          {
+            "id": "challenge_6",
+            "x": 12980,
+            "width": 680,
+            "top": 125
+          }
+        ],
+        "obstacles": [
+          {
+            "kind": "Wind",
+            "position": [
+              8135,
+              0,
+              225
+            ],
+            "phase_offset": 0.0,
+            "half_width": 150,
+            "direction": [
+              -1,
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "Wind",
+            "position": [
+              8920.0,
+              0,
+              305
+            ],
+            "phase_offset": 2.4,
+            "direction": [
+              0,
+              0,
+              -1
+            ],
+            "half_width": 105.0
+          },
+          {
+            "kind": "FallingSpikes",
+            "position": [
+              9320,
+              0,
+              165
+            ],
+            "phase_offset": 0.73,
+            "half_width": 150
+          },
+          {
+            "kind": "Ice",
+            "position": [
+              10120,
+              0,
+              125
+            ],
+            "phase_offset": 1.46,
+            "half_width": 150
+          },
+          {
+            "kind": "RisingSpikes",
+            "position": [
+              11720,
+              0,
+              145
+            ],
+            "phase_offset": 2.92,
+            "half_width": 150
+          },
+          {
+            "kind": "Hammer",
+            "position": [
+              12520,
+              0,
+              175
+            ],
+            "phase_offset": 3.65,
+            "half_width": 150
+          },
+          {
+            "kind": "Axe",
+            "position": [
+              13320,
+              0,
+              125
+            ],
+            "phase_offset": 4.38,
+            "half_width": 150
+          }
+        ],
+        "flyers": [
+          {
+            "position": [
+              10850,
+              0,
+              210
+            ],
+            "patrol_min_x": 10760,
+            "patrol_max_x": 11090,
+            "speed": 93,
+            "kind": "Flyer"
+          },
+          {
+            "position": [
+              11030,
+              0,
+              210
+            ],
+            "patrol_min_x": 10760,
+            "patrol_max_x": 11090,
+            "speed": 93,
+            "kind": "SurveyFlyer"
+          }
+        ],
+        "collectibles": [
+          [
+            8740,
+            0,
+            215
+          ],
+          [
+            9540,
+            0,
+            255
+          ],
+          [
+            10340,
+            0,
+            215
+          ],
+          [
+            11140,
+            0,
+            185
+          ],
+          [
+            11940,
+            0,
+            235
+          ],
+          [
+            12740,
+            0,
+            265
+          ],
+          [
+            13540,
+            0,
+            215
+          ]
+        ],
+        "checkpoint": [
+          10650,
+          0,
+          145
+        ],
+        "goal": [
+          13550,
+          0,
+          175
+        ],
+        "attempt_limits": [
+          8,
+          5,
+          3
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "name": "L_05_Cryo",
+      "title": "Cryo Labs",
+      "spawn": [
+        100,
+        0,
+        100
+      ],
+      "platforms": [
+        {
+          "id": "exp5_0",
+          "x": 0,
+          "width": 900,
+          "top": 0
+        },
+        {
+          "id": "exp5_1",
+          "x": 1120,
+          "width": 440,
+          "top": 55
+        },
+        {
+          "id": "exp5_2",
+          "x": 1780,
+          "width": 600,
+          "top": 105
+        },
+        {
+          "id": "exp5_3",
+          "x": 2600,
+          "width": 460,
+          "top": 40
+        },
+        {
+          "id": "exp5_4",
+          "x": 3280,
+          "width": 800,
+          "top": 90
+        },
+        {
+          "id": "exp5_5",
+          "x": 4700,
+          "width": 720,
+          "top": 90
+        },
+        {
+          "id": "exp5_6",
+          "x": 5640,
+          "width": 460,
+          "top": 150
+        },
+        {
+          "id": "exp5_7",
+          "x": 6320,
+          "width": 620,
+          "top": 95
+        },
+        {
+          "id": "exp5_8",
+          "x": 7160,
+          "width": 460,
+          "top": 155
+        },
+        {
+          "id": "exp5_9",
+          "x": 7840,
+          "width": 950,
+          "top": 100
+        }
+      ],
+      "moving_platform": {
+        "id": "bridge",
+        "start": [
+          4230,
+          0,
+          90
+        ],
+        "end": [
+          4550,
+          0,
+          90
+        ],
+        "width": 320,
+        "speed": 145,
+        "wait_seconds": 1.1,
+        "loop": "ping_pong"
+      },
+      "enemies": [
+        {
+          "id": "enemy5_0",
+          "kind": "Scout",
+          "platform": 3,
+          "position": [
+            2860,
+            0,
+            67
+          ],
+          "patrol_min_x": 2805,
+          "patrol_max_x": 2915,
+          "speed": 130
+        },
+        {
+          "id": "enemy5_1",
+          "kind": "Charger",
+          "platform": 9,
+          "position": [
+            8055,
+            0,
+            127
+          ],
+          "patrol_min_x": 8000,
+          "patrol_max_x": 8110,
+          "speed": 85
+        },
+        {
+          "id": "enemy5_2",
+          "kind": "Sentinel",
+          "platform": 5,
+          "position": [
+            5095,
+            0,
+            117
+          ],
+          "patrol_min_x": 5040,
+          "patrol_max_x": 5150,
+          "speed": 45
+        },
+        {
+          "id": "enemy5_3",
+          "kind": "Scout",
+          "platform": 7,
+          "position": [
+            6655,
+            0,
+            122
+          ],
+          "patrol_min_x": 6600,
+          "patrol_max_x": 6710,
+          "speed": 130
+        },
+        {
+          "id": "enemy5_4",
+          "kind": "Charger",
+          "platform": 2,
+          "position": [
+            2115,
+            0,
+            132
+          ],
+          "patrol_min_x": 2060,
+          "patrol_max_x": 2170,
+          "speed": 85
+        }
+      ],
+      "hazards": [
+        {
+          "id": "exp5_cable0",
+          "position": [
+            540.0,
+            0,
+            15
+          ],
+          "width": 65
+        },
+        {
+          "id": "exp5_cable4",
+          "position": [
+            3760.0,
+            0,
+            105
+          ],
+          "width": 65
+        },
+        {
+          "id": "exp5_cable9",
+          "position": [
+            8410.0,
+            0,
+            115
+          ],
+          "width": 65
+        }
+      ],
+      "checkpoints": [
+        [
+          3360,
+          0,
+          140
+        ],
+        [
+          5720,
+          0,
+          200
+        ],
+        [
+          7240,
+          0,
+          205
+        ]
+      ],
+      "collectibles": [
+        [
+          270.0,
+          0,
+          80
+        ],
+        [
+          1252.0,
+          0,
+          135
+        ],
+        [
+          1960.0,
+          0,
+          185
+        ],
+        [
+          2738.0,
+          0,
+          120
+        ],
+        [
+          3520.0,
+          0,
+          170
+        ],
+        [
+          4916.0,
+          0,
+          170
+        ],
+        [
+          5778.0,
+          0,
+          230
+        ],
+        [
+          6506.0,
+          0,
+          175
+        ],
+        [
+          7298.0,
+          0,
+          235
+        ],
+        [
+          8125.0,
+          0,
+          180
+        ],
+        [
+          4230,
+          0,
+          180
+        ],
+        [
+          4550,
+          0,
+          180
+        ]
+      ],
+      "goal": [
+        14350,
+        0,
+        150
+      ],
+      "kill_zone": {
+        "center": [
+          4505.0,
+          0,
+          -450
+        ],
+        "extent": [
+          5105.0,
+          400,
+          100
+        ]
+      },
+      "difficulty_extension": {
+        "original_goal": [
+          8690,
+          0,
+          150
+        ],
+        "platforms": [
+          {
+            "id": "challenge_0",
+            "x": 8920,
+            "width": 680,
+            "top": 100
+          },
+          {
+            "id": "challenge_1",
+            "x": 9730,
+            "width": 680,
+            "top": 140
+          },
+          {
+            "id": "challenge_2",
+            "x": 10540,
+            "width": 680,
+            "top": 100
+          },
+          {
+            "id": "challenge_3",
+            "x": 11350,
+            "width": 680,
+            "top": 70
+          },
+          {
+            "id": "challenge_4",
+            "x": 12160,
+            "width": 680,
+            "top": 120
+          },
+          {
+            "id": "challenge_5",
+            "x": 12970,
+            "width": 680,
+            "top": 150
+          },
+          {
+            "id": "challenge_6",
+            "x": 13780,
+            "width": 680,
+            "top": 100
+          }
+        ],
+        "obstacles": [
+          {
+            "kind": "Wind",
+            "position": [
+              8875,
+              0,
+              200
+            ],
+            "phase_offset": 0.0,
+            "half_width": 150,
+            "direction": [
+              -1,
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "Wind",
+            "position": [
+              9665.0,
+              0,
+              280
+            ],
+            "phase_offset": 2.4,
+            "direction": [
+              0,
+              0,
+              -1
+            ],
+            "half_width": 110.0
+          },
+          {
+            "kind": "FallingSpikes",
+            "position": [
+              10070,
+              0,
+              140
+            ],
+            "phase_offset": 0.73,
+            "half_width": 150
+          },
+          {
+            "kind": "Ice",
+            "position": [
+              10880,
+              0,
+              100
+            ],
+            "phase_offset": 1.46,
+            "half_width": 150
+          },
+          {
+            "kind": "RisingSpikes",
+            "position": [
+              12500,
+              0,
+              120
+            ],
+            "phase_offset": 2.92,
+            "half_width": 150
+          },
+          {
+            "kind": "Hammer",
+            "position": [
+              13310,
+              0,
+              150
+            ],
+            "phase_offset": 3.65,
+            "half_width": 150
+          },
+          {
+            "kind": "Axe",
+            "position": [
+              14120,
+              0,
+              100
+            ],
+            "phase_offset": 4.38,
+            "half_width": 150
+          }
+        ],
+        "flyers": [
+          {
+            "position": [
+              11620,
+              0,
+              185
+            ],
+            "patrol_min_x": 11530,
+            "patrol_max_x": 11860,
+            "speed": 100,
+            "kind": "Flyer"
+          },
+          {
+            "position": [
+              11800,
+              0,
+              185
+            ],
+            "patrol_min_x": 11530,
+            "patrol_max_x": 11860,
+            "speed": 100,
+            "kind": "SurveyFlyer"
+          }
+        ],
+        "collectibles": [
+          [
+            9480,
+            0,
+            190
+          ],
+          [
+            10290,
+            0,
+            230
+          ],
+          [
+            11100,
+            0,
+            190
+          ],
+          [
+            11910,
+            0,
+            160
+          ],
+          [
+            12720,
+            0,
+            210
+          ],
+          [
+            13530,
+            0,
+            240
+          ],
+          [
+            14340,
+            0,
+            190
+          ]
+        ],
+        "checkpoint": [
+          11420,
+          0,
+          120
+        ],
+        "goal": [
+          14350,
+          0,
+          150
+        ],
+        "attempt_limits": [
+          8,
+          5,
+          3
+        ]
+      }
+    },
+    {
+      "index": 6,
+      "name": "L_06_Scrap",
+      "title": "Scrap Yards",
+      "spawn": [
+        100,
+        0,
+        100
+      ],
+      "platforms": [
+        {
+          "id": "exp6_0",
+          "x": 0,
+          "width": 1000,
+          "top": 0
+        },
+        {
+          "id": "exp6_1",
+          "x": 1230,
+          "width": 600,
+          "top": 65
+        },
+        {
+          "id": "exp6_2",
+          "x": 2060,
+          "width": 440,
+          "top": 125
+        },
+        {
+          "id": "exp6_3",
+          "x": 2730,
+          "width": 620,
+          "top": 60
+        },
+        {
+          "id": "exp6_4",
+          "x": 3580,
+          "width": 760,
+          "top": 110
+        },
+        {
+          "id": "exp6_5",
+          "x": 4960,
+          "width": 680,
+          "top": 110
+        },
+        {
+          "id": "exp6_6",
+          "x": 5870,
+          "width": 460,
+          "top": 170
+        },
+        {
+          "id": "exp6_7",
+          "x": 6560,
+          "width": 540,
+          "top": 100
+        },
+        {
+          "id": "exp6_8",
+          "x": 7330,
+          "width": 440,
+          "top": 40
+        },
+        {
+          "id": "exp6_9",
+          "x": 8000,
+          "width": 620,
+          "top": 105
+        },
+        {
+          "id": "exp6_10",
+          "x": 8850,
+          "width": 900,
+          "top": 140
+        }
+      ],
+      "moving_platform": {
+        "id": "bridge",
+        "start": [
+          4490,
+          0,
+          110
+        ],
+        "end": [
+          4810,
+          0,
+          110
+        ],
+        "width": 320,
+        "speed": 150,
+        "wait_seconds": 1.1,
+        "loop": "ping_pong"
+      },
+      "enemies": [
+        {
+          "id": "enemy6_0",
+          "kind": "Scout",
+          "platform": 3,
+          "position": [
+            3065,
+            0,
+            87
+          ],
+          "patrol_min_x": 3010,
+          "patrol_max_x": 3120,
+          "speed": 138
+        },
+        {
+          "id": "enemy6_1",
+          "kind": "Charger",
+          "platform": 10,
+          "position": [
+            9035,
+            0,
+            167
+          ],
+          "patrol_min_x": 8980,
+          "patrol_max_x": 9090,
+          "speed": 89
+        },
+        {
+          "id": "enemy6_2",
+          "kind": "Sentinel",
+          "platform": 5,
+          "position": [
+            5340,
+            0,
+            137
+          ],
+          "patrol_min_x": 5285,
+          "patrol_max_x": 5395,
+          "speed": 45
+        },
+        {
+          "id": "enemy6_3",
+          "kind": "Scout",
+          "platform": 9,
+          "position": [
+            8335,
+            0,
+            132
+          ],
+          "patrol_min_x": 8280,
+          "patrol_max_x": 8390,
+          "speed": 138
+        },
+        {
+          "id": "enemy6_4",
+          "kind": "Charger",
+          "platform": 1,
+          "position": [
+            1565,
+            0,
+            92
+          ],
+          "patrol_min_x": 1510,
+          "patrol_max_x": 1620,
+          "speed": 89
+        }
+      ],
+      "hazards": [
+        {
+          "id": "exp6_cable0",
+          "position": [
+            600.0,
+            0,
+            15
+          ],
+          "width": 65
+        },
+        {
+          "id": "exp6_cable4",
+          "position": [
+            4036.0,
+            0,
+            125
+          ],
+          "width": 65
+        },
+        {
+          "id": "exp6_cable10",
+          "position": [
+            9390.0,
+            0,
+            155
+          ],
+          "width": 65
+        }
+      ],
+      "checkpoints": [
+        [
+          3660,
+          0,
+          160
+        ],
+        [
+          5950,
+          0,
+          220
+        ],
+        [
+          8080,
+          0,
+          155
+        ]
+      ],
+      "collectibles": [
+        [
+          300.0,
+          0,
+          80
+        ],
+        [
+          1410.0,
+          0,
+          145
+        ],
+        [
+          2192.0,
+          0,
+          205
+        ],
+        [
+          2916.0,
+          0,
+          140
+        ],
+        [
+          3808.0,
+          0,
+          190
+        ],
+        [
+          5164.0,
+          0,
+          190
+        ],
+        [
+          6008.0,
+          0,
+          250
+        ],
+        [
+          6722.0,
+          0,
+          180
+        ],
+        [
+          7462.0,
+          0,
+          120
+        ],
+        [
+          8186.0,
+          0,
+          185
+        ],
+        [
+          9120.0,
+          0,
+          220
+        ],
+        [
+          4490,
+          0,
+          200
+        ],
+        [
+          4810,
+          0,
+          200
+        ]
+      ],
+      "goal": [
+        15380,
+        0,
+        190
+      ],
+      "kill_zone": {
+        "center": [
+          4990.0,
+          0,
+          -450
+        ],
+        "extent": [
+          5590.0,
+          400,
+          100
+        ]
+      },
+      "difficulty_extension": {
+        "original_goal": [
+          9650,
+          0,
+          190
+        ],
+        "platforms": [
+          {
+            "id": "challenge_0",
+            "x": 9890,
+            "width": 680,
+            "top": 140
+          },
+          {
+            "id": "challenge_1",
+            "x": 10710,
+            "width": 680,
+            "top": 180
+          },
+          {
+            "id": "challenge_2",
+            "x": 11530,
+            "width": 680,
+            "top": 140
+          },
+          {
+            "id": "challenge_3",
+            "x": 12350,
+            "width": 680,
+            "top": 110
+          },
+          {
+            "id": "challenge_4",
+            "x": 13170,
+            "width": 680,
+            "top": 160
+          },
+          {
+            "id": "challenge_5",
+            "x": 13990,
+            "width": 680,
+            "top": 190
+          },
+          {
+            "id": "challenge_6",
+            "x": 14810,
+            "width": 680,
+            "top": 140
+          }
+        ],
+        "obstacles": [
+          {
+            "kind": "Wind",
+            "position": [
+              9845,
+              0,
+              240
+            ],
+            "phase_offset": 0.0,
+            "half_width": 150,
+            "direction": [
+              -1,
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "Wind",
+            "position": [
+              10640.0,
+              0,
+              320
+            ],
+            "phase_offset": 2.4,
+            "direction": [
+              0,
+              0,
+              -1
+            ],
+            "half_width": 115.0
+          },
+          {
+            "kind": "FallingSpikes",
+            "position": [
+              11050,
+              0,
+              180
+            ],
+            "phase_offset": 0.73,
+            "half_width": 150
+          },
+          {
+            "kind": "Ice",
+            "position": [
+              11870,
+              0,
+              140
+            ],
+            "phase_offset": 1.46,
+            "half_width": 150
+          },
+          {
+            "kind": "RisingSpikes",
+            "position": [
+              13510,
+              0,
+              160
+            ],
+            "phase_offset": 2.92,
+            "half_width": 150
+          },
+          {
+            "kind": "Hammer",
+            "position": [
+              14330,
+              0,
+              190
+            ],
+            "phase_offset": 3.65,
+            "half_width": 150
+          },
+          {
+            "kind": "Axe",
+            "position": [
+              15150,
+              0,
+              140
+            ],
+            "phase_offset": 4.38,
+            "half_width": 150
+          }
+        ],
+        "flyers": [
+          {
+            "position": [
+              12620,
+              0,
+              225
+            ],
+            "patrol_min_x": 12530,
+            "patrol_max_x": 12860,
+            "speed": 107,
+            "kind": "Flyer"
+          },
+          {
+            "position": [
+              12800,
+              0,
+              225
+            ],
+            "patrol_min_x": 12530,
+            "patrol_max_x": 12860,
+            "speed": 107,
+            "kind": "SurveyFlyer"
+          }
+        ],
+        "collectibles": [
+          [
+            10450,
+            0,
+            230
+          ],
+          [
+            11270,
+            0,
+            270
+          ],
+          [
+            12090,
+            0,
+            230
+          ],
+          [
+            12910,
+            0,
+            200
+          ],
+          [
+            13730,
+            0,
+            250
+          ],
+          [
+            14550,
+            0,
+            280
+          ],
+          [
+            15370,
+            0,
+            230
+          ]
+        ],
+        "checkpoint": [
+          12420,
+          0,
+          160
+        ],
+        "goal": [
+          15380,
+          0,
+          190
+        ],
+        "attempt_limits": [
+          8,
+          5,
+          3
+        ]
+      }
+    },
+    {
+      "index": 7,
+      "name": "L_07_Solar",
+      "title": "Solar Works",
+      "spawn": [
+        100,
+        0,
+        100
+      ],
+      "platforms": [
+        {
+          "id": "exp7_0",
+          "x": 0,
+          "width": 1000,
+          "top": 0
+        },
+        {
+          "id": "exp7_1",
+          "x": 1240,
+          "width": 460,
+          "top": 75
+        },
+        {
+          "id": "exp7_2",
+          "x": 1940,
+          "width": 520,
+          "top": 145
+        },
+        {
+          "id": "exp7_3",
+          "x": 2700,
+          "width": 440,
+          "top": 80
+        },
+        {
+          "id": "exp7_4",
+          "x": 3380,
+          "width": 780,
+          "top": 135
+        },
+        {
+          "id": "exp7_5",
+          "x": 4780,
+          "width": 720,
+          "top": 135
+        },
+        {
+          "id": "exp7_6",
+          "x": 5740,
+          "width": 460,
+          "top": 70
+        },
+        {
+          "id": "exp7_7",
+          "x": 6440,
+          "width": 500,
+          "top": 140
+        },
+        {
+          "id": "exp7_8",
+          "x": 7180,
+          "width": 440,
+          "top": 75
+        },
+        {
+          "id": "exp7_9",
+          "x": 7860,
+          "width": 540,
+          "top": 145
+        },
+        {
+          "id": "exp7_10",
+          "x": 8640,
+          "width": 440,
+          "top": 90
+        },
+        {
+          "id": "exp7_11",
+          "x": 9320,
+          "width": 950,
+          "top": 150
+        }
+      ],
+      "moving_platform": {
+        "id": "bridge",
+        "start": [
+          4310,
+          0,
+          135
+        ],
+        "end": [
+          4630,
+          0,
+          135
+        ],
+        "width": 320,
+        "speed": 155,
+        "wait_seconds": 1.1,
+        "loop": "ping_pong"
+      },
+      "enemies": [
+        {
+          "id": "enemy7_0",
+          "kind": "Scout",
+          "platform": 3,
+          "position": [
+            2945,
+            0,
+            107
+          ],
+          "patrol_min_x": 2890,
+          "patrol_max_x": 3000,
+          "speed": 138
+        },
+        {
+          "id": "enemy7_1",
+          "kind": "Charger",
+          "platform": 11,
+          "position": [
+            9535,
+            0,
+            177
+          ],
+          "patrol_min_x": 9480,
+          "patrol_max_x": 9590,
+          "speed": 93
+        },
+        {
+          "id": "enemy7_2",
+          "kind": "Sentinel",
+          "platform": 5,
+          "position": [
+            5175,
+            0,
+            162
+          ],
+          "patrol_min_x": 5120,
+          "patrol_max_x": 5230,
+          "speed": 45
+        },
+        {
+          "id": "enemy7_3",
+          "kind": "Scout",
+          "platform": 9,
+          "position": [
+            8150,
+            0,
+            172
+          ],
+          "patrol_min_x": 8095,
+          "patrol_max_x": 8205,
+          "speed": 138
+        },
+        {
+          "id": "enemy7_4",
+          "kind": "Charger",
+          "platform": 2,
+          "position": [
+            2230,
+            0,
+            172
+          ],
+          "patrol_min_x": 2175,
+          "patrol_max_x": 2285,
+          "speed": 93
+        },
+        {
+          "id": "enemy7_5",
+          "kind": "Scout",
+          "platform": 7,
+          "position": [
+            6715,
+            0,
+            167
+          ],
+          "patrol_min_x": 6660,
+          "patrol_max_x": 6770,
+          "speed": 138
+        }
+      ],
+      "hazards": [
+        {
+          "id": "exp7_cable0",
+          "position": [
+            600.0,
+            0,
+            15
+          ],
+          "width": 65
+        },
+        {
+          "id": "exp7_cable4",
+          "position": [
+            3848.0,
+            0,
+            150
+          ],
+          "width": 65
+        },
+        {
+          "id": "exp7_cable11",
+          "position": [
+            9890.0,
+            0,
+            165
+          ],
+          "width": 65
+        }
+      ],
+      "checkpoints": [
+        [
+          3460,
+          0,
+          185
+        ],
+        [
+          5820,
+          0,
+          120
+        ],
+        [
+          8720,
+          0,
+          140
+        ]
+      ],
+      "collectibles": [
+        [
+          300.0,
+          0,
+          80
+        ],
+        [
+          1378.0,
+          0,
+          155
+        ],
+        [
+          2096.0,
+          0,
+          225
+        ],
+        [
+          2832.0,
+          0,
+          160
+        ],
+        [
+          3614.0,
+          0,
+          215
+        ],
+        [
+          4996.0,
+          0,
+          215
+        ],
+        [
+          5878.0,
+          0,
+          150
+        ],
+        [
+          6590.0,
+          0,
+          220
+        ],
+        [
+          7312.0,
+          0,
+          155
+        ],
+        [
+          8022.0,
+          0,
+          225
+        ],
+        [
+          8772.0,
+          0,
+          170
+        ],
+        [
+          9605.0,
+          0,
+          230
+        ],
+        [
+          4310,
+          0,
+          225
+        ],
+        [
+          4630,
+          0,
+          225
+        ]
+      ],
+      "goal": [
+        15900,
+        0,
+        200
+      ],
+      "kill_zone": {
+        "center": [
+          5255.0,
+          0,
+          -450
+        ],
+        "extent": [
+          5855.0,
+          400,
+          100
+        ]
+      },
+      "difficulty_extension": {
+        "original_goal": [
+          10170,
+          0,
+          200
+        ],
+        "platforms": [
+          {
+            "id": "challenge_0",
+            "x": 10410,
+            "width": 680,
+            "top": 150
+          },
+          {
+            "id": "challenge_1",
+            "x": 11230,
+            "width": 680,
+            "top": 190
+          },
+          {
+            "id": "challenge_2",
+            "x": 12050,
+            "width": 680,
+            "top": 150
+          },
+          {
+            "id": "challenge_3",
+            "x": 12870,
+            "width": 680,
+            "top": 120
+          },
+          {
+            "id": "challenge_4",
+            "x": 13690,
+            "width": 680,
+            "top": 170
+          },
+          {
+            "id": "challenge_5",
+            "x": 14510,
+            "width": 680,
+            "top": 200
+          },
+          {
+            "id": "challenge_6",
+            "x": 15330,
+            "width": 680,
+            "top": 150
+          }
+        ],
+        "obstacles": [
+          {
+            "kind": "Wind",
+            "position": [
+              10365,
+              0,
+              250
+            ],
+            "phase_offset": 0.0,
+            "half_width": 150,
+            "direction": [
+              -1,
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "Wind",
+            "position": [
+              11160.0,
+              0,
+              330
+            ],
+            "phase_offset": 2.4,
+            "direction": [
+              0,
+              0,
+              -1
+            ],
+            "half_width": 115.0
+          },
+          {
+            "kind": "FallingSpikes",
+            "position": [
+              11570,
+              0,
+              190
+            ],
+            "phase_offset": 0.73,
+            "half_width": 150
+          },
+          {
+            "kind": "Ice",
+            "position": [
+              12390,
+              0,
+              150
+            ],
+            "phase_offset": 1.46,
+            "half_width": 150
+          },
+          {
+            "kind": "RisingSpikes",
+            "position": [
+              14030,
+              0,
+              170
+            ],
+            "phase_offset": 2.92,
+            "half_width": 150
+          },
+          {
+            "kind": "Hammer",
+            "position": [
+              14850,
+              0,
+              200
+            ],
+            "phase_offset": 3.65,
+            "half_width": 150
+          },
+          {
+            "kind": "Axe",
+            "position": [
+              15670,
+              0,
+              150
+            ],
+            "phase_offset": 4.38,
+            "half_width": 150
+          }
+        ],
+        "flyers": [
+          {
+            "position": [
+              13140,
+              0,
+              235
+            ],
+            "patrol_min_x": 13050,
+            "patrol_max_x": 13380,
+            "speed": 114,
+            "kind": "Flyer"
+          },
+          {
+            "position": [
+              13320,
+              0,
+              235
+            ],
+            "patrol_min_x": 13050,
+            "patrol_max_x": 13380,
+            "speed": 114,
+            "kind": "SurveyFlyer"
+          }
+        ],
+        "collectibles": [
+          [
+            10970,
+            0,
+            240
+          ],
+          [
+            11790,
+            0,
+            280
+          ],
+          [
+            12610,
+            0,
+            240
+          ],
+          [
+            13430,
+            0,
+            210
+          ],
+          [
+            14250,
+            0,
+            260
+          ],
+          [
+            15070,
+            0,
+            290
+          ],
+          [
+            15890,
+            0,
+            240
+          ]
+        ],
+        "checkpoint": [
+          12940,
+          0,
+          170
+        ],
+        "goal": [
+          15900,
+          0,
+          200
+        ],
+        "attempt_limits": [
+          8,
+          5,
+          3
+        ]
+      }
+    },
+    {
+      "index": 8,
+      "name": "L_08_Bio",
+      "title": "Bio Gardens",
+      "spawn": [
+        100,
+        0,
+        100
+      ],
+      "platforms": [
+        {
+          "id": "exp8_0",
+          "x": 0,
+          "width": 1050,
+          "top": 0
+        },
+        {
+          "id": "exp8_1",
+          "x": 1300,
+          "width": 500,
+          "top": 65
+        },
+        {
+          "id": "exp8_2",
+          "x": 2050,
+          "width": 460,
+          "top": 130
+        },
+        {
+          "id": "exp8_3",
+          "x": 2760,
+          "width": 580,
+          "top": 70
+        },
+        {
+          "id": "exp8_4",
+          "x": 3590,
+          "width": 850,
+          "top": 140
+        },
+        {
+          "id": "exp8_5",
+          "x": 5060,
+          "width": 760,
+          "top": 140
+        },
+        {
+          "id": "exp8_6",
+          "x": 6070,
+          "width": 460,
+          "top": 80
+        },
+        {
+          "id": "exp8_7",
+          "x": 6780,
+          "width": 540,
+          "top": 145
+        },
+        {
+          "id": "exp8_8",
+          "x": 7570,
+          "width": 460,
+          "top": 90
+        },
+        {
+          "id": "exp8_9",
+          "x": 8280,
+          "width": 620,
+          "top": 155
+        },
+        {
+          "id": "exp8_10",
+          "x": 9150,
+          "width": 440,
+          "top": 95
+        },
+        {
+          "id": "exp8_11",
+          "x": 9840,
+          "width": 500,
+          "top": 160
+        },
+        {
+          "id": "exp8_12",
+          "x": 10590,
+          "width": 1000,
+          "top": 115
+        }
+      ],
+      "moving_platform": {
+        "id": "bridge",
+        "start": [
+          4590,
+          0,
+          140
+        ],
+        "end": [
+          4910,
+          0,
+          140
+        ],
+        "width": 320,
+        "speed": 160,
+        "wait_seconds": 1.1,
+        "loop": "ping_pong"
+      },
+      "enemies": [
+        {
+          "id": "enemy8_0",
+          "kind": "Scout",
+          "platform": 3,
+          "position": [
+            3080,
+            0,
+            97
+          ],
+          "patrol_min_x": 3025,
+          "patrol_max_x": 3135,
+          "speed": 138
+        },
+        {
+          "id": "enemy8_1",
+          "kind": "Charger",
+          "platform": 12,
+          "position": [
+            10835,
+            0,
+            142
+          ],
+          "patrol_min_x": 10780,
+          "patrol_max_x": 10890,
+          "speed": 97
+        },
+        {
+          "id": "enemy8_2",
+          "kind": "Sentinel",
+          "platform": 5,
+          "position": [
+            5485,
+            0,
+            167
+          ],
+          "patrol_min_x": 5430,
+          "patrol_max_x": 5540,
+          "speed": 45
+        },
+        {
+          "id": "enemy8_3",
+          "kind": "Scout",
+          "platform": 9,
+          "position": [
+            8615,
+            0,
+            182
+          ],
+          "patrol_min_x": 8560,
+          "patrol_max_x": 8670,
+          "speed": 138
+        },
+        {
+          "id": "enemy8_4",
+          "kind": "Charger",
+          "platform": 7,
+          "position": [
+            7070,
+            0,
+            172
+          ],
+          "patrol_min_x": 7015,
+          "patrol_max_x": 7125,
+          "speed": 97
+        },
+        {
+          "id": "enemy8_5",
+          "kind": "Scout",
+          "platform": 1,
+          "position": [
+            1575,
+            0,
+            92
+          ],
+          "patrol_min_x": 1520,
+          "patrol_max_x": 1630,
+          "speed": 138
+        },
+        {
+          "id": "enemy8_6",
+          "kind": "Scout",
+          "platform": 11,
+          "position": [
+            10115,
+            0,
+            187
+          ],
+          "patrol_min_x": 10060,
+          "patrol_max_x": 10170,
+          "speed": 138
+        }
+      ],
+      "hazards": [
+        {
+          "id": "exp8_cable0",
+          "position": [
+            630.0,
+            0,
+            15
+          ],
+          "width": 65
+        },
+        {
+          "id": "exp8_cable4",
+          "position": [
+            4100.0,
+            0,
+            155
+          ],
+          "width": 65
+        },
+        {
+          "id": "exp8_cable12",
+          "position": [
+            11190.0,
+            0,
+            130
+          ],
+          "width": 65
+        }
+      ],
+      "checkpoints": [
+        [
+          3670,
+          0,
+          190
+        ],
+        [
+          6150,
+          0,
+          130
+        ],
+        [
+          9920,
+          0,
+          210
+        ]
+      ],
+      "collectibles": [
+        [
+          315.0,
+          0,
+          80
+        ],
+        [
+          1450.0,
+          0,
+          145
+        ],
+        [
+          2188.0,
+          0,
+          210
+        ],
+        [
+          2934.0,
+          0,
+          150
+        ],
+        [
+          3845.0,
+          0,
+          220
+        ],
+        [
+          5288.0,
+          0,
+          220
+        ],
+        [
+          6208.0,
+          0,
+          160
+        ],
+        [
+          6942.0,
+          0,
+          225
+        ],
+        [
+          7708.0,
+          0,
+          170
+        ],
+        [
+          8466.0,
+          0,
+          235
+        ],
+        [
+          9282.0,
+          0,
+          175
+        ],
+        [
+          9990.0,
+          0,
+          240
+        ],
+        [
+          10890.0,
+          0,
+          195
+        ],
+        [
+          4590,
+          0,
+          230
+        ],
+        [
+          4910,
+          0,
+          230
+        ]
+      ],
+      "goal": [
+        17220,
+        0,
+        165
+      ],
+      "kill_zone": {
+        "center": [
+          5920.0,
+          0,
+          -450
+        ],
+        "extent": [
+          6520.0,
+          400,
+          100
+        ]
+      },
+      "difficulty_extension": {
+        "original_goal": [
+          11490,
+          0,
+          165
+        ],
+        "platforms": [
+          {
+            "id": "challenge_0",
+            "x": 11730,
+            "width": 680,
+            "top": 115
+          },
+          {
+            "id": "challenge_1",
+            "x": 12550,
+            "width": 680,
+            "top": 155
+          },
+          {
+            "id": "challenge_2",
+            "x": 13370,
+            "width": 680,
+            "top": 115
+          },
+          {
+            "id": "challenge_3",
+            "x": 14190,
+            "width": 680,
+            "top": 85
+          },
+          {
+            "id": "challenge_4",
+            "x": 15010,
+            "width": 680,
+            "top": 135
+          },
+          {
+            "id": "challenge_5",
+            "x": 15830,
+            "width": 680,
+            "top": 165
+          },
+          {
+            "id": "challenge_6",
+            "x": 16650,
+            "width": 680,
+            "top": 115
+          }
+        ],
+        "obstacles": [
+          {
+            "kind": "Wind",
+            "position": [
+              11685,
+              0,
+              215
+            ],
+            "phase_offset": 0.0,
+            "half_width": 150,
+            "direction": [
+              -1,
+              0,
+              0
+            ]
+          },
+          {
+            "kind": "Wind",
+            "position": [
+              12480.0,
+              0,
+              295
+            ],
+            "phase_offset": 2.4,
+            "direction": [
+              0,
+              0,
+              -1
+            ],
+            "half_width": 115.0
+          },
+          {
+            "kind": "FallingSpikes",
+            "position": [
+              12890,
+              0,
+              155
+            ],
+            "phase_offset": 0.73,
+            "half_width": 150
+          },
+          {
+            "kind": "Ice",
+            "position": [
+              13710,
+              0,
+              115
+            ],
+            "phase_offset": 1.46,
+            "half_width": 150
+          },
+          {
+            "kind": "RisingSpikes",
+            "position": [
+              15350,
+              0,
+              135
+            ],
+            "phase_offset": 2.92,
+            "half_width": 150
+          },
+          {
+            "kind": "Hammer",
+            "position": [
+              16170,
+              0,
+              165
+            ],
+            "phase_offset": 3.65,
+            "half_width": 150
+          },
+          {
+            "kind": "Axe",
+            "position": [
+              16990,
+              0,
+              115
+            ],
+            "phase_offset": 4.38,
+            "half_width": 150
+          }
+        ],
+        "flyers": [
+          {
+            "position": [
+              14460,
+              0,
+              200
+            ],
+            "patrol_min_x": 14370,
+            "patrol_max_x": 14700,
+            "speed": 121,
+            "kind": "Flyer"
+          },
+          {
+            "position": [
+              14640,
+              0,
+              200
+            ],
+            "patrol_min_x": 14370,
+            "patrol_max_x": 14700,
+            "speed": 121,
+            "kind": "SurveyFlyer"
+          }
+        ],
+        "collectibles": [
+          [
+            12290,
+            0,
+            205
+          ],
+          [
+            13110,
+            0,
+            245
+          ],
+          [
+            13930,
+            0,
+            205
+          ],
+          [
+            14750,
+            0,
+            175
+          ],
+          [
+            15570,
+            0,
+            225
+          ],
+          [
+            16390,
+            0,
+            255
+          ],
+          [
+            17210,
+            0,
+            205
+          ]
+        ],
+        "checkpoint": [
+          14260,
+          0,
+          135
+        ],
+        "goal": [
+          17220,
+          0,
+          165
+        ],
+        "attempt_limits": [
+          8,
+          5,
+          3
+        ]
+      }
+    }
+  ]
+}

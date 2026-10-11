@@ -1,0 +1,26 @@
+{
+  "bones": [
+    "root",
+    "torso",
+    "head",
+    "leg_L",
+    "foot_L",
+    "arm_L",
+    "leg_R",
+    "foot_R",
+    "arm_R"
+  ],
+  "clips": {
+    "Idle": 60,
+    "Run": 20,
+    "Jump": 12,
+    "Fall": 12,
+    "Land": 8,
+    "Attack": 9,
+    "Hurt": 12,
+    "Death": 24
+  },
+  "vertices": 3192,
+  "rigid_weights": true,
+  "scale": 0.56
+}

@@ -1,0 +1,17 @@
+"""Temporary PIE-only pose inspection; restart PIE to restore normal play."""
+import unreal
+world=unreal.EditorLevelLibrary.get_game_world()
+player=unreal.GameplayStatics.get_player_character(world,0)
+controller=unreal.GameplayStatics.get_player_controller(world,0)
+unreal.GameplayStatics.set_game_paused(world,False)
+camera=controller.get_view_target()
+camera.set_actor_tick_enabled(False)
+comp=camera.get_component_by_class(unreal.CameraComponent)
+comp.set_editor_property('ortho_width',300)
+p=player.get_actor_location()
+camera.set_actor_location(unreal.Vector(p.x,1500,p.z+5),False,False)
+mesh=player.get_component_by_class(unreal.SkeletalMeshComponent)
+mesh.play_animation(unreal.load_asset('/Game/Platformer/Art/Robot/A_Scintilla_'+globals().get('pose_name','Run')),False)
+mesh.set_position(globals().get('pose_time',.1667),False)
+mesh.stop()
+print('ROBOT_POSE_INSPECT_OK')

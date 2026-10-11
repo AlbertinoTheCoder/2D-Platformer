@@ -1,0 +1,66 @@
+{
+  "models": [
+    "SM_EnemyScout",
+    "SM_EnemyCharger",
+    "SM_EnemySentinel",
+    "SM_EnemyWheel",
+    "SM_EnemyRotor"
+  ],
+  "palette": {
+    "ScoutShell": [
+      0.075,
+      0.3,
+      0.34,
+      1
+    ],
+    "ChargeShell": [
+      0.65,
+      0.24,
+      0.065,
+      1
+    ],
+    "GuardShell": [
+      0.22,
+      0.09,
+      0.38,
+      1
+    ],
+    "Black": [
+      0.016,
+      0.024,
+      0.035,
+      1
+    ],
+    "Trim": [
+      0.4,
+      0.52,
+      0.59,
+      1
+    ],
+    "Rubber": [
+      0.035,
+      0.045,
+      0.055,
+      1
+    ],
+    "OpticTeal": [
+      0.12,
+      0.9,
+      0.82,
+      1
+    ],
+    "OpticAmber": [
+      1,
+      0.63,
+      0.15,
+      1
+    ],
+    "OpticViolet": [
+      0.72,
+      0.36,
+      1,
+      1
+    ]
+  },
+  "source": "Scintilla_EnemyKit.blend"
+}

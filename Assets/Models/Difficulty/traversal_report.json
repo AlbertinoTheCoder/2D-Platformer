@@ -1,0 +1,170 @@
+[
+  {
+    "level": 1,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "full_level_without_teleport_or_death",
+        "passed": true
+      },
+      {
+        "name": "route_activated_checkpoint",
+        "passed": true
+      },
+      {
+        "name": "route_collected_energy",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "full_level_without_teleport_or_death",
+        "passed": true
+      },
+      {
+        "name": "route_activated_checkpoint",
+        "passed": true
+      },
+      {
+        "name": "route_collected_energy",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "full_level_within_attempt_budget",
+        "passed": true
+      },
+      {
+        "name": "checkpoint_respawns_1",
+        "passed": true
+      },
+      {
+        "name": "route_activated_checkpoint",
+        "passed": true
+      },
+      {
+        "name": "route_collected_energy",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 4,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "full_level_within_attempt_budget",
+        "passed": true
+      },
+      {
+        "name": "checkpoint_respawns_2",
+        "passed": true
+      },
+      {
+        "name": "route_activated_checkpoint",
+        "passed": true
+      },
+      {
+        "name": "route_collected_energy",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 5,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "full_level_within_attempt_budget",
+        "passed": true
+      },
+      {
+        "name": "checkpoint_respawns_0",
+        "passed": true
+      },
+      {
+        "name": "route_activated_checkpoint",
+        "passed": true
+      },
+      {
+        "name": "route_collected_energy",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 6,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "full_level_within_attempt_budget",
+        "passed": true
+      },
+      {
+        "name": "checkpoint_respawns_1",
+        "passed": true
+      },
+      {
+        "name": "route_activated_checkpoint",
+        "passed": true
+      },
+      {
+        "name": "route_collected_energy",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 7,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "full_level_within_attempt_budget",
+        "passed": true
+      },
+      {
+        "name": "checkpoint_respawns_2",
+        "passed": true
+      },
+      {
+        "name": "route_activated_checkpoint",
+        "passed": true
+      },
+      {
+        "name": "route_collected_energy",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "level": 8,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "full_level_within_attempt_budget",
+        "passed": true
+      },
+      {
+        "name": "checkpoint_respawns_0",
+        "passed": true
+      },
+      {
+        "name": "route_activated_checkpoint",
+        "passed": true
+      },
+      {
+        "name": "route_collected_energy",
+        "passed": true
+      }
+    ]
+  }
+]

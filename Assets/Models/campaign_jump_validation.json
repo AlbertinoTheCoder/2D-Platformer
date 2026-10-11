@@ -1,0 +1,170 @@
+[
+  {
+    "level": "L_02_Fonderia",
+    "from_platform": "start",
+    "gap": 220,
+    "rise": 70,
+    "margin_cm": 147.5,
+    "passed": true
+  },
+  {
+    "level": "L_02_Fonderia",
+    "from_platform": "tutorial_step",
+    "gap": 220,
+    "rise": 75,
+    "margin_cm": 143.3,
+    "passed": true
+  },
+  {
+    "level": "L_02_Fonderia",
+    "from_platform": "tutorial_high",
+    "gap": 160,
+    "rise": -135,
+    "margin_cm": 329.7,
+    "passed": true
+  },
+  {
+    "level": "L_02_Fonderia",
+    "from_platform": "combat",
+    "gap": 260,
+    "rise": 60,
+    "margin_cm": 115.5,
+    "passed": true
+  },
+  {
+    "level": "L_02_Fonderia",
+    "from_platform": "moving_exit",
+    "gap": 220,
+    "rise": 80,
+    "margin_cm": 139.1,
+    "passed": true
+  },
+  {
+    "level": "L_02_Fonderia",
+    "from_platform": "final_step",
+    "gap": 260,
+    "rise": -100,
+    "margin_cm": 212.8,
+    "passed": true
+  },
+  {
+    "level": "L_02_Fonderia",
+    "from_platform": "final_drop",
+    "gap": 240,
+    "rise": 60,
+    "margin_cm": 135.5,
+    "passed": true
+  },
+  {
+    "level": "L_03_Condotte",
+    "from_platform": "start",
+    "gap": 220,
+    "rise": 60,
+    "margin_cm": 155.5,
+    "passed": true
+  },
+  {
+    "level": "L_03_Condotte",
+    "from_platform": "tutorial_step",
+    "gap": 220,
+    "rise": 65,
+    "margin_cm": 151.5,
+    "passed": true
+  },
+  {
+    "level": "L_03_Condotte",
+    "from_platform": "tutorial_high",
+    "gap": 220,
+    "rise": -105,
+    "margin_cm": 255.3,
+    "passed": true
+  },
+  {
+    "level": "L_03_Condotte",
+    "from_platform": "combat",
+    "gap": 220,
+    "rise": 60,
+    "margin_cm": 155.5,
+    "passed": true
+  },
+  {
+    "level": "L_03_Condotte",
+    "from_platform": "moving_exit",
+    "gap": 220,
+    "rise": 45,
+    "margin_cm": 166.8,
+    "passed": true
+  },
+  {
+    "level": "L_03_Condotte",
+    "from_platform": "final_step",
+    "gap": 220,
+    "rise": -70,
+    "margin_cm": 237.5,
+    "passed": true
+  },
+  {
+    "level": "L_03_Condotte",
+    "from_platform": "final_drop",
+    "gap": 220,
+    "rise": 45,
+    "margin_cm": 166.8,
+    "passed": true
+  },
+  {
+    "level": "L_04_Torre",
+    "from_platform": "start",
+    "gap": 240,
+    "rise": 70,
+    "margin_cm": 127.5,
+    "passed": true
+  },
+  {
+    "level": "L_04_Torre",
+    "from_platform": "tutorial_step",
+    "gap": 240,
+    "rise": 60,
+    "margin_cm": 135.5,
+    "passed": true
+  },
+  {
+    "level": "L_04_Torre",
+    "from_platform": "tutorial_high",
+    "gap": 240,
+    "rise": -110,
+    "margin_cm": 237.8,
+    "passed": true
+  },
+  {
+    "level": "L_04_Torre",
+    "from_platform": "combat",
+    "gap": 240,
+    "rise": 70,
+    "margin_cm": 127.5,
+    "passed": true
+  },
+  {
+    "level": "L_04_Torre",
+    "from_platform": "moving_exit",
+    "gap": 240,
+    "rise": 55,
+    "margin_cm": 139.4,
+    "passed": true
+  },
+  {
+    "level": "L_04_Torre",
+    "from_platform": "final_step",
+    "gap": 240,
+    "rise": -70,
+    "margin_cm": 217.5,
+    "passed": true
+  },
+  {
+    "level": "L_04_Torre",
+    "from_platform": "final_drop",
+    "gap": 240,
+    "rise": 50,
+    "margin_cm": 143.1,
+    "passed": true
+  }
+]

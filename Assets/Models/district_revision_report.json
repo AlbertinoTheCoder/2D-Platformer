@@ -1,0 +1,17 @@
+[
+  {
+    "map": "/Game/Platformer/Levels/L_02_Fonderia",
+    "theme": "SM_Furnace",
+    "saved": true
+  },
+  {
+    "map": "/Game/Platformer/Levels/L_03_Condotte",
+    "theme": "SM_Tank",
+    "saved": true
+  },
+  {
+    "map": "/Game/Platformer/Levels/L_04_Torre",
+    "theme": "SM_Relay",
+    "saved": true
+  }
+]

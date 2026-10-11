@@ -1,0 +1,85 @@
+{
+  "failures": 0,
+  "checks": [
+    {
+      "name": "scout_patrol_moves",
+      "passed": true
+    },
+    {
+      "name": "scout_has_blender_body",
+      "passed": true
+    },
+    {
+      "name": "scout_rotor_spins",
+      "passed": true
+    },
+    {
+      "name": "scout_hovers_visually_without_moving_hitbox",
+      "passed": true
+    },
+    {
+      "name": "scout_one_hit_defeat",
+      "passed": true
+    },
+    {
+      "name": "charger_warns_before_rushing",
+      "passed": true
+    },
+    {
+      "name": "charger_has_blender_body_and_wheels",
+      "passed": true
+    },
+    {
+      "name": "charger_dashes_toward_player",
+      "passed": true
+    },
+    {
+      "name": "charger_wheels_animate",
+      "passed": true
+    },
+    {
+      "name": "charger_recovers_after_dash",
+      "passed": true
+    },
+    {
+      "name": "charger_stays_inside_safe_patrol_bounds",
+      "passed": true
+    },
+    {
+      "name": "charger_one_hit_defeat",
+      "passed": true
+    },
+    {
+      "name": "sentinel_has_blender_shield_body",
+      "passed": true
+    },
+    {
+      "name": "sentinel_starts_with_two_armor",
+      "passed": true
+    },
+    {
+      "name": "sentinel_survives_first_strike",
+      "passed": true
+    },
+    {
+      "name": "sentinel_ignores_duplicate_same_attack_hit",
+      "passed": true
+    },
+    {
+      "name": "sentinel_second_strike_defeats",
+      "passed": true
+    },
+    {
+      "name": "stomp_bypasses_sentinel_armor",
+      "passed": true
+    },
+    {
+      "name": "stomp_bounces_player",
+      "passed": true
+    },
+    {
+      "name": "enemy_fixture_preserves_player_health",
+      "passed": true
+    }
+  ]
+}

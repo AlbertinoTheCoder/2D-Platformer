@@ -1,0 +1,17 @@
+{
+  "failures": 0,
+  "checks": [
+    {
+      "name": "full_level_without_teleport_or_death",
+      "passed": true
+    },
+    {
+      "name": "route_activated_checkpoint",
+      "passed": true
+    },
+    {
+      "name": "route_collected_energy",
+      "passed": true
+    }
+  ]
+}

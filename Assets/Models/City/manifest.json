@@ -1,0 +1,69 @@
+{
+  "models": [
+    "SM_CityFacade1",
+    "SM_CityFacade2",
+    "SM_CityFacade3",
+    "SM_CityRoof",
+    "SM_CityRubble",
+    "SM_CityDecay",
+    "SM_CityDeadTree",
+    "SM_CityFoliage",
+    "SM_CityTerrain"
+  ],
+  "palette": {
+    "Stone": [
+      0.32,
+      0.35,
+      0.34,
+      1
+    ],
+    "Brick": [
+      0.3,
+      0.2,
+      0.16,
+      1
+    ],
+    "Trim": [
+      0.4,
+      0.45,
+      0.43,
+      1
+    ],
+    "Dark": [
+      0.025,
+      0.039,
+      0.045,
+      1
+    ],
+    "Glass": [
+      0.19,
+      0.48,
+      0.48,
+      1
+    ],
+    "Rust": [
+      0.27,
+      0.105,
+      0.04,
+      1
+    ],
+    "Rot": [
+      0.1,
+      0.13,
+      0.075,
+      1
+    ],
+    "Bark": [
+      0.16,
+      0.105,
+      0.065,
+      1
+    ],
+    "Leaf": [
+      0.27,
+      0.46,
+      0.17,
+      1
+    ]
+  }
+}

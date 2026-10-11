@@ -1,0 +1,71 @@
+[
+  {
+    "level": 1,
+    "signs": [
+      {
+        "before": "SCINTILLA",
+        "after": "SCINTILLA"
+      },
+      {
+        "before": "OFFICINA 07 / BLACKOUT",
+        "after": "WORKSHOP 07 / BLACKOUT"
+      },
+      {
+        "before": "SPAZIO / TIENI PER SALTARE PIU IN ALTO",
+        "after": "SPACE / HOLD TO JUMP HIGHER"
+      },
+      {
+        "before": "J / SCARICA   oppure salta sul drone",
+        "after": "J / DISCHARGE   or jump on the drone"
+      },
+      {
+        "before": "STAZIONE DI MANUTENZIONE",
+        "after": "MAINTENANCE STATION"
+      },
+      {
+        "before": "ASPETTA IL MONTACARICHI",
+        "after": "WAIT FOR THE LIFT"
+      },
+      {
+        "before": "RIACCENDI LA CITTA",
+        "after": "RESTORE POWER TO THE CITY"
+      }
+    ],
+    "saved": true
+  },
+  {
+    "level": 2,
+    "signs": [],
+    "saved": true
+  },
+  {
+    "level": 3,
+    "signs": [],
+    "saved": true
+  },
+  {
+    "level": 4,
+    "signs": [],
+    "saved": true
+  },
+  {
+    "level": 5,
+    "signs": [],
+    "saved": true
+  },
+  {
+    "level": 6,
+    "signs": [],
+    "saved": true
+  },
+  {
+    "level": 7,
+    "signs": [],
+    "saved": true
+  },
+  {
+    "level": 8,
+    "signs": [],
+    "saved": true
+  }
+]

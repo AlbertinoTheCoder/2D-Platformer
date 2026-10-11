@@ -1,0 +1,54 @@
+{
+  "terrain_sha256_before": "d6901e7bd73b10166e1b46cf7122bbdeeffd994b043665476fe25b2e29c7cbf2",
+  "terrain_sha256_after": "d6901e7bd73b10166e1b46cf7122bbdeeffd994b043665476fe25b2e29c7cbf2",
+  "maps": [
+    {
+      "level": 1,
+      "terrain_unchanged": true,
+      "profile_points": 9,
+      "saved": true
+    },
+    {
+      "level": 2,
+      "terrain_unchanged": true,
+      "profile_points": 9,
+      "saved": true
+    },
+    {
+      "level": 3,
+      "terrain_unchanged": true,
+      "profile_points": 9,
+      "saved": true
+    },
+    {
+      "level": 4,
+      "terrain_unchanged": true,
+      "profile_points": 9,
+      "saved": true
+    },
+    {
+      "level": 5,
+      "terrain_unchanged": true,
+      "profile_points": 9,
+      "saved": true
+    },
+    {
+      "level": 6,
+      "terrain_unchanged": true,
+      "profile_points": 9,
+      "saved": true
+    },
+    {
+      "level": 7,
+      "terrain_unchanged": true,
+      "profile_points": 9,
+      "saved": true
+    },
+    {
+      "level": 8,
+      "terrain_unchanged": true,
+      "profile_points": 9,
+      "saved": true
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "failures": 0,
+  "checks": [
+    {
+      "name": "run_clock_counts_active_play",
+      "passed": true
+    },
+    {
+      "name": "pause_time_excluded_from_rating",
+      "passed": true
+    },
+    {
+      "name": "accepted_damage_is_recorded",
+      "passed": true
+    },
+    {
+      "name": "invulnerable_hits_do_not_count",
+      "passed": true
+    },
+    {
+      "name": "fatal_damage_records_remaining_health",
+      "passed": true
+    },
+    {
+      "name": "respawn_health_reset_keeps_damage_total",
+      "passed": true
+    },
+    {
+      "name": "perfect_run_receives_S",
+      "passed": true
+    },
+    {
+      "name": "strong_run_receives_A",
+      "passed": true
+    },
+    {
+      "name": "low_collection_receives_B",
+      "passed": true
+    },
+    {
+      "name": "slower_run_receives_C",
+      "passed": true
+    },
+    {
+      "name": "rough_run_receives_D",
+      "passed": true
+    },
+    {
+      "name": "slower_speed_reduces_rating",
+      "passed": true
+    },
+    {
+      "name": "more_damage_reduces_rating",
+      "passed": true
+    },
+    {
+      "name": "more_energy_improves_rating",
+      "passed": true
+    },
+    {
+      "name": "cannot_continue_during_city_animation",
+      "passed": true
+    },
+    {
+      "name": "completion_time_freezes_before_cinematic",
+      "passed": true
+    },
+    {
+      "name": "rating_popup_precedes_map_selection",
+      "passed": true
+    },
+    {
+      "name": "continue_opens_unlocked_map_chooser",
+      "passed": true
+    },
+    {
+      "name": "continue_does_not_unlock_extra_levels",
+      "passed": true
+    },
+    {
+      "name": "repeated_continue_preserves_result",
+      "passed": true
+    }
+  ]
+}

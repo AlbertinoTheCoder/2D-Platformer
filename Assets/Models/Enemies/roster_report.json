@@ -1,0 +1,79 @@
+[
+  {
+    "level": 1,
+    "count": 2,
+    "types": [
+      "Scout"
+    ],
+    "saved": true
+  },
+  {
+    "level": 2,
+    "count": 3,
+    "types": [
+      "Charger",
+      "Scout"
+    ],
+    "saved": true
+  },
+  {
+    "level": 3,
+    "count": 4,
+    "types": [
+      "Charger",
+      "Scout",
+      "Sentinel"
+    ],
+    "saved": true
+  },
+  {
+    "level": 4,
+    "count": 5,
+    "types": [
+      "Charger",
+      "Scout",
+      "Sentinel"
+    ],
+    "saved": true
+  },
+  {
+    "level": 5,
+    "count": 5,
+    "types": [
+      "Charger",
+      "Scout",
+      "Sentinel"
+    ],
+    "saved": true
+  },
+  {
+    "level": 6,
+    "count": 5,
+    "types": [
+      "Charger",
+      "Scout",
+      "Sentinel"
+    ],
+    "saved": true
+  },
+  {
+    "level": 7,
+    "count": 6,
+    "types": [
+      "Charger",
+      "Scout",
+      "Sentinel"
+    ],
+    "saved": true
+  },
+  {
+    "level": 8,
+    "count": 7,
+    "types": [
+      "Charger",
+      "Scout",
+      "Sentinel"
+    ],
+    "saved": true
+  }
+]

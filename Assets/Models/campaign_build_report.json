@@ -1,0 +1,30 @@
+[
+  {
+    "map": "/Game/Platformer/Levels/L_02_Fonderia",
+    "status": "already_exists"
+  },
+  {
+    "map": "/Game/Platformer/Levels/L_03_Condotte",
+    "status": "already_exists"
+  },
+  {
+    "map": "/Game/Platformer/Levels/L_04_Torre",
+    "status": "already_exists"
+  },
+  {
+    "map": "/Game/Platformer/Levels/L_05_Cryo",
+    "status": "already_exists"
+  },
+  {
+    "map": "/Game/Platformer/Levels/L_06_Scrap",
+    "status": "already_exists"
+  },
+  {
+    "map": "/Game/Platformer/Levels/L_07_Solar",
+    "status": "already_exists"
+  },
+  {
+    "map": "/Game/Platformer/Levels/L_08_Bio",
+    "status": "already_exists"
+  }
+]

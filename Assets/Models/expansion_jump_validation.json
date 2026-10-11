@@ -1,0 +1,268 @@
+[
+  {
+    "level": "L_05_Cryo",
+    "gap": 220,
+    "rise": 55,
+    "margin_cm": 159.4,
+    "passed": true
+  },
+  {
+    "level": "L_05_Cryo",
+    "gap": 220,
+    "rise": 50,
+    "margin_cm": 163.1,
+    "passed": true
+  },
+  {
+    "level": "L_05_Cryo",
+    "gap": 220,
+    "rise": -65,
+    "margin_cm": 234.8,
+    "passed": true
+  },
+  {
+    "level": "L_05_Cryo",
+    "gap": 220,
+    "rise": 50,
+    "margin_cm": 163.1,
+    "passed": true
+  },
+  {
+    "level": "L_05_Cryo",
+    "gap": 220,
+    "rise": 60,
+    "margin_cm": 155.5,
+    "passed": true
+  },
+  {
+    "level": "L_05_Cryo",
+    "gap": 220,
+    "rise": -55,
+    "margin_cm": 229.4,
+    "passed": true
+  },
+  {
+    "level": "L_05_Cryo",
+    "gap": 220,
+    "rise": 60,
+    "margin_cm": 155.5,
+    "passed": true
+  },
+  {
+    "level": "L_05_Cryo",
+    "gap": 220,
+    "rise": -55,
+    "margin_cm": 229.4,
+    "passed": true
+  },
+  {
+    "level": "L_06_Scrap",
+    "gap": 230,
+    "rise": 65,
+    "margin_cm": 141.5,
+    "passed": true
+  },
+  {
+    "level": "L_06_Scrap",
+    "gap": 230,
+    "rise": 60,
+    "margin_cm": 145.5,
+    "passed": true
+  },
+  {
+    "level": "L_06_Scrap",
+    "gap": 230,
+    "rise": -65,
+    "margin_cm": 224.8,
+    "passed": true
+  },
+  {
+    "level": "L_06_Scrap",
+    "gap": 230,
+    "rise": 50,
+    "margin_cm": 153.1,
+    "passed": true
+  },
+  {
+    "level": "L_06_Scrap",
+    "gap": 230,
+    "rise": 60,
+    "margin_cm": 145.5,
+    "passed": true
+  },
+  {
+    "level": "L_06_Scrap",
+    "gap": 230,
+    "rise": -70,
+    "margin_cm": 227.5,
+    "passed": true
+  },
+  {
+    "level": "L_06_Scrap",
+    "gap": 230,
+    "rise": -60,
+    "margin_cm": 222.1,
+    "passed": true
+  },
+  {
+    "level": "L_06_Scrap",
+    "gap": 230,
+    "rise": 65,
+    "margin_cm": 141.5,
+    "passed": true
+  },
+  {
+    "level": "L_06_Scrap",
+    "gap": 230,
+    "rise": 35,
+    "margin_cm": 164.0,
+    "passed": true
+  },
+  {
+    "level": "L_07_Solar",
+    "gap": 240,
+    "rise": 75,
+    "margin_cm": 123.3,
+    "passed": true
+  },
+  {
+    "level": "L_07_Solar",
+    "gap": 240,
+    "rise": 70,
+    "margin_cm": 127.5,
+    "passed": true
+  },
+  {
+    "level": "L_07_Solar",
+    "gap": 240,
+    "rise": -65,
+    "margin_cm": 214.8,
+    "passed": true
+  },
+  {
+    "level": "L_07_Solar",
+    "gap": 240,
+    "rise": 55,
+    "margin_cm": 139.4,
+    "passed": true
+  },
+  {
+    "level": "L_07_Solar",
+    "gap": 240,
+    "rise": -65,
+    "margin_cm": 214.8,
+    "passed": true
+  },
+  {
+    "level": "L_07_Solar",
+    "gap": 240,
+    "rise": 70,
+    "margin_cm": 127.5,
+    "passed": true
+  },
+  {
+    "level": "L_07_Solar",
+    "gap": 240,
+    "rise": -65,
+    "margin_cm": 214.8,
+    "passed": true
+  },
+  {
+    "level": "L_07_Solar",
+    "gap": 240,
+    "rise": 70,
+    "margin_cm": 127.5,
+    "passed": true
+  },
+  {
+    "level": "L_07_Solar",
+    "gap": 240,
+    "rise": -55,
+    "margin_cm": 209.4,
+    "passed": true
+  },
+  {
+    "level": "L_07_Solar",
+    "gap": 240,
+    "rise": 60,
+    "margin_cm": 135.5,
+    "passed": true
+  },
+  {
+    "level": "L_08_Bio",
+    "gap": 250,
+    "rise": 65,
+    "margin_cm": 121.5,
+    "passed": true
+  },
+  {
+    "level": "L_08_Bio",
+    "gap": 250,
+    "rise": 65,
+    "margin_cm": 121.5,
+    "passed": true
+  },
+  {
+    "level": "L_08_Bio",
+    "gap": 250,
+    "rise": -60,
+    "margin_cm": 202.1,
+    "passed": true
+  },
+  {
+    "level": "L_08_Bio",
+    "gap": 250,
+    "rise": 70,
+    "margin_cm": 117.5,
+    "passed": true
+  },
+  {
+    "level": "L_08_Bio",
+    "gap": 250,
+    "rise": -60,
+    "margin_cm": 202.1,
+    "passed": true
+  },
+  {
+    "level": "L_08_Bio",
+    "gap": 250,
+    "rise": 65,
+    "margin_cm": 121.5,
+    "passed": true
+  },
+  {
+    "level": "L_08_Bio",
+    "gap": 250,
+    "rise": -55,
+    "margin_cm": 199.4,
+    "passed": true
+  },
+  {
+    "level": "L_08_Bio",
+    "gap": 250,
+    "rise": 65,
+    "margin_cm": 121.5,
+    "passed": true
+  },
+  {
+    "level": "L_08_Bio",
+    "gap": 250,
+    "rise": -60,
+    "margin_cm": 202.1,
+    "passed": true
+  },
+  {
+    "level": "L_08_Bio",
+    "gap": 250,
+    "rise": 65,
+    "margin_cm": 121.5,
+    "passed": true
+  },
+  {
+    "level": "L_08_Bio",
+    "gap": 250,
+    "rise": -45,
+    "margin_cm": 193.9,
+    "passed": true
+  }
+]

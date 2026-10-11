@@ -1,0 +1,22 @@
+{
+  "imported": [
+    "SM_FlyerSurvey",
+    "SM_FlyerWasp",
+    "SM_FlyerWing",
+    "SM_IceDeck",
+    "SM_LifeCell",
+    "SM_LivesTerminal",
+    "SM_LongArch",
+    "SM_LongColumn",
+    "SM_LongDeck",
+    "SM_RetractBase",
+    "SM_RotatingAxe",
+    "SM_RotatingHammer",
+    "SM_SpikeRack",
+    "SM_SpikeRail",
+    "SM_TrapMotor",
+    "SM_WindHousing",
+    "SM_WindRotor"
+  ],
+  "saved": true
+}

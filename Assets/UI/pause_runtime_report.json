@@ -1,0 +1,174 @@
+[
+  {
+    "start_level": 1,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "pause_mapping_uses_U_and_not_escape",
+        "passed": true
+      },
+      {
+        "name": "cannot_travel_from_active_game",
+        "passed": true
+      },
+      {
+        "name": "U_input_pauses_game",
+        "passed": true
+      },
+      {
+        "name": "ordinary_pause_requires_opening_selector",
+        "passed": true
+      },
+      {
+        "name": "pause_selector_opens_without_winning",
+        "passed": true
+      },
+      {
+        "name": "pause_level_1_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_level_2_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_level_3_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_level_4_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_level_5_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_level_6_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_level_7_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_level_8_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_selector_rejects_locked_and_invalid_maps",
+        "passed": true
+      },
+      {
+        "name": "opening_selector_does_not_grant_unlocks",
+        "passed": true
+      },
+      {
+        "name": "back_returns_to_pause_without_resuming",
+        "passed": true
+      },
+      {
+        "name": "second_U_input_resumes_game",
+        "passed": true
+      },
+      {
+        "name": "pause_selection_loads_requested_map",
+        "passed": true
+      },
+      {
+        "name": "selected_map_starts_unpaused_and_playable",
+        "passed": true
+      },
+      {
+        "name": "pause_travel_preserves_unlocks",
+        "passed": true
+      }
+    ]
+  },
+  {
+    "start_level": 2,
+    "failures": 0,
+    "checks": [
+      {
+        "name": "pause_mapping_uses_U_and_not_escape",
+        "passed": true
+      },
+      {
+        "name": "cannot_travel_from_active_game",
+        "passed": true
+      },
+      {
+        "name": "U_input_pauses_game",
+        "passed": true
+      },
+      {
+        "name": "ordinary_pause_requires_opening_selector",
+        "passed": true
+      },
+      {
+        "name": "pause_selector_opens_without_winning",
+        "passed": true
+      },
+      {
+        "name": "pause_level_1_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_level_2_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_level_3_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_level_4_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_level_5_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_level_6_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_level_7_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_level_8_matches_unlocks",
+        "passed": true
+      },
+      {
+        "name": "pause_selector_rejects_locked_and_invalid_maps",
+        "passed": true
+      },
+      {
+        "name": "opening_selector_does_not_grant_unlocks",
+        "passed": true
+      },
+      {
+        "name": "back_returns_to_pause_without_resuming",
+        "passed": true
+      },
+      {
+        "name": "second_U_input_resumes_game",
+        "passed": true
+      },
+      {
+        "name": "pause_selection_loads_requested_map",
+        "passed": true
+      },
+      {
+        "name": "selected_map_starts_unpaused_and_playable",
+        "passed": true
+      },
+      {
+        "name": "pause_travel_preserves_unlocks",
+        "passed": true
+      }
+    ]
+  }
+]

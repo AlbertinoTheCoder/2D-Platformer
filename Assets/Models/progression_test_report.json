@@ -1,0 +1,1168 @@
+{
+  "save_slot": "ScintillaProgression_Test_a09e83c78be14288bbb95672b92568e9",
+  "failures": 0,
+  "steps": [
+    {
+      "step": 0,
+      "map": "L_Platformer_Prototype",
+      "failures": 0,
+      "checks": [
+        {
+          "name": "starts_in_expected_map",
+          "passed": true
+        },
+        {
+          "name": "progress_loaded_in_fresh_process",
+          "passed": true
+        },
+        {
+          "name": "cannot_select_before_winning",
+          "passed": true
+        },
+        {
+          "name": "completion_unlocks_only_next_level",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_1_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_2_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_3_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_4_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_5_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_6_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_7_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_8_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "rejects_invalid_level_indices",
+          "passed": true
+        },
+        {
+          "name": "rejects_skipping_a_locked_district",
+          "passed": true
+        },
+        {
+          "name": "level_1_win_cannot_skip_to_3_or_4",
+          "passed": true
+        },
+        {
+          "name": "repeated_completion_never_unlocks_extra_level",
+          "passed": true
+        },
+        {
+          "name": "unlocks_written_to_save",
+          "passed": true
+        },
+        {
+          "name": "chosen_map_loaded",
+          "passed": true
+        },
+        {
+          "name": "selection_resets_level_state",
+          "passed": true
+        },
+        {
+          "name": "progress_survives_map_travel",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "step": 1,
+      "map": "L_02_Fonderia",
+      "failures": 0,
+      "checks": [
+        {
+          "name": "starts_in_expected_map",
+          "passed": true
+        },
+        {
+          "name": "progress_loaded_in_fresh_process",
+          "passed": true
+        },
+        {
+          "name": "cannot_select_before_winning",
+          "passed": true
+        },
+        {
+          "name": "completion_unlocks_only_next_level",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_1_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_2_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_3_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_4_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_5_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_6_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_7_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_8_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "rejects_invalid_level_indices",
+          "passed": true
+        },
+        {
+          "name": "rejects_skipping_a_locked_district",
+          "passed": true
+        },
+        {
+          "name": "level_2_win_cannot_skip_to_4",
+          "passed": true
+        },
+        {
+          "name": "repeated_completion_never_unlocks_extra_level",
+          "passed": true
+        },
+        {
+          "name": "unlocks_written_to_save",
+          "passed": true
+        },
+        {
+          "name": "chosen_map_loaded",
+          "passed": true
+        },
+        {
+          "name": "selection_resets_level_state",
+          "passed": true
+        },
+        {
+          "name": "progress_survives_map_travel",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "map": "L_Platformer_Prototype",
+      "failures": 0,
+      "checks": [
+        {
+          "name": "starts_in_expected_map",
+          "passed": true
+        },
+        {
+          "name": "progress_loaded_in_fresh_process",
+          "passed": true
+        },
+        {
+          "name": "cannot_select_before_winning",
+          "passed": true
+        },
+        {
+          "name": "completion_unlocks_only_next_level",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_1_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_2_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_3_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_4_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_5_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_6_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_7_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_8_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "rejects_invalid_level_indices",
+          "passed": true
+        },
+        {
+          "name": "rejects_skipping_a_locked_district",
+          "passed": true
+        },
+        {
+          "name": "replaying_level_1_does_not_unlock_level_4",
+          "passed": true
+        },
+        {
+          "name": "repeated_completion_never_unlocks_extra_level",
+          "passed": true
+        },
+        {
+          "name": "unlocks_written_to_save",
+          "passed": true
+        },
+        {
+          "name": "chosen_map_loaded",
+          "passed": true
+        },
+        {
+          "name": "selection_resets_level_state",
+          "passed": true
+        },
+        {
+          "name": "progress_survives_map_travel",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "map": "L_03_Condotte",
+      "failures": 0,
+      "checks": [
+        {
+          "name": "starts_in_expected_map",
+          "passed": true
+        },
+        {
+          "name": "progress_loaded_in_fresh_process",
+          "passed": true
+        },
+        {
+          "name": "cannot_select_before_winning",
+          "passed": true
+        },
+        {
+          "name": "completion_unlocks_only_next_level",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_1_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_2_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_3_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_4_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_5_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_6_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_7_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_8_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "rejects_invalid_level_indices",
+          "passed": true
+        },
+        {
+          "name": "rejects_skipping_a_locked_district",
+          "passed": true
+        },
+        {
+          "name": "repeated_completion_never_unlocks_extra_level",
+          "passed": true
+        },
+        {
+          "name": "unlocks_written_to_save",
+          "passed": true
+        },
+        {
+          "name": "chosen_map_loaded",
+          "passed": true
+        },
+        {
+          "name": "selection_resets_level_state",
+          "passed": true
+        },
+        {
+          "name": "progress_survives_map_travel",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "map": "L_Platformer_Prototype",
+      "failures": 0,
+      "checks": [
+        {
+          "name": "starts_in_expected_map",
+          "passed": true
+        },
+        {
+          "name": "progress_loaded_in_fresh_process",
+          "passed": true
+        },
+        {
+          "name": "cannot_select_before_winning",
+          "passed": true
+        },
+        {
+          "name": "completion_unlocks_only_next_level",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_1_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_2_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_3_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_4_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_5_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_6_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_7_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_8_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "rejects_invalid_level_indices",
+          "passed": true
+        },
+        {
+          "name": "rejects_skipping_a_locked_district",
+          "passed": true
+        },
+        {
+          "name": "repeated_completion_never_unlocks_extra_level",
+          "passed": true
+        },
+        {
+          "name": "unlocks_written_to_save",
+          "passed": true
+        },
+        {
+          "name": "chosen_map_loaded",
+          "passed": true
+        },
+        {
+          "name": "selection_resets_level_state",
+          "passed": true
+        },
+        {
+          "name": "progress_survives_map_travel",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "map": "L_04_Torre",
+      "failures": 0,
+      "checks": [
+        {
+          "name": "starts_in_expected_map",
+          "passed": true
+        },
+        {
+          "name": "progress_loaded_in_fresh_process",
+          "passed": true
+        },
+        {
+          "name": "cannot_select_before_winning",
+          "passed": true
+        },
+        {
+          "name": "completion_unlocks_only_next_level",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_1_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_2_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_3_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_4_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_5_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_6_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_7_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_8_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "rejects_invalid_level_indices",
+          "passed": true
+        },
+        {
+          "name": "rejects_skipping_a_locked_district",
+          "passed": true
+        },
+        {
+          "name": "repeated_completion_never_unlocks_extra_level",
+          "passed": true
+        },
+        {
+          "name": "unlocks_written_to_save",
+          "passed": true
+        },
+        {
+          "name": "chosen_map_loaded",
+          "passed": true
+        },
+        {
+          "name": "selection_resets_level_state",
+          "passed": true
+        },
+        {
+          "name": "progress_survives_map_travel",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "map": "L_Platformer_Prototype",
+      "failures": 0,
+      "checks": [
+        {
+          "name": "starts_in_expected_map",
+          "passed": true
+        },
+        {
+          "name": "progress_loaded_in_fresh_process",
+          "passed": true
+        },
+        {
+          "name": "cannot_select_before_winning",
+          "passed": true
+        },
+        {
+          "name": "completion_unlocks_only_next_level",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_1_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_2_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_3_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_4_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_5_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_6_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_7_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_8_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "rejects_invalid_level_indices",
+          "passed": true
+        },
+        {
+          "name": "rejects_skipping_a_locked_district",
+          "passed": true
+        },
+        {
+          "name": "repeated_completion_never_unlocks_extra_level",
+          "passed": true
+        },
+        {
+          "name": "unlocks_written_to_save",
+          "passed": true
+        },
+        {
+          "name": "chosen_map_loaded",
+          "passed": true
+        },
+        {
+          "name": "selection_resets_level_state",
+          "passed": true
+        },
+        {
+          "name": "progress_survives_map_travel",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "map": "L_05_Cryo",
+      "failures": 0,
+      "checks": [
+        {
+          "name": "starts_in_expected_map",
+          "passed": true
+        },
+        {
+          "name": "progress_loaded_in_fresh_process",
+          "passed": true
+        },
+        {
+          "name": "cannot_select_before_winning",
+          "passed": true
+        },
+        {
+          "name": "completion_unlocks_only_next_level",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_1_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_2_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_3_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_4_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_5_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_6_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_7_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_8_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "rejects_invalid_level_indices",
+          "passed": true
+        },
+        {
+          "name": "rejects_skipping_a_locked_district",
+          "passed": true
+        },
+        {
+          "name": "repeated_completion_never_unlocks_extra_level",
+          "passed": true
+        },
+        {
+          "name": "unlocks_written_to_save",
+          "passed": true
+        },
+        {
+          "name": "chosen_map_loaded",
+          "passed": true
+        },
+        {
+          "name": "selection_resets_level_state",
+          "passed": true
+        },
+        {
+          "name": "progress_survives_map_travel",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "map": "L_Platformer_Prototype",
+      "failures": 0,
+      "checks": [
+        {
+          "name": "starts_in_expected_map",
+          "passed": true
+        },
+        {
+          "name": "progress_loaded_in_fresh_process",
+          "passed": true
+        },
+        {
+          "name": "cannot_select_before_winning",
+          "passed": true
+        },
+        {
+          "name": "completion_unlocks_only_next_level",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_1_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_2_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_3_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_4_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_5_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_6_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_7_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_8_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "rejects_invalid_level_indices",
+          "passed": true
+        },
+        {
+          "name": "rejects_skipping_a_locked_district",
+          "passed": true
+        },
+        {
+          "name": "repeated_completion_never_unlocks_extra_level",
+          "passed": true
+        },
+        {
+          "name": "unlocks_written_to_save",
+          "passed": true
+        },
+        {
+          "name": "chosen_map_loaded",
+          "passed": true
+        },
+        {
+          "name": "selection_resets_level_state",
+          "passed": true
+        },
+        {
+          "name": "progress_survives_map_travel",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "map": "L_06_Scrap",
+      "failures": 0,
+      "checks": [
+        {
+          "name": "starts_in_expected_map",
+          "passed": true
+        },
+        {
+          "name": "progress_loaded_in_fresh_process",
+          "passed": true
+        },
+        {
+          "name": "cannot_select_before_winning",
+          "passed": true
+        },
+        {
+          "name": "completion_unlocks_only_next_level",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_1_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_2_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_3_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_4_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_5_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_6_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_7_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_8_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "rejects_invalid_level_indices",
+          "passed": true
+        },
+        {
+          "name": "rejects_skipping_a_locked_district",
+          "passed": true
+        },
+        {
+          "name": "repeated_completion_never_unlocks_extra_level",
+          "passed": true
+        },
+        {
+          "name": "unlocks_written_to_save",
+          "passed": true
+        },
+        {
+          "name": "chosen_map_loaded",
+          "passed": true
+        },
+        {
+          "name": "selection_resets_level_state",
+          "passed": true
+        },
+        {
+          "name": "progress_survives_map_travel",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "map": "L_Platformer_Prototype",
+      "failures": 0,
+      "checks": [
+        {
+          "name": "starts_in_expected_map",
+          "passed": true
+        },
+        {
+          "name": "progress_loaded_in_fresh_process",
+          "passed": true
+        },
+        {
+          "name": "cannot_select_before_winning",
+          "passed": true
+        },
+        {
+          "name": "completion_unlocks_only_next_level",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_1_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_2_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_3_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_4_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_5_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_6_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_7_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_8_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "rejects_invalid_level_indices",
+          "passed": true
+        },
+        {
+          "name": "rejects_skipping_a_locked_district",
+          "passed": true
+        },
+        {
+          "name": "repeated_completion_never_unlocks_extra_level",
+          "passed": true
+        },
+        {
+          "name": "unlocks_written_to_save",
+          "passed": true
+        },
+        {
+          "name": "chosen_map_loaded",
+          "passed": true
+        },
+        {
+          "name": "selection_resets_level_state",
+          "passed": true
+        },
+        {
+          "name": "progress_survives_map_travel",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "map": "L_07_Solar",
+      "failures": 0,
+      "checks": [
+        {
+          "name": "starts_in_expected_map",
+          "passed": true
+        },
+        {
+          "name": "progress_loaded_in_fresh_process",
+          "passed": true
+        },
+        {
+          "name": "cannot_select_before_winning",
+          "passed": true
+        },
+        {
+          "name": "completion_unlocks_only_next_level",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_1_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_2_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_3_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_4_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_5_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_6_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_7_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_8_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "rejects_invalid_level_indices",
+          "passed": true
+        },
+        {
+          "name": "repeated_completion_never_unlocks_extra_level",
+          "passed": true
+        },
+        {
+          "name": "unlocks_written_to_save",
+          "passed": true
+        },
+        {
+          "name": "chosen_map_loaded",
+          "passed": true
+        },
+        {
+          "name": "selection_resets_level_state",
+          "passed": true
+        },
+        {
+          "name": "progress_survives_map_travel",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "map": "L_Platformer_Prototype",
+      "failures": 0,
+      "checks": [
+        {
+          "name": "starts_in_expected_map",
+          "passed": true
+        },
+        {
+          "name": "progress_loaded_in_fresh_process",
+          "passed": true
+        },
+        {
+          "name": "cannot_select_before_winning",
+          "passed": true
+        },
+        {
+          "name": "completion_unlocks_only_next_level",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_1_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_2_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_3_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_4_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_5_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_6_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_7_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_8_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "rejects_invalid_level_indices",
+          "passed": true
+        },
+        {
+          "name": "repeated_completion_never_unlocks_extra_level",
+          "passed": true
+        },
+        {
+          "name": "unlocks_written_to_save",
+          "passed": true
+        },
+        {
+          "name": "chosen_map_loaded",
+          "passed": true
+        },
+        {
+          "name": "selection_resets_level_state",
+          "passed": true
+        },
+        {
+          "name": "progress_survives_map_travel",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "step": 13,
+      "map": "L_08_Bio",
+      "failures": 0,
+      "checks": [
+        {
+          "name": "starts_in_expected_map",
+          "passed": true
+        },
+        {
+          "name": "progress_loaded_in_fresh_process",
+          "passed": true
+        },
+        {
+          "name": "cannot_select_before_winning",
+          "passed": true
+        },
+        {
+          "name": "completion_unlocks_only_next_level",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_1_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_2_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_3_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_4_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_5_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_6_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_7_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "chooser_level_8_enabled_matches_unlock",
+          "passed": true
+        },
+        {
+          "name": "rejects_invalid_level_indices",
+          "passed": true
+        },
+        {
+          "name": "repeated_completion_never_unlocks_extra_level",
+          "passed": true
+        },
+        {
+          "name": "unlocks_written_to_save",
+          "passed": true
+        },
+        {
+          "name": "chosen_map_loaded",
+          "passed": true
+        },
+        {
+          "name": "selection_resets_level_state",
+          "passed": true
+        },
+        {
+          "name": "progress_survives_map_travel",
+          "passed": true
+        }
+      ]
+    }
+  ]
+}
