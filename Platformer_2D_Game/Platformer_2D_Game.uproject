@@ -13,11 +13,13 @@
     },
     {
       "Name": "ModelContextProtocol",
-      "Enabled": true
+      "Enabled": true,
+      "TargetAllowList": [ "Editor" ]
     },
     {
       "Name": "AllToolsets",
-      "Enabled": true
+      "Enabled": true,
+      "TargetAllowList": [ "Editor" ]
     },
     {
       "Name": "Paper2D",
@@ -29,11 +31,13 @@
     },
     {
       "Name": "PythonScriptPlugin",
-      "Enabled": true
+      "Enabled": true,
+      "TargetAllowList": [ "Editor" ]
     },
     {
       "Name": "EditorScriptingUtilities",
-      "Enabled": true
+      "Enabled": true,
+      "TargetAllowList": [ "Editor" ]
     }
   ],
   "Modules": [

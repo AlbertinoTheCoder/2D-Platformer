@@ -13,6 +13,10 @@ Saved/
 
 # Offline generated preparation report
 /Build/Preparation/
+/Build/Packages/
+/Build/Releases/
+/Build/PackagingLogs/
+/Platformer_2D_Game/Build/Windows/FileOpenOrder/
 
 # Python
 __pycache__/

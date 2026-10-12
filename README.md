@@ -4,13 +4,27 @@ A maintenance robot restores power to eight fallen industrial districts. The bla
 
 Specification: [original brief](Docs/promptstart.md). Creative direction: [game design](Docs/game-design.md). Development plan: [implementation plan](Docs/implementation-plan.md). Completed checks and limitations: [validation](Docs/validation.md).
 
-## Open and play
+## Download and play on Windows
+
+**[Download SCINTILLA for Windows](https://github.com/AlbertinoTheCoder/2D-Platformer/releases/download/v0.1.0/SCINTILLA-Windows.zip)** — [release notes and checksum](https://github.com/AlbertinoTheCoder/2D-Platformer/releases/tag/v0.1.0).
+
+1. Download `SCINTILLA-Windows.zip` and extract the entire archive.
+2. Open the extracted `SCINTILLA` folder and run **SCINTILLA.exe**.
+3. Keep the `Engine` and `Platformer_2D_Game` folders beside the executable.
+
+This is a playable prototype for 64-bit Windows. Unreal Editor and Visual Studio are not required to play. If Windows reports missing runtime components, run the included `Engine/Extras/Redist/en-us/vc_redist.x64.exe`. The game includes all eight districts, saves progress automatically, and offers Normal, Hard, and Hardcore difficulty through **U -> DIFFICULTY**.
+
+## Open the project in Unreal Editor
 
 The Unreal Engine 5.8.3 project is `Platformer_2D_Game/Platformer_2D_Game.uproject`. Double-click `Open-Scintilla.cmd` or open the project in Unreal, then press **Play**. The startup map is `/Game/Platformer/Levels/L_Platformer_Prototype`.
 
 The launcher script currently uses `E:\UE_5.8\Engine\Binaries\Win64\UnrealEditor.exe`; update that path for another installation. It bypasses the Epic Launcher prerequisite check that can fail with `LS-0019-IS-0001`; it does not install or change Windows prerequisites. Build with Visual Studio C++ tools and a Windows SDK supported by UE 5.8. Generated binaries are excluded from this repository.
 
 Reach the district generator to restore power. Energy pickups are optional. Death restores integrity at the latest maintenance checkpoint. Restarting clears the current level state. Unlocks persist between sessions.
+
+To build a standalone Windows release, run `powershell -NoProfile -File Scripts/package_windows.ps1`. It compiles a Shipping build, cooks all eight maps and runtime assets, includes the Windows prerequisites, and creates `Build/Releases/SCINTILLA-Windows.zip` plus a SHA-256 checksum. Use `-EngineRoot` to select a different UE 5.8 installation. The script uses the local filesystem cache to avoid the shader-cache stall encountered during the first cook. Editor automation plugins are enabled only for editor targets.
+
+`python Scripts/verify_windows_package.py` runs the gameplay/HUD checks against the Shipping executable with isolated save data. `python Scripts/bundle_windows.py` recreates and verifies the release ZIP. `Scripts/publish_windows_release.py` publishes the verified ZIP and checksum to GitHub Releases using existing Git credentials, after the release commit is pushed. Repository visibility changes require explicit user authorization. Generated packages, archives, and build logs are excluded from Git; playable binaries are distributed as release assets.
 
 | Action | Keyboard | Gamepad |
 |---|---|---|
@@ -68,6 +82,8 @@ Other `create_*`, `import_*`, `prepare_*`, and `apply_*` scripts handle the spec
 `-ScintillaSmoke` and `-ScintillaRoute` run automated checks in a separate game process and close it on completion. Smoke checks isolate systems using controlled positions; route checks use movement and jumps without teleporting. Reports are written to `Platformer_2D_Game/Saved/ScintillaPlaytest.json` and `ScintillaRoute.json`.
 
 The final difficulty pass recorded 645 successful checks, including all eight complete Normal routes within the available attempts. Hard and Hardcore settings, persistence, and resets were checked; full routes in those modes remain unverified. Read [validation](Docs/validation.md) for the history and limits of each pass.
+
+The Windows v0.1.0 Shipping package cooked successfully with zero reported errors or warnings. Its standalone gameplay/HUD probe passed 35 checks with zero failures using isolated save data, and the packaged launcher opened successfully. The ZIP passed an integrity check. This release has been tested on the development Windows PC; other PCs have not yet been tested.
 
 ## Offline preparation
 

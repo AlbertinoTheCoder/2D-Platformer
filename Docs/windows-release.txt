@@ -1,0 +1,21 @@
+SCINTILLA - Windows game
+
+HOW TO PLAY
+1. Extract the entire ZIP into a folder.
+2. Double-click SCINTILLA.exe.
+3. Keep the Engine and Platformer_2D_Game folders beside the executable.
+
+Unreal Editor is not required. This build is for 64-bit Windows.
+If Windows reports missing runtime components, run the included installer:
+Engine\Extras\Redist\en-us\vc_redist.x64.exe
+
+CONTROLS
+A / D or arrow keys: move
+Space: jump (hold for a higher jump)
+J: discharge attack
+E: activate
+W / S: turn toward the city / camera
+U: pause, choose difficulty, select unlocked levels, or quit
+
+Restore power to all eight districts. Learn obstacles through trial and error.
+Campaign progress is saved automatically on your computer.
