@@ -6,7 +6,7 @@ Specification: [original brief](Docs/promptstart.md). Creative direction: [game 
 
 ## Download and play on Windows
 
-**[Download SCINTILLA for Windows](https://github.com/AlbertinoTheCoder/2D-Platformer/releases/download/v0.1.0/SCINTILLA-Windows.zip)** — [release notes and checksum](https://github.com/AlbertinoTheCoder/2D-Platformer/releases/tag/v0.1.0).
+**[Download SCINTILLA for Windows](https://github.com/AlbertinoTheCoder/2D-Platformer/releases/download/v0.1.1/SCINTILLA-Windows.zip)** — [release notes and checksum](https://github.com/AlbertinoTheCoder/2D-Platformer/releases/tag/v0.1.1).
 
 1. Download `SCINTILLA-Windows.zip` and extract the entire archive.
 2. Open the extracted `SCINTILLA` folder and run **SCINTILLA.exe**.
@@ -96,3 +96,17 @@ python Scripts/prepare_platformer.py
 ```
 
 The first reads project descriptors. The second checks parameters and distances. The third writes `Build/Preparation/platformer_plan.json` with planned assets, layout, and theoretical jump checks. Change `Config/platformer.json` to alter this derived report. Analytical jump checks alone do not prove runtime playability.
+
+## License and attribution
+
+SCINTILLA's original project source code, original game assets, and documentation are licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE.md).
+
+You may copy, modify, and share this work for purposes permitted by the license. Ordinary commercial use requires separate permission from the owner. Distributions must include the license terms or their official URL and preserve the credit in [NOTICE.txt](NOTICE.txt):
+
+```text
+Required Notice: Copyright (c) 2026 AlbertinoTheCoder - SCINTILLA (https://github.com/AlbertinoTheCoder/2D-Platformer)
+```
+
+Unreal Engine and other third-party components retain their own licenses and notices. This is a source-available, noncommercial project; the license does not specifically require an in-game credits screen.
+
+Windows release **v0.1.1** adds `LICENSE.md` and `NOTICE.txt` to the downloadable ZIP. Its game executable is unchanged from v0.1.0.

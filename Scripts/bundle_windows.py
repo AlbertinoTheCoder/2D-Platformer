@@ -17,6 +17,8 @@ if not list(PACKAGE.glob('Platformer_2D_Game/Content/Paks/*.utoc')):
 if not (PACKAGE / 'Engine/Extras/Redist/en-us/vc_redist.x64.exe').exists():
     raise RuntimeError('Windows x64 runtime installer is missing')
 shutil.copy2(ROOT / 'Docs/windows-release.txt', PACKAGE / 'README.txt')
+for name in ('LICENSE.md', 'NOTICE.txt'):
+    shutil.copy2(ROOT / name, PACKAGE / name)
 RELEASES.mkdir(parents=True, exist_ok=True)
 archive = RELEASES / 'SCINTILLA-Windows.zip'
 with zipfile.ZipFile(archive, 'w', compression=zipfile.ZIP_DEFLATED, compresslevel=6, allowZip64=True) as output:

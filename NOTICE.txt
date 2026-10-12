@@ -1,0 +1,7 @@
+Required Notice: Copyright (c) 2026 AlbertinoTheCoder - SCINTILLA (https://github.com/AlbertinoTheCoder/2D-Platformer)
+
+SCINTILLA's original project source code, original game assets, and project documentation are offered under the PolyForm Noncommercial License 1.0.0 in LICENSE.md.
+
+Copies and modified versions must include the license terms or their official URL and retain the Required Notice above, as required by the license.
+
+Unreal Engine and other third-party components remain subject to their own licenses and notices. This license does not replace those terms or grant rights to third-party components.

@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 REPO = 'AlbertinoTheCoder/2D-Platformer'
 API = 'https://api.github.com/repos/' + REPO
-TAG = 'v0.1.0'
+TAG = 'v0.1.1'
 
 def git(*args):
     return subprocess.check_output(['git', *args], cwd=ROOT, text=True).strip()
@@ -76,12 +76,17 @@ def main():
         if repo['private']:
             raise RuntimeError('Repository visibility did not change')
         print('REPOSITORY_PUBLIC', repo['html_url'], flush=True)
-    body = ('First playable Windows build of **SCINTILLA**. All eight districts are included.\n\n'
+    body = ('Windows build of **SCINTILLA**. All eight districts are included.\n\n'
+        'Version 0.1.1 adds the **PolyForm Noncommercial License 1.0.0** and the required creator credit to the ZIP. '
+        'The game executable is unchanged from v0.1.0.\n\n'
         'Download **SCINTILLA-Windows.zip**, extract the entire archive, then run **SCINTILLA.exe**. '
         'Keep its accompanying folders together. Unreal Editor is not required.\n\n'
         'For missing runtime components, use the included `Engine/Extras/Redist/en-us/vc_redist.x64.exe`.\n\n'
         '**Controls:** A/D or arrows to move, Space to jump, J to attack, E to activate, W/S to turn, U to pause.\n\n'
         'Obstacle hints are removed, and the restoration ground extends below the full zoom-out.\n\n'
+        '**License:** original project source, assets, and documentation are available for permitted noncommercial uses. '
+        'Retain the Required Notice for AlbertinoTheCoder and include the license terms or their URL when sharing copies or modifications. '
+        'See `LICENSE.md` and `NOTICE.txt` in the ZIP. Unreal Engine and third-party components retain their own terms.\n\n'
         f'Validation: {len(smoke["checks"])} packaged gameplay/HUD checks passed; ZIP integrity verified. '
         'Tested locally on Windows; other PCs have not yet been tested.\n\n'
         f'Source commit: `{commit}`. A SHA-256 checksum file is included with the downloads.\n')
@@ -89,7 +94,7 @@ def main():
     release = next((item for item in releases if item['tag_name'] == TAG), None)
     if release is None:
         release = request(API + '/releases', 'POST', {'tag_name': TAG, 'target_commitish': commit,
-            'name': 'SCINTILLA v0.1.0 - Windows', 'body': body, 'draft': True, 'prerelease': True})
+            'name': 'SCINTILLA v0.1.1 - Windows', 'body': body, 'draft': True, 'prerelease': True})
     elif not release['draft']:
         raise RuntimeError('This version is already published; use a new release version')
     for path in (archive, checksum):

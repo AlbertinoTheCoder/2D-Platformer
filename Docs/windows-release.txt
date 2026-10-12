@@ -19,3 +19,12 @@ U: pause, choose difficulty, select unlocked levels, or quit
 
 Restore power to all eight districts. Learn obstacles through trial and error.
 Campaign progress is saved automatically on your computer.
+
+LICENSE AND CREDIT
+SCINTILLA's original source code, original game assets, and documentation are
+licensed under PolyForm Noncommercial 1.0.0. See LICENSE.md and NOTICE.txt.
+Copying, modifying, and sharing are allowed for purposes permitted by that
+license. Ordinary commercial use requires separate permission from the owner.
+Retain the Required Notice credit and include the license terms or their URL
+when distributing copies or modified versions.
+Unreal Engine and third-party components retain their own licenses and notices.
