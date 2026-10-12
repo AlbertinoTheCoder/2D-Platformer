@@ -234,10 +234,7 @@ def main():
     goal.set_editor_property("complete_sound",sounds.get("S_Complete"))
     text((380,-25,230),"SCINTILLA",46,(.1,1,.85))
     text((420,-25,160),"WORKSHOP 07 / BLACKOUT",19)
-    text((1350,-25,290),"SPACE / HOLD TO JUMP HIGHER",17)
-    text((2850,-25,180),"J / DISCHARGE   or jump on the drone",18)
     text((3900,-25,250),"MAINTENANCE STATION",20)
-    text((4370,-25,300),"WAIT FOR THE LIFT",19)
     text((7280,-25,350),"RESTORE POWER TO THE CITY",26,(1,.65,.2))
     unreal.get_editor_subsystem(unreal.EditorActorSubsystem).set_selected_level_actors([])
     if not level.save_current_level():

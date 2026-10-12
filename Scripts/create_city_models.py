@@ -70,7 +70,7 @@ finish('SM_CityFoliage')
 profile=[(-4,.2),(-3,.7),(-2,.35),(-1,1.05),(0,.55),(1,.8),(2,.35),(3,1.0),(4,.25)]
 verts=[]
 for y in (-.4,.4):
-    verts.extend([(x,y,z) for x,z in profile]); verts.extend([(4,y,-4),(-4,y,-4)])
+    verts.extend([(x,y,z) for x,z in profile]); verts.extend([(4,y,-40),(-4,y,-40)])
 count=len(profile)+2
 faces=[tuple(range(count-1,-1,-1)),tuple(range(count,count*2))]
 faces += [(i,(i+1)%count,(i+1)%count+count,i+count) for i in range(count)]

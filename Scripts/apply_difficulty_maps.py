@@ -39,10 +39,6 @@ for cfg in json.loads((ROOT/'Config/campaign.json').read_text())['levels']:
     for i,pos in enumerate(ext['collectibles']): spawn(coin,pos,'energy_'+str(i))
     a=spawn(checkpoint,ext['checkpoint'],'checkpoint'); a.get_editor_property('visual').set_static_mesh(lib.load_asset('/Game/Platformer/Art/Difficulty/SM_LivesTerminal')); a.get_editor_property('visual').set_relative_scale3d(unreal.Vector(.8))
     a=spawn(checkpoint,(ext['platforms'][0]['x']+70,0,ext['platforms'][0]['top']+50),'entry_checkpoint'); a.get_editor_property('visual').set_static_mesh(lib.load_asset('/Game/Platformer/Art/Difficulty/SM_LivesTerminal')); a.get_editor_property('visual').set_relative_scale3d(unreal.Vector(.8))
-    messages=['GUSTS / WATCH THE FAN','FALLING SPIKES / WAIT FOR CLEAR','ICE / BRAKE BEFORE THE EDGE','FLYERS / DISCHARGE OR STOMP','RISING SPIKES / WAIT FOR CLEAR','HAMMER / WATCH THE SWING','AXE / CROSS WHEN CLEAR']
-    for p,message in zip(ext['platforms'],messages):
-        a=spawn(unreal.TextRenderActor,(p['x']+340,-55,p['top']+195),'sign_'+p['id']); c=a.get_component_by_class(unreal.TextRenderComponent); c.set_text(message); c.set_world_size(17); c.set_horizontal_alignment(unreal.HorizTextAligment.EHTA_CENTER); a.set_actor_rotation(unreal.Rotator(pitch=0,yaw=90,roll=0),False); a.set_actor_hidden_in_game(False); c.set_hidden_in_game(False); c.set_visibility(True)
-        if lib.does_asset_exist('/Game/Platformer/Materials/M_HazardText'): c.set_material(0,lib.load_asset('/Game/Platformer/Materials/M_HazardText')); c.set_text_render_color(unreal.Color(185,235,255,255))
     prop('SM_LongArch',(ext['platforms'][0]['x']+30,-110,ext['platforms'][0]['top']),(1,1,1),'entry_arch')
     for a in actors.get_all_level_actors():
         if isinstance(a,unreal.ScintillaGoal): a.set_actor_location(unreal.Vector(*ext['goal']),False,False)
@@ -56,5 +52,5 @@ levels.load_level('/Game/Platformer/Levels/L_Platformer_Prototype')
 (ROOT/'Assets/Models/Difficulty/map_report.json').write_text(json.dumps(report,indent=2))
 print('DIFFICULTY_MAPS_SAVED',report)
 
-# Keep obstacle/sign placement consistent with the current seeded campaign plan.
+# Keep obstacle placement consistent with the current seeded campaign plan.
 exec((ROOT/'Scripts/apply_scattered_difficulty.py').read_text(), globals())

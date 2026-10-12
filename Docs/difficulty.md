@@ -42,11 +42,13 @@ Validation scripts: `playtest_difficulty.py` exercises contacts, wind, sliding, 
 
 Final validation: 376 mechanic/menu/persistence checks across all eight maps passed, together with 144 restoration checks, 20 rating checks, 35 gameplay/HUD checks and 40 pause/level-selection checks. All eight full Normal routes were completed with native movement, combat and checkpoint respawns, within their attempt budgets: levels 3 and 6 used one respawn, 4 and 7 used two, and the others completed without deaths. Route reports contain 30 checks; total 645 successful checks, zero failures in the final reports. Earlier probe failures caused by old collectible counts and generator coordinates were corrected to test the extended levels.
 
-All six obstacle visuals and the difficulty chooser were inspected in PIE. Axe damage follows the blade side after FBX conversion, and mirrored drone wings extend outward. Warning signs reuse the engine distance-field font graph with unlit text so they remain readable before restoration. Saved map reports are in `Assets/Models/Difficulty`; the user campaign save is preserved by the previews. Unreal was reopened after compilation and left in a fresh playable session.
+All six obstacle visuals and the difficulty chooser were inspected in PIE. Axe damage follows the blade side after FBX conversion, and mirrored drone wings extend outward. Saved map reports are in `Assets/Models/Difficulty`; the user campaign save is preserved by the previews. Unreal was reopened after compilation and left in a fresh playable session.
+
+Obstacle instruction signs and the prototype's jump, drone, and lift tutorial signs have been removed. Players discover the mechanics through attempts and deaths. The level build scripts no longer generate these hints. `Scripts/remove_obstacle_hints.py` creates `_BeforeHintRemoval` recovery copies and reloads every saved campaign map to verify removal; results are recorded in `Assets/Models/Difficulty/hint_removal_report.json`.
 
 ## Scattered obstacle revision
 
-`python Scripts/scatter_difficulty.py` plans seeded placements. `Scripts/apply_scattered_difficulty.py` moves existing obstacles, supports, signs, and flyers in the editor after creating `_BeforeObstacleScatter` recovery copies. It preserves platforms, terrain, generators, and checkpoints. Three to five of the seven obstacles now appear before the extension in each district. Replaying keeps positions stable; different districts use different seeds.
+`python Scripts/scatter_difficulty.py` plans seeded placements. `Scripts/apply_scattered_difficulty.py` moves existing obstacles, supports, and flyers in the editor after creating `_BeforeObstacleScatter` recovery copies. It preserves platforms, terrain, generators, and checkpoints. Three to five of the seven obstacles now appear before the extension in each district. Replaying keeps positions stable; different districts use different seeds.
 
 The earlier validation totals above describe the initial obstacle pass; the revision results are recorded in [validation](validation.md).
 

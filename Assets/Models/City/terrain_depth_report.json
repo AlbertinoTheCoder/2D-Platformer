@@ -1,0 +1,63 @@
+{
+  "mesh_bottom_before_cm": -400.0,
+  "mesh_bottom_after_cm": -4000.0,
+  "surface_height_unchanged": true,
+  "maps": [
+    {
+      "level": 1,
+      "terrain_bottom_cm": -20350.0,
+      "reveal_bottom_4_3_cm": -5068.75,
+      "clearance_cm": 15281.25,
+      "verified": true
+    },
+    {
+      "level": 2,
+      "terrain_bottom_cm": -20350.0,
+      "reveal_bottom_4_3_cm": -5095.0,
+      "clearance_cm": 15255.0,
+      "verified": true
+    },
+    {
+      "level": 3,
+      "terrain_bottom_cm": -20350.0,
+      "reveal_bottom_4_3_cm": -5196.25,
+      "clearance_cm": 15153.75,
+      "verified": true
+    },
+    {
+      "level": 4,
+      "terrain_bottom_cm": -20350.0,
+      "reveal_bottom_4_3_cm": -5275.0,
+      "clearance_cm": 15075.0,
+      "verified": true
+    },
+    {
+      "level": 5,
+      "terrain_bottom_cm": -20350.0,
+      "reveal_bottom_4_3_cm": -5575.0,
+      "clearance_cm": 14775.0,
+      "verified": true
+    },
+    {
+      "level": 6,
+      "terrain_bottom_cm": -20350.0,
+      "reveal_bottom_4_3_cm": -5961.25,
+      "clearance_cm": 14388.75,
+      "verified": true
+    },
+    {
+      "level": 7,
+      "terrain_bottom_cm": -20350.0,
+      "reveal_bottom_4_3_cm": -6156.25,
+      "clearance_cm": 14193.75,
+      "verified": true
+    },
+    {
+      "level": 8,
+      "terrain_bottom_cm": -20350.0,
+      "reveal_bottom_4_3_cm": -6651.25,
+      "clearance_cm": 13698.75,
+      "verified": true
+    }
+  ]
+}

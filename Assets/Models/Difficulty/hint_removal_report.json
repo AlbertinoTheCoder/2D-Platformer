@@ -1,0 +1,412 @@
+[
+  {
+    "level": 1,
+    "map": "/Game/Platformer/Levels/L_Platformer_Prototype",
+    "removed": [
+      {
+        "actor": "Sign_SPAZIO / TIENI PER",
+        "text": [
+          "SPACE / HOLD TO JUMP HIGHER"
+        ]
+      },
+      {
+        "actor": "Sign_J / SCARICA   oppu",
+        "text": [
+          "J / DISCHARGE   or jump on the drone"
+        ]
+      },
+      {
+        "actor": "Sign_ASPETTA IL MONTACA",
+        "text": [
+          "WAIT FOR THE LIFT"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_0",
+        "text": [
+          "GUSTS / WATCH THE FAN"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_1",
+        "text": [
+          "FALLING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_2",
+        "text": [
+          "ICE / BRAKE BEFORE THE EDGE"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_3",
+        "text": [
+          "FLYERS / DISCHARGE OR STOMP"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_4",
+        "text": [
+          "RISING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_5",
+        "text": [
+          "HAMMER / WATCH THE SWING"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_6",
+        "text": [
+          "AXE / CROSS WHEN CLEAR"
+        ]
+      }
+    ],
+    "verified": true
+  },
+  {
+    "level": 2,
+    "map": "/Game/Platformer/Levels/L_02_Fonderia",
+    "removed": [
+      {
+        "actor": "Difficulty_sign_challenge_0",
+        "text": [
+          "GUSTS / WATCH THE FAN"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_1",
+        "text": [
+          "FALLING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_2",
+        "text": [
+          "ICE / BRAKE BEFORE THE EDGE"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_3",
+        "text": [
+          "FLYERS / DISCHARGE OR STOMP"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_4",
+        "text": [
+          "RISING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_5",
+        "text": [
+          "HAMMER / WATCH THE SWING"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_6",
+        "text": [
+          "AXE / CROSS WHEN CLEAR"
+        ]
+      }
+    ],
+    "verified": true
+  },
+  {
+    "level": 3,
+    "map": "/Game/Platformer/Levels/L_03_Condotte",
+    "removed": [
+      {
+        "actor": "Difficulty_sign_challenge_0",
+        "text": [
+          "GUSTS / WATCH THE FAN"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_1",
+        "text": [
+          "FALLING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_2",
+        "text": [
+          "ICE / BRAKE BEFORE THE EDGE"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_3",
+        "text": [
+          "FLYERS / DISCHARGE OR STOMP"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_4",
+        "text": [
+          "RISING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_5",
+        "text": [
+          "HAMMER / WATCH THE SWING"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_6",
+        "text": [
+          "AXE / CROSS WHEN CLEAR"
+        ]
+      }
+    ],
+    "verified": true
+  },
+  {
+    "level": 4,
+    "map": "/Game/Platformer/Levels/L_04_Torre",
+    "removed": [
+      {
+        "actor": "Difficulty_sign_challenge_0",
+        "text": [
+          "GUSTS / WATCH THE FAN"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_1",
+        "text": [
+          "FALLING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_2",
+        "text": [
+          "ICE / BRAKE BEFORE THE EDGE"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_3",
+        "text": [
+          "FLYERS / DISCHARGE OR STOMP"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_4",
+        "text": [
+          "RISING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_5",
+        "text": [
+          "HAMMER / WATCH THE SWING"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_6",
+        "text": [
+          "AXE / CROSS WHEN CLEAR"
+        ]
+      }
+    ],
+    "verified": true
+  },
+  {
+    "level": 5,
+    "map": "/Game/Platformer/Levels/L_05_Cryo",
+    "removed": [
+      {
+        "actor": "Difficulty_sign_challenge_0",
+        "text": [
+          "GUSTS / WATCH THE FAN"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_1",
+        "text": [
+          "FALLING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_2",
+        "text": [
+          "ICE / BRAKE BEFORE THE EDGE"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_3",
+        "text": [
+          "FLYERS / DISCHARGE OR STOMP"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_4",
+        "text": [
+          "RISING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_5",
+        "text": [
+          "HAMMER / WATCH THE SWING"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_6",
+        "text": [
+          "AXE / CROSS WHEN CLEAR"
+        ]
+      }
+    ],
+    "verified": true
+  },
+  {
+    "level": 6,
+    "map": "/Game/Platformer/Levels/L_06_Scrap",
+    "removed": [
+      {
+        "actor": "Difficulty_sign_challenge_0",
+        "text": [
+          "GUSTS / WATCH THE FAN"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_1",
+        "text": [
+          "FALLING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_2",
+        "text": [
+          "ICE / BRAKE BEFORE THE EDGE"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_3",
+        "text": [
+          "FLYERS / DISCHARGE OR STOMP"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_4",
+        "text": [
+          "RISING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_5",
+        "text": [
+          "HAMMER / WATCH THE SWING"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_6",
+        "text": [
+          "AXE / CROSS WHEN CLEAR"
+        ]
+      }
+    ],
+    "verified": true
+  },
+  {
+    "level": 7,
+    "map": "/Game/Platformer/Levels/L_07_Solar",
+    "removed": [
+      {
+        "actor": "Difficulty_sign_challenge_0",
+        "text": [
+          "GUSTS / WATCH THE FAN"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_1",
+        "text": [
+          "FALLING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_2",
+        "text": [
+          "ICE / BRAKE BEFORE THE EDGE"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_3",
+        "text": [
+          "FLYERS / DISCHARGE OR STOMP"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_4",
+        "text": [
+          "RISING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_5",
+        "text": [
+          "HAMMER / WATCH THE SWING"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_6",
+        "text": [
+          "AXE / CROSS WHEN CLEAR"
+        ]
+      }
+    ],
+    "verified": true
+  },
+  {
+    "level": 8,
+    "map": "/Game/Platformer/Levels/L_08_Bio",
+    "removed": [
+      {
+        "actor": "Difficulty_sign_challenge_0",
+        "text": [
+          "GUSTS / WATCH THE FAN"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_1",
+        "text": [
+          "FALLING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_2",
+        "text": [
+          "ICE / BRAKE BEFORE THE EDGE"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_3",
+        "text": [
+          "FLYERS / DISCHARGE OR STOMP"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_4",
+        "text": [
+          "RISING SPIKES / WAIT FOR CLEAR"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_5",
+        "text": [
+          "HAMMER / WATCH THE SWING"
+        ]
+      },
+      {
+        "actor": "Difficulty_sign_challenge_6",
+        "text": [
+          "AXE / CROSS WHEN CLEAR"
+        ]
+      }
+    ],
+    "verified": true
+  }
+]
